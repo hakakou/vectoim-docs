@@ -1,0 +1,5 @@
+<map id="VectoInputManager.Core.BatteryComponentStandardValues" name="VectoInputManager.Core.BatteryComponentStandardValues">
+<area shape="rect" id="Node000001" title="Calculates standard values for a battery system (OCV curve, internal resistance, current limits) from..." alt="" coords="5,96,217,139"/>
+<area shape="rect" id="Node000002" href="$class_vecto_input_manager_1_1_core_1_1_base_standard_values.html" title="Abstract base class for standard values calculators. Each component type has a concrete implementatio..." alt="" coords="11,5,211,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,64,114,96,108,96,108,64"/>
+</map>

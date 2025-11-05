@@ -1,0 +1,9 @@
+<map id="VectoObjects.AngledriveDataDeclarationType_v2_0" name="VectoObjects.AngledriveDataDeclarationType_v2_0">
+<area shape="rect" id="Node000001" title=" " alt="" coords="512,39,704,81"/>
+<area shape="rect" id="Node000002" href="$class_vecto_objects_1_1_abstract_angledrive_data_declaration_type__v1__0.html" title=" " alt="" coords="251,5,464,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="480,40,512,45,511,50,479,46"/>
+<area shape="rect" id="Node000003" href="$class_vecto_objects_1_1_vecto_simulation_component__v1__0.html" title=" " alt="" coords="5,5,203,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="219,24,250,24,250,29,219,29"/>
+<area shape="rect" id="Node000004" href="$interface_vecto_objects_1_1_i_component_data_declaration.html" title=" " alt="" coords="256,72,458,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="474,75,511,70,512,75,474,80"/>
+</map>

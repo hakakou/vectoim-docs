@@ -1,0 +1,5 @@
+<map id="VectoInputManager.Core.IStandardValuesFactory" name="VectoInputManager.Core.IStandardValuesFactory">
+<area shape="rect" id="Node000001" title="Defines a factory interface for creating standard values component calculators based on component typ..." alt="" coords="5,5,231,48"/>
+<area shape="rect" id="Node000002" href="$class_vecto_input_manager_1_1_cli_1_1_standard_values_factory.html" title="Default implementation of IStandardValuesFactory that resolves the appropriate calculator from the de..." alt="" coords="13,96,223,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,64,121,96,115,96,115,64"/>
+</map>

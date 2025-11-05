@@ -1,0 +1,11 @@
+<map id="VectoObjects.Abstract_Components_PEV_PrimaryBusDeclarationType_v2_4" name="VectoObjects.Abstract_Components_PEV_PrimaryBusDeclarationType_v2_4">
+<area shape="rect" id="Node000001" title=" " alt="" coords="278,64,555,123"/>
+<area shape="rect" id="Node000003" href="$class_vecto_objects_1_1_components___p_e_v___e2___primary_bus_type__v2__4.html" title=" " alt="" coords="603,5,819,48"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="563,57,613,46,614,51,564,63"/>
+<area shape="rect" id="Node000004" href="$class_vecto_objects_1_1_components___p_e_v___e3___primary_bus_type__v2__4.html" title=" " alt="" coords="603,72,819,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="571,91,603,91,603,96,571,96"/>
+<area shape="rect" id="Node000005" href="$class_vecto_objects_1_1_components___p_e_v___e4___primary_bus_type__v2__4.html" title=" " alt="" coords="603,139,819,181"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="564,124,614,135,613,141,563,129"/>
+<area shape="rect" id="Node000002" href="$class_vecto_objects_1_1_abstract_vehicle_components_declaration_type__v2__0.html" title=" " alt="" coords="5,72,230,115"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="245,91,277,91,277,96,245,96"/>
+</map>

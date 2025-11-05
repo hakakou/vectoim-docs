@@ -1,0 +1,5 @@
+<map id="VectoInputManager.Core.AxleComponentStandardValues" name="VectoInputManager.Core.AxleComponentStandardValues">
+<area shape="rect" id="Node000001" title="Calculates standard values for an axle (axlegear), deriving a torque loss map from ratio,..." alt="" coords="7,96,203,139"/>
+<area shape="rect" id="Node000002" href="$class_vecto_input_manager_1_1_core_1_1_base_standard_values.html" title="Abstract base class for standard values calculators. Each component type has a concrete implementatio..." alt="" coords="5,5,205,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,64,108,96,102,96,102,64"/>
+</map>

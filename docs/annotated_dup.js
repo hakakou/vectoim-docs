@@ -2,21 +2,30 @@ var annotated_dup =
 [
     [ "VectoInputManager", "namespace_vecto_input_manager.html", [
       [ "Cli", "namespace_vecto_input_manager_1_1_cli.html", [
+        [ "ComponentExtractorCommand", "class_vecto_input_manager_1_1_cli_1_1_component_extractor_command.html", "class_vecto_input_manager_1_1_cli_1_1_component_extractor_command" ],
+        [ "JobCreatorCommand", "class_vecto_input_manager_1_1_cli_1_1_job_creator_command.html", "class_vecto_input_manager_1_1_cli_1_1_job_creator_command" ],
+        [ "StandardValuesCommand", "class_vecto_input_manager_1_1_cli_1_1_standard_values_command.html", "class_vecto_input_manager_1_1_cli_1_1_standard_values_command" ],
+        [ "XmlToJsonConverterCommand", "class_vecto_input_manager_1_1_cli_1_1_xml_to_json_converter_command.html", "class_vecto_input_manager_1_1_cli_1_1_xml_to_json_converter_command" ],
         [ "AnsiConsoleExtensions", "class_vecto_input_manager_1_1_cli_1_1_ansi_console_extensions.html", "class_vecto_input_manager_1_1_cli_1_1_ansi_console_extensions" ],
         [ "CommonCommandSettings", "class_vecto_input_manager_1_1_cli_1_1_common_command_settings.html", "class_vecto_input_manager_1_1_cli_1_1_common_command_settings" ],
         [ "ConsoleCommon", "class_vecto_input_manager_1_1_cli_1_1_console_common.html", "class_vecto_input_manager_1_1_cli_1_1_console_common" ],
         [ "ConsoleConfiguratorExtensions", "class_vecto_input_manager_1_1_cli_1_1_console_configurator_extensions.html", "class_vecto_input_manager_1_1_cli_1_1_console_configurator_extensions" ],
+        [ "PromptActionHelper", "class_vecto_input_manager_1_1_cli_1_1_prompt_action_helper.html", "class_vecto_input_manager_1_1_cli_1_1_prompt_action_helper" ],
         [ "ServiceCollectionExtensions", "class_vecto_input_manager_1_1_cli_1_1_service_collection_extensions.html", "class_vecto_input_manager_1_1_cli_1_1_service_collection_extensions" ],
+        [ "StandardValuesFactory", "class_vecto_input_manager_1_1_cli_1_1_standard_values_factory.html", "class_vecto_input_manager_1_1_cli_1_1_standard_values_factory" ],
         [ "TypeRegistrar", "class_vecto_input_manager_1_1_cli_1_1_type_registrar.html", null ],
         [ "TypeResolver", "class_vecto_input_manager_1_1_cli_1_1_type_resolver.html", null ]
       ] ],
       [ "Core", "namespace_vecto_input_manager_1_1_core.html", [
         [ "BaseInput", "class_vecto_input_manager_1_1_core_1_1_base_input.html", "class_vecto_input_manager_1_1_core_1_1_base_input" ],
         [ "BaseStandardValues", "class_vecto_input_manager_1_1_core_1_1_base_standard_values.html", "class_vecto_input_manager_1_1_core_1_1_base_standard_values" ],
+        [ "CorpusBuilder", "class_vecto_input_manager_1_1_core_1_1_corpus_builder.html", null ],
+        [ "CorpusObject", "class_vecto_input_manager_1_1_core_1_1_corpus_object.html", null ],
+        [ "ObjectBuilder", "class_vecto_input_manager_1_1_core_1_1_object_builder.html", "class_vecto_input_manager_1_1_core_1_1_object_builder" ],
         [ "ParamBuilder", "class_vecto_input_manager_1_1_core_1_1_param_builder.html", null ],
         [ "PromptAction", "class_vecto_input_manager_1_1_core_1_1_prompt_action.html", "class_vecto_input_manager_1_1_core_1_1_prompt_action" ],
         [ "StandardValuesBuilder", "class_vecto_input_manager_1_1_core_1_1_standard_values_builder.html", null ],
-        [ "VehicleBuilder", "class_vecto_input_manager_1_1_core_1_1_vehicle_builder.html", null ],
+        [ "VehicleBuilder", "class_vecto_input_manager_1_1_core_1_1_vehicle_builder.html", "class_vecto_input_manager_1_1_core_1_1_vehicle_builder" ],
         [ "Components", "class_vecto_input_manager_1_1_core_1_1_components.html", "class_vecto_input_manager_1_1_core_1_1_components" ],
         [ "Consts", "class_vecto_input_manager_1_1_core_1_1_consts.html", "class_vecto_input_manager_1_1_core_1_1_consts" ],
         [ "Data", "class_vecto_input_manager_1_1_core_1_1_data.html", "class_vecto_input_manager_1_1_core_1_1_data" ],

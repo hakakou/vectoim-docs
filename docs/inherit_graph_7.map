@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,47,112,73"/>
+<area shape="rect" id="Node000001" href="$class_vecto_input_manager_1_1_core_1_1_base_input_converter.html" title="Custom JSON converter for supporting JSON component input files. These files start with a &quot;Component&quot;..." alt="" coords="161,5,360,48"/>
+<area shape="poly" id="edge15_Node000000_Node000001" title=" " alt="" coords="127,46,160,41,160,46,128,51"/>
+<area shape="rect" id="Node000002" href="$class_vecto_input_manager_1_1_core_1_1_value_specified_converter.html" title="Custom JSON converter that handles ValueSpecified properties during deserialization...." alt="" coords="160,72,361,115"/>
+<area shape="poly" id="edge16_Node000000_Node000002" title=" " alt="" coords="127,69,160,74,159,79,127,74"/>
+</map>

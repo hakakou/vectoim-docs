@@ -10,5 +10,6 @@ var searchData=
   ['xev_5fem4_5fpowertrain_5ftype_5fv2_5f7_7',['xEV_EM4_Powertrain_Type_v2_7',['../class_vecto_objects_1_1x_e_v___e_m4___powertrain___type__v2__7.html',1,'VectoObjects']]],
   ['xev_5fiepc_5fpowertrain_5fdatatype_5fv2_5f7_8',['xEV_IEPC_Powertrain_DataType_v2_7',['../class_vecto_objects_1_1x_e_v___i_e_p_c___powertrain___data_type__v2__7.html',1,'VectoObjects']]],
   ['xev_5fiepc_5fpowertrain_5ftype_5fv2_5f7_9',['xEV_IEPC_Powertrain_Type_v2_7',['../class_vecto_objects_1_1x_e_v___i_e_p_c___powertrain___type__v2__7.html',1,'VectoObjects']]],
-  ['xmlutils_10',['XmlUtils',['../class_vecto_input_manager_1_1_core_1_1_xml_utils.html',1,'VectoInputManager::Core']]]
+  ['xmltojsonconvertercommand_10',['XmlToJsonConverterCommand',['../class_vecto_input_manager_1_1_cli_1_1_xml_to_json_converter_command.html',1,'VectoInputManager::Cli']]],
+  ['xmlutils_11',['XmlUtils',['../class_vecto_input_manager_1_1_core_1_1_xml_utils.html',1,'VectoInputManager::Core']]]
 ];

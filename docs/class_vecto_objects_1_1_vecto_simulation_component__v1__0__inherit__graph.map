@@ -1,0 +1,99 @@
+<map id="VectoObjects.VectoSimulationComponent_v1_0" name="VectoObjects.VectoSimulationComponent_v1_0">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,1471,203,1513"/>
+<area shape="rect" id="Node000002" href="$class_vecto_objects_1_1_abstract_airdrag_data_declaration_type__v1__0.html" title=" " alt="" coords="272,172,465,215"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,1455,111,1290,132,1035,150,886,175,732,208,576,248,426,271,363,300,304,351,214,356,216,305,306,276,365,253,427,213,578,181,733,156,887,137,1035,116,1291,109,1455"/>
+<area shape="rect" id="Node000008" href="$class_vecto_objects_1_1_abstract_angledrive_data_declaration_type__v1__0.html" title=" " alt="" coords="262,439,475,481"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="106,1455,123,1280,154,1028,174,896,196,773,221,669,248,592,268,559,292,528,339,480,343,483,296,531,272,562,253,594,226,670,202,775,179,897,159,1029,129,1281,111,1456"/>
+<area shape="rect" id="Node000013" href="$class_vecto_objects_1_1_abstract_axlegear_data_declaration_type__v1__0.html" title=" " alt="" coords="267,605,470,648"/>
+<area shape="poly" id="edge11_Node000001_Node000013" title=" " alt="" coords="107,1455,121,1346,148,1188,190,1007,217,915,248,826,272,773,299,723,349,647,354,650,304,726,277,776,253,828,222,916,195,1008,154,1189,126,1347,112,1456"/>
+<area shape="rect" id="Node000016" href="$class_vecto_objects_1_1_abstract_combustion_engine_data_declaration_type__v1__0.html" title=" " alt="" coords="257,839,480,881"/>
+<area shape="poly" id="edge14_Node000001_Node000016" title=" " alt="" coords="116,1455,172,1305,248,1112,307,980,354,881,359,883,312,983,253,1114,177,1307,121,1457"/>
+<area shape="rect" id="Node000022" href="$class_vecto_objects_1_1_abstract_electric_machine_system_data_type__v2__3.html" title=" " alt="" coords="265,1125,472,1168"/>
+<area shape="poly" id="edge20_Node000001_Node000022" title=" " alt="" coords="127,1456,249,1290,347,1167,351,1170,253,1294,132,1459"/>
+<area shape="rect" id="Node000026" href="$class_vecto_objects_1_1_abstract_fuel_cell_data_type__v2__6.html" title=" " alt="" coords="280,1304,457,1347"/>
+<area shape="poly" id="edge24_Node000001_Node000026" title=" " alt="" coords="151,1460,331,1345,334,1349,153,1465"/>
+<area shape="rect" id="Node000028" href="$class_vecto_objects_1_1_abstract_i_e_p_c_data_type__v2__3.html" title=" " alt="" coords="262,1437,474,1480"/>
+<area shape="poly" id="edge26_Node000001_Node000028" title=" " alt="" coords="218,1475,262,1469,262,1475,218,1480"/>
+<area shape="rect" id="Node000033" href="$class_vecto_objects_1_1_abstract_r_e_e_s_s_data_type__v2__3.html" title=" " alt="" coords="255,1537,482,1580"/>
+<area shape="poly" id="edge31_Node000001_Node000033" title=" " alt="" coords="207,1515,282,1534,280,1539,205,1520"/>
+<area shape="rect" id="Node000041" href="$class_vecto_objects_1_1_abstract_r_e_e_s_s_data_type__v2__6.html" title=" " alt="" coords="255,1604,482,1647"/>
+<area shape="poly" id="edge34_Node000001_Node000041" title=" " alt="" coords="145,1521,194,1557,252,1590,280,1601,278,1606,250,1594,191,1561,142,1525"/>
+<area shape="rect" id="Node000042" href="$class_vecto_objects_1_1_abstract_retarder_data_declaration_type__v1__0.html" title=" " alt="" coords="267,1704,470,1747"/>
+<area shape="poly" id="edge35_Node000001_Node000042" title=" " alt="" coords="131,1524,184,1589,217,1624,252,1657,287,1681,322,1701,320,1706,284,1686,249,1661,213,1628,180,1592,127,1527"/>
+<area shape="rect" id="Node000045" href="$class_vecto_objects_1_1_abstract_torque_converter_data_declaration_type__v1__0.html" title=" " alt="" coords="251,1837,486,1880"/>
+<area shape="poly" id="edge38_Node000001_Node000045" title=" " alt="" coords="122,1527,174,1634,210,1697,253,1757,295,1800,338,1835,334,1839,292,1804,249,1760,206,1700,169,1637,118,1529"/>
+<area shape="rect" id="Node000048" href="$class_vecto_objects_1_1_abstract_transmission_data_declaration_type__v1__0.html" title=" " alt="" coords="253,2004,484,2047"/>
+<area shape="poly" id="edge41_Node000001_Node000048" title=" " alt="" coords="116,1528,135,1598,164,1690,203,1792,253,1891,299,1953,346,2002,342,2006,295,1957,248,1893,198,1794,159,1692,130,1599,111,1529"/>
+<area shape="rect" id="Node000053" href="$class_vecto_objects_1_1_abstract_tyre_data_declaration_type__v1__0.html" title=" " alt="" coords="279,2071,458,2113"/>
+<area shape="poly" id="edge46_Node000001_Node000053" title=" " alt="" coords="113,1528,130,1648,160,1807,180,1886,202,1958,226,2017,253,2057,280,2075,277,2080,249,2061,221,2020,197,1960,174,1887,155,1808,125,1649,107,1529"/>
+<area shape="rect" id="Node000059" href="$class_vecto_objects_1_1_abstract_vehicle_type__v1__0.html" title=" " alt="" coords="271,2137,466,2180"/>
+<area shape="poly" id="edge48_Node000001_Node000059" title=" " alt="" coords="112,1529,127,1661,156,1839,175,1929,198,2011,224,2078,238,2104,253,2123,272,2138,269,2143,249,2127,233,2107,219,2081,193,2013,170,1931,151,1840,122,1662,106,1529"/>
+<area shape="rect" id="Node000003" href="$class_vecto_objects_1_1_air_drag_data_declaration_type__v1__0.html" title=" " alt="" coords="586,5,762,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="399,159,457,107,494,80,533,58,585,39,587,44,535,62,497,85,461,111,402,163"/>
+<area shape="rect" id="Node000004" href="$class_vecto_objects_1_1_air_drag_data_declaration_type__v2__0.html" title=" " alt="" coords="586,72,762,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="431,163,533,124,585,109,587,115,535,129,433,168"/>
+<area shape="rect" id="Node000005" href="$class_vecto_objects_1_1_air_drag_data_declaration_type__v2__6.html" title=" " alt="" coords="586,139,762,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="481,178,586,167,587,172,481,184"/>
+<area shape="rect" id="Node000006" href="$class_vecto_objects_1_1_air_drag_modified_use_standard_value_type__v2__4.html" title=" " alt="" coords="576,205,772,248"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="481,203,576,213,575,219,480,208"/>
+<area shape="rect" id="Node000007" href="$class_vecto_objects_1_1_air_drag_modified_use_standard_value_type__v2__7.html" title=" " alt="" coords="576,272,772,315"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="433,219,535,257,576,269,575,275,533,263,431,224"/>
+<area shape="rect" id="Node000009" href="$class_vecto_objects_1_1_abstract_a_d_c_data_declaration_type__v2__3.html" title=" " alt="" coords="570,339,779,381"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="431,430,533,391,573,379,574,385,535,396,433,435"/>
+<area shape="rect" id="Node000011" href="$class_vecto_objects_1_1_angledrive_data_declaration_type__v1__0.html" title=" " alt="" coords="578,405,770,448"/>
+<area shape="poly" id="edge9_Node000008_Node000011" title=" " alt="" coords="490,444,577,434,578,440,491,449"/>
+<area shape="rect" id="Node000012" href="$class_vecto_objects_1_1_angledrive_data_declaration_type__v2__0.html" title=" " alt="" coords="578,472,770,515"/>
+<area shape="poly" id="edge10_Node000008_Node000012" title=" " alt="" coords="491,471,578,480,577,486,490,476"/>
+<area shape="rect" id="Node000014" href="$class_vecto_objects_1_1_axlegear_data_declaration_type__v1__0.html" title=" " alt="" coords="583,539,765,581"/>
+<area shape="poly" id="edge12_Node000013_Node000014" title=" " alt="" coords="484,599,582,577,583,582,485,604"/>
+<area shape="rect" id="Node000015" href="$class_vecto_objects_1_1_axlegear_data_declaration_type__v2__0.html" title=" " alt="" coords="583,605,765,648"/>
+<area shape="poly" id="edge13_Node000013_Node000015" title=" " alt="" coords="486,624,583,624,583,629,486,629"/>
+<area shape="rect" id="Node000017" href="$class_vecto_objects_1_1_engine_data_declaration_type__v1__0.html" title=" " alt="" coords="556,672,793,715"/>
+<area shape="poly" id="edge15_Node000016_Node000017" title=" " alt="" coords="399,826,457,773,494,747,533,724,561,713,563,718,535,729,497,751,461,778,402,830"/>
+<area shape="rect" id="Node000018" href="$class_vecto_objects_1_1_engine_data_declaration_type__v2__0.html" title=" " alt="" coords="556,739,793,781"/>
+<area shape="poly" id="edge16_Node000016_Node000018" title=" " alt="" coords="431,830,533,791,573,779,574,785,535,796,433,835"/>
+<area shape="rect" id="Node000019" href="$class_vecto_objects_1_1_engine_data_declaration_type__v2__1.html" title=" " alt="" coords="556,805,793,848"/>
+<area shape="poly" id="edge17_Node000016_Node000019" title=" " alt="" coords="495,844,555,837,555,842,495,849"/>
+<area shape="rect" id="Node000020" href="$class_vecto_objects_1_1_engine_data_declaration_type__v2__3.html" title=" " alt="" coords="556,872,793,915"/>
+<area shape="poly" id="edge18_Node000016_Node000020" title=" " alt="" coords="495,871,555,878,555,883,495,876"/>
+<area shape="rect" id="Node000021" href="$class_vecto_objects_1_1_engine_data_declaration_type__v2__6.html" title=" " alt="" coords="556,939,793,981"/>
+<area shape="poly" id="edge19_Node000016_Node000021" title=" " alt="" coords="433,885,535,924,574,935,573,941,533,929,431,890"/>
+<area shape="rect" id="Node000023" href="$class_vecto_objects_1_1_electric_machine_system_i_h_p_c_measured_data_declaration_type__v2__3.html" title=" " alt="" coords="549,1005,799,1064"/>
+<area shape="poly" id="edge21_Node000022_Node000023" title=" " alt="" coords="430,1116,533,1074,567,1062,568,1067,535,1078,432,1121"/>
+<area shape="rect" id="Node000024" href="$class_vecto_objects_1_1_electric_machine_system_measured_data_declaration_type__v2__3.html" title=" " alt="" coords="534,1088,814,1131"/>
+<area shape="poly" id="edge22_Node000022_Node000024" title=" " alt="" coords="487,1130,533,1124,534,1129,487,1135"/>
+<area shape="rect" id="Node000025" href="$class_vecto_objects_1_1_electric_machine_system_standard_values_data_declaration_type__v2__3.html" title=" " alt="" coords="548,1155,800,1213"/>
+<area shape="poly" id="edge23_Node000022_Node000025" title=" " alt="" coords="487,1158,548,1166,548,1171,487,1164"/>
+<area shape="rect" id="Node000027" href="$class_vecto_objects_1_1_fuel_cell_data_declaration_type__v2__6.html" title=" " alt="" coords="584,1237,764,1280"/>
+<area shape="poly" id="edge25_Node000026_Node000027" title=" " alt="" coords="472,1300,584,1276,585,1281,473,1305"/>
+<area shape="rect" id="Node000029" href="$class_vecto_objects_1_1_i_e_p_c_measured_data_declaration_type__v2__3.html" title=" " alt="" coords="578,1304,770,1347"/>
+<area shape="poly" id="edge27_Node000028_Node000029" title=" " alt="" coords="410,1426,467,1390,533,1356,577,1342,578,1347,535,1361,470,1394,413,1430"/>
+<area shape="rect" id="Node000030" href="$class_vecto_objects_1_1_i_e_p_c_measured_data_declaration_type__v2__6.html" title=" " alt="" coords="578,1371,770,1413"/>
+<area shape="poly" id="edge28_Node000028_Node000030" title=" " alt="" coords="484,1431,577,1410,578,1416,485,1436"/>
+<area shape="rect" id="Node000031" href="$class_vecto_objects_1_1_i_e_p_c_standard_values_data_declaration_type__v2__3.html" title=" " alt="" coords="566,1437,783,1480"/>
+<area shape="poly" id="edge29_Node000028_Node000031" title=" " alt="" coords="490,1456,565,1456,565,1461,490,1461"/>
+<area shape="rect" id="Node000032" href="$class_vecto_objects_1_1_i_e_p_c_standard_values_data_declaration_type__v2__6.html" title=" " alt="" coords="566,1504,783,1547"/>
+<area shape="poly" id="edge30_Node000028_Node000032" title=" " alt="" coords="485,1481,574,1501,573,1506,483,1486"/>
+<area shape="rect" id="Node000034" href="$class_vecto_objects_1_1_abstract_battery_system_data_type__v2__3.html" title=" " alt="" coords="577,1571,771,1613"/>
+<area shape="poly" id="edge32_Node000033_Node000034" title=" " alt="" coords="497,1570,577,1579,576,1584,497,1575"/>
+<area shape="rect" id="Node000038" href="$class_vecto_objects_1_1_abstract_capacitor_system_data_type__v2__3.html" title=" " alt="" coords="570,1637,778,1680"/>
+<area shape="poly" id="edge33_Node000033_Node000038" title=" " alt="" coords="473,1584,487,1590,511,1607,535,1623,570,1636,568,1641,533,1628,508,1611,485,1594,471,1588"/>
+<area shape="rect" id="Node000043" href="$class_vecto_objects_1_1_retarder_data_declaration_type__v1__0.html" title=" " alt="" coords="584,1704,765,1747"/>
+<area shape="poly" id="edge36_Node000042_Node000043" title=" " alt="" coords="485,1723,583,1723,583,1728,485,1728"/>
+<area shape="rect" id="Node000044" href="$class_vecto_objects_1_1_retarder_data_declaration_type__v2__0.html" title=" " alt="" coords="584,1771,765,1813"/>
+<area shape="poly" id="edge37_Node000042_Node000044" title=" " alt="" coords="485,1748,584,1770,583,1775,484,1753"/>
+<area shape="rect" id="Node000046" href="$class_vecto_objects_1_1_torque_converter_data_declaration_type__v1__0.html" title=" " alt="" coords="574,1837,774,1880"/>
+<area shape="poly" id="edge39_Node000045_Node000046" title=" " alt="" coords="501,1856,574,1856,574,1861,501,1861"/>
+<area shape="rect" id="Node000047" href="$class_vecto_objects_1_1_torque_converter_data_declaration_type__v2__0.html" title=" " alt="" coords="574,1904,774,1947"/>
+<area shape="poly" id="edge40_Node000045_Node000047" title=" " alt="" coords="485,1881,575,1901,574,1906,484,1886"/>
+<area shape="rect" id="Node000049" href="$class_vecto_objects_1_1_gearbox_data_declaration_type__v1__0.html" title=" " alt="" coords="584,1971,764,2013"/>
+<area shape="poly" id="edge42_Node000048_Node000049" title=" " alt="" coords="498,2008,584,1999,584,2004,499,2014"/>
+<area shape="rect" id="Node000050" href="$class_vecto_objects_1_1_gearbox_data_declaration_type__v2__0.html" title=" " alt="" coords="584,2037,764,2080"/>
+<area shape="poly" id="edge43_Node000048_Node000050" title=" " alt="" coords="499,2037,584,2046,584,2052,498,2042"/>
+<area shape="rect" id="Node000051" href="$class_vecto_objects_1_1_gearbox_data_declaration_type__v2__3.html" title=" " alt="" coords="584,2104,764,2147"/>
+<area shape="poly" id="edge44_Node000048_Node000051" title=" " alt="" coords="473,2050,487,2056,511,2073,535,2090,584,2107,583,2112,533,2094,508,2078,485,2061,471,2055"/>
+<area shape="rect" id="Node000052" href="$class_vecto_objects_1_1_gearbox_f_w_d_data_declaration_type__v2__3.html" title=" " alt="" coords="568,2171,780,2213"/>
+<area shape="poly" id="edge45_Node000048_Node000052" title=" " alt="" coords="484,2053,488,2057,499,2069,506,2082,512,2108,518,2133,525,2145,536,2157,569,2175,567,2180,532,2161,520,2148,513,2135,507,2110,501,2084,495,2072,484,2061,480,2058"/>
+<area shape="rect" id="Node000054" href="$class_vecto_objects_1_1_tyre_data_declaration_type__v1__0.html" title=" " alt="" coords="563,2237,785,2280"/>
+<area shape="poly" id="edge47_Node000053_Node000054" title=" " alt="" coords="473,2113,488,2123,499,2136,506,2149,512,2175,518,2200,525,2212,536,2223,564,2240,561,2244,532,2227,520,2215,513,2202,507,2176,501,2151,495,2139,484,2127,470,2117"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="VectoInputManager.Core.AngledriveComponentStandardValues" name="VectoInputManager.Core.AngledriveComponentStandardValues">
+<area shape="rect" id="Node000001" title="Calculates standard values for an angle drive from ratio, input torque and speed/torque grids,..." alt="" coords="5,96,236,139"/>
+<area shape="rect" id="Node000002" href="$class_vecto_input_manager_1_1_core_1_1_base_standard_values.html" title="Abstract base class for standard values calculators. Each component type has a concrete implementatio..." alt="" coords="21,5,220,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,64,123,96,118,96,118,64"/>
+</map>

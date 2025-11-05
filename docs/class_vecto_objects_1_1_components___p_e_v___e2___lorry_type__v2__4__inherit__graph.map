@@ -1,0 +1,7 @@
+<map id="VectoObjects.Components_PEV_E2_LorryType_v2_4" name="VectoObjects.Components_PEV_E2_LorryType_v2_4">
+<area shape="rect" id="Node000001" title=" " alt="" coords="36,203,213,245"/>
+<area shape="rect" id="Node000002" href="$class_vecto_objects_1_1_abstract___components___p_e_v___lorry_declaration_type__v2__4.html" title=" " alt="" coords="5,96,244,155"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,170,127,202,122,202,122,170"/>
+<area shape="rect" id="Node000003" href="$class_vecto_objects_1_1_abstract_vehicle_components_declaration_type__v2__0.html" title=" " alt="" coords="12,5,237,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="127,63,127,96,122,96,122,63"/>
+</map>

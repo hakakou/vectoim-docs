@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,13,112,40"/>
+<area shape="rect" id="Node000001" href="$class_vecto_input_manager_1_1_cli_1_1_type_registrar.html" title="Provides a bridge between Microsoft.Extensions.DependencyInjection and Spectre.Console...." alt="" coords="160,5,345,48"/>
+<area shape="poly" id="edge13_Node000000_Node000001" title=" " alt="" coords="127,24,159,24,159,29,127,29"/>
+</map>

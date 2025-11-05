@@ -1,0 +1,11 @@
+<map id="VectoObjects.Vehicle_FCHV_IEPC_MediumLorryDeclarationType_v2_7" name="VectoObjects.Vehicle_FCHV_IEPC_MediumLorryDeclarationType_v2_7">
+<area shape="rect" id="Node000001" title=" " alt="" coords="100,277,353,336"/>
+<area shape="rect" id="Node000002" href="$class_vecto_objects_1_1_abstract_vehicle_declaration_type__v2__0.html" title=" " alt="" coords="15,187,209,229"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,237,195,275,191,279,146,241"/>
+<area shape="rect" id="Node000003" href="$class_vecto_objects_1_1_declaration_powertrain_component_type__v2__0.html" title=" " alt="" coords="5,96,219,139"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="115,154,115,186,109,186,109,154"/>
+<area shape="rect" id="Node000004" href="$class_vecto_objects_1_1_vecto_simulation_component__v2__0.html" title=" " alt="" coords="13,5,211,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="115,64,115,96,109,96,109,64"/>
+<area shape="rect" id="Node000005" href="$interface_vecto_objects_1_1_i_vehicle_declaration.html" title=" " alt="" coords="234,195,449,221"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="317,233,262,279,259,275,313,229"/>
+</map>

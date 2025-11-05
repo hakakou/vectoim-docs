@@ -1,0 +1,13 @@
+<map id="VectoObjects.AbstractTransmissionDataDeclarationType_v1_0" name="VectoObjects.AbstractTransmissionDataDeclarationType_v1_0">
+<area shape="rect" id="Node000001" title=" " alt="" coords="251,105,481,148"/>
+<area shape="rect" id="Node000003" href="$class_vecto_objects_1_1_gearbox_data_declaration_type__v1__0.html" title=" " alt="" coords="544,5,725,48"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="430,96,528,57,561,46,563,51,530,63,432,101"/>
+<area shape="rect" id="Node000004" href="$class_vecto_objects_1_1_gearbox_data_declaration_type__v2__0.html" title=" " alt="" coords="544,72,725,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="496,108,544,102,544,107,497,113"/>
+<area shape="rect" id="Node000005" href="$class_vecto_objects_1_1_gearbox_data_declaration_type__v2__3.html" title=" " alt="" coords="544,139,725,181"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="497,140,544,146,544,151,496,146"/>
+<area shape="rect" id="Node000006" href="$class_vecto_objects_1_1_gearbox_f_w_d_data_declaration_type__v2__3.html" title=" " alt="" coords="529,205,740,248"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="432,152,530,191,563,202,561,207,528,196,430,157"/>
+<area shape="rect" id="Node000002" href="$class_vecto_objects_1_1_vecto_simulation_component__v1__0.html" title=" " alt="" coords="5,105,203,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,124,250,124,250,129,219,129"/>
+</map>

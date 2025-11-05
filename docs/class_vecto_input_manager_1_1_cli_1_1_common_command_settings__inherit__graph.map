@@ -1,0 +1,13 @@
+<map id="VectoInputManager.Cli.CommonCommandSettings" name="VectoInputManager.Cli.CommonCommandSettings">
+<area shape="rect" id="Node000001" title="Base settings for all CLI commands, including a common verbose logging option. When verbose is enable..." alt="" coords="183,105,393,148"/>
+<area shape="rect" id="Node000003" href="$class_vecto_input_manager_1_1_cli_1_1_component_extractor_command_1_1_settings.html" title=" " alt="" coords="445,5,669,48"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="347,96,440,58,474,46,476,51,442,62,349,101"/>
+<area shape="rect" id="Node000004" href="$class_vecto_input_manager_1_1_cli_1_1_job_creator_command_1_1_settings.html" title=" " alt="" coords="468,72,646,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="408,109,467,102,468,107,409,114"/>
+<area shape="rect" id="Node000005" href="$class_vecto_input_manager_1_1_cli_1_1_standard_values_command_1_1_settings.html" title=" " alt="" coords="452,139,662,181"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="409,139,452,144,452,150,408,144"/>
+<area shape="rect" id="Node000006" href="$class_vecto_input_manager_1_1_cli_1_1_xml_to_json_converter_command_1_1_settings.html" title=" " alt="" coords="441,205,673,248"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="349,152,442,191,476,202,474,207,440,196,347,157"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,113,135,140"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,124,182,124,182,129,151,129"/>
+</map>

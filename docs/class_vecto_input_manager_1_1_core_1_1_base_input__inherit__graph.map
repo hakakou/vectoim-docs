@@ -1,0 +1,25 @@
+<map id="VectoInputManager.Core.BaseInput" name="VectoInputManager.Core.BaseInput">
+<area shape="rect" id="Node000001" title="Base class for component input data. Contains common properties like manufacturer information and cer..." alt="" coords="5,339,205,381"/>
+<area shape="rect" id="Node000002" href="$class_vecto_input_manager_1_1_core_1_1_a_d_c_component_input.html" title="Input parameters for generating Additional Driveline Component (ADC) standard values including ratio,..." alt="" coords="254,5,520,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,323,127,265,154,193,173,156,195,120,221,87,251,58,269,46,271,51,254,62,225,90,199,123,177,158,159,195,132,266,116,324"/>
+<area shape="rect" id="Node000003" href="$class_vecto_input_manager_1_1_core_1_1_angledrive_component_input.html" title="Input parameters for generating angle drive standard values (ratio, max input torque,..." alt="" coords="272,72,502,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="116,323,136,277,165,224,203,170,226,146,251,124,270,113,273,118,254,129,230,150,207,173,169,226,141,280,121,325"/>
+<area shape="rect" id="Node000004" href="$class_vecto_input_manager_1_1_core_1_1_axle_component_input.html" title="Input parameters for generating axle (axlegear) standard values, including ratio, line type,..." alt="" coords="289,139,484,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="125,324,177,256,212,221,251,191,288,174,290,179,254,196,215,225,181,260,129,328"/>
+<area shape="rect" id="Node000005" href="$class_vecto_input_manager_1_1_core_1_1_battery_component_input.html" title="Input parameters for generating battery system standard values (cell configuration,..." alt="" coords="281,205,492,248"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="142,327,193,291,252,258,282,246,284,251,254,262,195,295,145,331"/>
+<area shape="rect" id="Node000006" href="$class_vecto_input_manager_1_1_core_1_1_capacitor_component_input.html" title="Input parameters for generating capacitor system standard values (max voltage, capacitance,..." alt="" coords="274,272,500,315"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="212,332,293,313,294,318,213,337"/>
+<area shape="rect" id="Node000007" href="$class_vecto_input_manager_1_1_core_1_1_e_m_s_component_input.html" title=" " alt="" coords="254,339,520,381"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="220,357,254,357,254,363,220,363"/>
+<area shape="rect" id="Node000008" href="$class_vecto_input_manager_1_1_core_1_1_fuel_cell_component_input.html" title="Input parameters for generating fuel cell standard values (system rated power)." alt="" coords="290,405,484,448"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="213,383,294,402,293,407,212,388"/>
+<area shape="rect" id="Node000009" href="$class_vecto_input_manager_1_1_core_1_1_gearbox_component_input.html" title="Input parameters for generating standard values for a gearbox/transmission. Includes speed/torque gri..." alt="" coords="278,472,496,515"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="145,389,195,425,254,458,284,469,282,474,252,462,193,429,142,393"/>
+<area shape="rect" id="Node000010" href="$class_vecto_input_manager_1_1_core_1_1_i_e_p_c_component_input.html" title=" " alt="" coords="253,539,521,581"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="129,392,181,460,215,495,254,524,277,536,274,540,251,529,212,499,177,464,125,396"/>
+<area shape="rect" id="Node000011" href="$class_vecto_input_manager_1_1_core_1_1_retarder_component_input.html" title="Input parameters for generating retarder standard values (retarder type and mechanical step&#45;up ratio)..." alt="" coords="277,605,496,648"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="121,395,141,440,169,494,207,547,230,570,254,591,278,605,275,609,251,596,226,574,203,550,165,496,136,443,116,397"/>
+<area shape="rect" id="Node000012" href="$class_vecto_input_manager_1_1_core_1_1_torque_converter_component_input.html" title="Input parameters for generating torque converter standard values (rated engine speed and maximum engi..." alt="" coords="283,672,491,715"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="116,396,132,454,159,525,177,562,199,597,225,630,254,658,283,675,281,679,251,662,221,633,195,600,173,564,154,527,127,455,111,397"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="VectoObjects.FuelCellDataDeclarationType_v2_6" name="VectoObjects.FuelCellDataDeclarationType_v2_6">
+<area shape="rect" id="Node000001" title=" " alt="" coords="121,187,300,229"/>
+<area shape="rect" id="Node000002" href="$class_vecto_objects_1_1_abstract_fuel_cell_data_type__v2__6.html" title=" " alt="" coords="15,96,193,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,146,187,184,184,188,139,151"/>
+<area shape="rect" id="Node000003" href="$class_vecto_objects_1_1_vecto_simulation_component__v1__0.html" title=" " alt="" coords="5,5,203,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="107,64,107,96,101,96,101,64"/>
+<area shape="rect" id="Node000004" href="$interface_vecto_objects_1_1_i_component_data_declaration.html" title=" " alt="" coords="216,96,418,139"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="283,151,237,188,234,184,279,146"/>
+</map>

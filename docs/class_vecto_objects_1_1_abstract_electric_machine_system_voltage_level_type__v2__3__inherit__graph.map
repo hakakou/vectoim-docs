@@ -1,0 +1,17 @@
+<map id="VectoObjects.AbstractElectricMachineSystemVoltageLevelType_v2_3" name="VectoObjects.AbstractElectricMachineSystemVoltageLevelType_v2_3">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,221,258,264"/>
+<area shape="rect" id="Node000002" href="$class_vecto_objects_1_1_electric_machine_system_i_h_p_c_voltage_level_measured_type__v2__3.html" title=" " alt="" coords="306,5,599,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,207,180,171,215,131,257,91,304,58,329,46,331,51,307,62,261,95,219,134,185,174,158,210"/>
+<area shape="rect" id="Node000003" href="$class_vecto_objects_1_1_electric_machine_system_voltage_level_measured_type__v2__3.html" title=" " alt="" coords="322,72,582,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="169,209,230,165,305,124,336,113,338,118,307,129,233,170,172,214"/>
+<area shape="rect" id="Node000004" href="$class_vecto_objects_1_1_electric_machine_system_voltage_level_standard_values_type__v2__3.html" title=" " alt="" coords="337,139,568,197"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="241,215,336,192,337,197,242,220"/>
+<area shape="rect" id="Node000005" href="$class_vecto_objects_1_1_i_e_p_c_system_voltage_level_measured_type__v2__3.html" title=" " alt="" coords="341,221,564,264"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="273,240,340,240,340,245,273,245"/>
+<area shape="rect" id="Node000006" href="$class_vecto_objects_1_1_i_e_p_c_system_voltage_level_measured_type__v2__6.html" title=" " alt="" coords="341,288,564,331"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="253,265,347,285,346,290,252,270"/>
+<area shape="rect" id="Node000007" href="$class_vecto_objects_1_1_i_e_p_c_system_voltage_level_standard_values_type__v2__3.html" title=" " alt="" coords="341,355,564,397"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="178,271,238,307,307,340,341,352,339,357,305,345,235,312,175,275"/>
+<area shape="rect" id="Node000008" href="$class_vecto_objects_1_1_i_e_p_c_system_voltage_level_standard_values_type__v2__6.html" title=" " alt="" coords="341,421,564,464"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="160,275,222,343,263,378,307,407,341,422,339,426,304,412,259,382,218,347,156,278"/>
+</map>

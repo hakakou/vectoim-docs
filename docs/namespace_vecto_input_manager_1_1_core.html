@@ -104,13 +104,19 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class for component input data. Contains common properties like manufacturer information and certification details that are required for all component types.  <a href="class_vecto_input_manager_1_1_core_1_1_base_input.html#details">More...</a><br /></td></tr>
 <tr class="memitem:BaseStandardValues" id="r_BaseStandardValues"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vecto_input_manager_1_1_core_1_1_base_standard_values.html">BaseStandardValues</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract base class for standard values calculators. Each component type has a concrete implementation that calculates standard values based on user-provided input parameters.  <a href="class_vecto_input_manager_1_1_core_1_1_base_standard_values.html#details">More...</a><br /></td></tr>
+<tr class="memitem:CorpusBuilder" id="r_CorpusBuilder"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vecto_input_manager_1_1_core_1_1_corpus_builder.html">CorpusBuilder</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds a corpus from mixed input files (vehicle XML/JSON, component XML/JSON, and arbitrary JSON fragments). Maps components to well-known property paths, exposes helper lookups used by interactive prompts, and produces summary/report outputs including hash error fixes.  <a href="class_vecto_input_manager_1_1_core_1_1_corpus_builder.html#details">More...</a><br /></td></tr>
+<tr class="memitem:CorpusObject" id="r_CorpusObject"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vecto_input_manager_1_1_core_1_1_corpus_object.html">CorpusObject</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a single input artifact in the corpus (file path, deserialized object, inferred property path, and usage flags). Used to track mapping between files and vehicle/component objects during job construction.  <a href="class_vecto_input_manager_1_1_core_1_1_corpus_object.html#details">More...</a><br /></td></tr>
+<tr class="memitem:ObjectBuilder" id="r_ObjectBuilder"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vecto_input_manager_1_1_core_1_1_object_builder.html">ObjectBuilder</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class for interactively constructing complex object graphs using a sequence of <a class="el" href="class_vecto_input_manager_1_1_core_1_1_prompt_action.html" title="Represents a prompt input during the object building process. Contains information about what to ask,...">PromptAction</a> steps. Handles discovery of properties, default/template values, type selection, collections, enums, validation, and conversion. Subclasses override behavior for domain types.  <a href="class_vecto_input_manager_1_1_core_1_1_object_builder.html#details">More...</a><br /></td></tr>
 <tr class="memitem:ParamBuilder" id="r_ParamBuilder"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vecto_input_manager_1_1_core_1_1_param_builder.html">ParamBuilder</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses and supplies key=value overrides for prompt answers during interactive building. Matches keys to prompt property paths and converts string values to the expected types, tracking which parameters were consumed.  <a href="class_vecto_input_manager_1_1_core_1_1_param_builder.html#details">More...</a><br /></td></tr>
 <tr class="memitem:PromptAction" id="r_PromptAction"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vecto_input_manager_1_1_core_1_1_prompt_action.html">PromptAction</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a prompt input during the object building process. Contains information about what to ask, what type of answer is expected, and stores the result.  <a href="class_vecto_input_manager_1_1_core_1_1_prompt_action.html#details">More...</a><br /></td></tr>
 <tr class="memitem:StandardValuesBuilder" id="r_StandardValuesBuilder"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vecto_input_manager_1_1_core_1_1_standard_values_builder.html">StandardValuesBuilder</a></td></tr>
 <tr class="memitem:VehicleBuilder" id="r_VehicleBuilder"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vecto_input_manager_1_1_core_1_1_vehicle_builder.html">VehicleBuilder</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specializes ObjectBuilder for vehicle declarations. Prompts for vehicle type first, resolves the correct VECTO vehicle class, and then builds out the full object graph with domain-specific defaults and display tweaks.  <a href="class_vecto_input_manager_1_1_core_1_1_vehicle_builder.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specializes <a class="el" href="class_vecto_input_manager_1_1_core_1_1_object_builder.html" title="Base class for interactively constructing complex object graphs using a sequence of PromptAction step...">ObjectBuilder</a> for vehicle declarations. Prompts for vehicle type first, resolves the correct VECTO vehicle class, and then builds out the full object graph with domain-specific defaults and display tweaks.  <a href="class_vecto_input_manager_1_1_core_1_1_vehicle_builder.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Components" id="r_Components"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vecto_input_manager_1_1_core_1_1_components.html">Components</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides metadata and configuration for all supported component types.  <a href="class_vecto_input_manager_1_1_core_1_1_components.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Consts" id="r_Consts"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vecto_input_manager_1_1_core_1_1_consts.html">Consts</a></td></tr>
@@ -222,17 +228,6 @@ Enumerations</h2></td></tr>
 <tr class="memitem:a16e214637d46a94abedafedbaf988bb3" id="r_a16e214637d46a94abedafedbaf988bb3"><td class="memItemLeft" align="right" valign="top"><a id="a16e214637d46a94abedafedbaf988bb3" name="a16e214637d46a94abedafedbaf988bb3"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>RetarderType</b> { <b>Hydrodynamic</b>
 , <b>Magnetic</b>
  }</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a59ab6a0536d5afa4f305c102d4bea487" id="r_a59ab6a0536d5afa4f305c102d4bea487"><td class="memItemLeft" align="right" valign="top"><a id="a59ab6a0536d5afa4f305c102d4bea487" name="a59ab6a0536d5afa4f305c102d4bea487"></a>
-class&#160;</td><td class="memItemRight" valign="bottom"><b>CorpusBuilder</b> (<a class="el" href="interface_vecto_input_manager_1_1_core_1_1_i_standard_values_factory.html">IStandardValuesFactory</a> standardValuesFactory, ILogger&lt; CorpusBuilder &gt; logger)</td></tr>
-<tr class="memdesc:a59ab6a0536d5afa4f305c102d4bea487"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds a corpus from mixed input files (vehicle XML/JSON, component XML/JSON, and arbitrary JSON fragments). Maps components to well-known property paths, exposes helper lookups used by interactive prompts, and produces summary/report outputs including hash error fixes. <br /></td></tr>
-<tr class="memitem:a84a45989806e1c1859e1fd4f727bf2d3" id="r_a84a45989806e1c1859e1fd4f727bf2d3"><td class="memItemLeft" align="right" valign="top"><a id="a84a45989806e1c1859e1fd4f727bf2d3" name="a84a45989806e1c1859e1fd4f727bf2d3"></a>
-class&#160;</td><td class="memItemRight" valign="bottom"><b>CorpusObject</b> (string filePath, object obj)</td></tr>
-<tr class="memdesc:a84a45989806e1c1859e1fd4f727bf2d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a single input artifact in the corpus (file path, deserialized object, inferred property path, and usage flags). Used to track mapping between files and vehicle/component objects during job construction. <br /></td></tr>
-<tr class="memitem:a71cc48ad3dda2723e2b70afe7683fb49" id="r_a71cc48ad3dda2723e2b70afe7683fb49"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71cc48ad3dda2723e2b70afe7683fb49">ObjectBuilder</a> (ILogger&lt; ObjectBuilder &gt; _logger)</td></tr>
-<tr class="memdesc:a71cc48ad3dda2723e2b70afe7683fb49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class for interactively constructing complex object graphs using a sequence of <a class="el" href="class_vecto_input_manager_1_1_core_1_1_prompt_action.html" title="Represents a prompt input during the object building process. Contains information about what to ask,...">PromptAction</a> steps. Handles discovery of properties, default/template values, type selection, collections, enums, validation, and conversion. Subclasses override behavior for domain types.  <br /></td></tr>
 </table>
 <a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
 <a id="a15c6380c68522c2722bb6a58be0086a6" name="a15c6380c68522c2722bb6a58be0086a6"></a>
@@ -266,35 +261,6 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>CorpusObject</b> (st
 <tr><td class="fieldname"><a id="a15c6380c68522c2722bb6a58be0086a6ad15b505cce09406de9f918cb1f8c641c" name="a15c6380c68522c2722bb6a58be0086a6ad15b505cce09406de9f918cb1f8c641c"></a>Collection&#160;</td><td class="fielddoc"><p>Collection/List of items (can add multiple). </p>
 </td></tr>
 </table>
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="a71cc48ad3dda2723e2b70afe7683fb49" name="a71cc48ad3dda2723e2b70afe7683fb49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71cc48ad3dda2723e2b70afe7683fb49">&#9670;&#160;</a></span>ObjectBuilder()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">class VectoInputManager.Core.ObjectBuilder </td>
-          <td>(</td>
-          <td class="paramtype">ILogger&lt; ObjectBuilder &gt;</td>          <td class="paramname"><span class="paramname"><em>_logger</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel abstract">abstract</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Base class for interactively constructing complex object graphs using a sequence of <a class="el" href="class_vecto_input_manager_1_1_core_1_1_prompt_action.html" title="Represents a prompt input during the object building process. Contains information about what to ask,...">PromptAction</a> steps. Handles discovery of properties, default/template values, type selection, collections, enums, validation, and conversion. Subclasses override behavior for domain types. </p>
-<p>Called before the PromptHandler is invoked to allow derived classes to modify the <a class="el" href="class_vecto_input_manager_1_1_core_1_1_prompt_action.html" title="Represents a prompt input during the object building process. Contains information about what to ask,...">PromptAction</a> before it's presented to the user.</p>
 
 </div>
 </div>

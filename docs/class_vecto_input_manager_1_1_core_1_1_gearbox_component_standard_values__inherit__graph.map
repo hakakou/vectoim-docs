@@ -1,0 +1,5 @@
+<map id="VectoInputManager.Core.GearboxComponentStandardValues" name="VectoInputManager.Core.GearboxComponentStandardValues">
+<area shape="rect" id="Node000001" title="Calculates standard values for a gearbox based on input parameters and Annex VI guidance...." alt="" coords="5,96,224,139"/>
+<area shape="rect" id="Node000002" href="$class_vecto_input_manager_1_1_core_1_1_base_standard_values.html" title="Abstract base class for standard values calculators. Each component type has a concrete implementatio..." alt="" coords="15,5,214,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,64,117,96,112,96,112,64"/>
+</map>

@@ -2,10 +2,13 @@ var namespace_vecto_input_manager_1_1_core =
 [
     [ "BaseInput", "class_vecto_input_manager_1_1_core_1_1_base_input.html", "class_vecto_input_manager_1_1_core_1_1_base_input" ],
     [ "BaseStandardValues", "class_vecto_input_manager_1_1_core_1_1_base_standard_values.html", "class_vecto_input_manager_1_1_core_1_1_base_standard_values" ],
+    [ "CorpusBuilder", "class_vecto_input_manager_1_1_core_1_1_corpus_builder.html", null ],
+    [ "CorpusObject", "class_vecto_input_manager_1_1_core_1_1_corpus_object.html", null ],
+    [ "ObjectBuilder", "class_vecto_input_manager_1_1_core_1_1_object_builder.html", "class_vecto_input_manager_1_1_core_1_1_object_builder" ],
     [ "ParamBuilder", "class_vecto_input_manager_1_1_core_1_1_param_builder.html", null ],
     [ "PromptAction", "class_vecto_input_manager_1_1_core_1_1_prompt_action.html", "class_vecto_input_manager_1_1_core_1_1_prompt_action" ],
     [ "StandardValuesBuilder", "class_vecto_input_manager_1_1_core_1_1_standard_values_builder.html", null ],
-    [ "VehicleBuilder", "class_vecto_input_manager_1_1_core_1_1_vehicle_builder.html", null ],
+    [ "VehicleBuilder", "class_vecto_input_manager_1_1_core_1_1_vehicle_builder.html", "class_vecto_input_manager_1_1_core_1_1_vehicle_builder" ],
     [ "Components", "class_vecto_input_manager_1_1_core_1_1_components.html", "class_vecto_input_manager_1_1_core_1_1_components" ],
     [ "Consts", "class_vecto_input_manager_1_1_core_1_1_consts.html", "class_vecto_input_manager_1_1_core_1_1_consts" ],
     [ "Data", "class_vecto_input_manager_1_1_core_1_1_data.html", "class_vecto_input_manager_1_1_core_1_1_data" ],
@@ -58,8 +61,5 @@ var namespace_vecto_input_manager_1_1_core =
       [ "Decimal", "namespace_vecto_input_manager_1_1_core.html#a15c6380c68522c2722bb6a58be0086a6a937504f318f04eaf0f1d701df4c4d7f3", null ],
       [ "Boolean", "namespace_vecto_input_manager_1_1_core.html#a15c6380c68522c2722bb6a58be0086a6a27226c864bac7454a8504f8edb15d95b", null ],
       [ "Collection", "namespace_vecto_input_manager_1_1_core.html#a15c6380c68522c2722bb6a58be0086a6ad15b505cce09406de9f918cb1f8c641c", null ]
-    ] ],
-    [ "CorpusBuilder", "namespace_vecto_input_manager_1_1_core.html#a59ab6a0536d5afa4f305c102d4bea487", null ],
-    [ "CorpusObject", "namespace_vecto_input_manager_1_1_core.html#a84a45989806e1c1859e1fd4f727bf2d3", null ],
-    [ "ObjectBuilder", "namespace_vecto_input_manager_1_1_core.html#a71cc48ad3dda2723e2b70afe7683fb49", null ]
+    ] ]
 ];

@@ -1,0 +1,5 @@
+<map id="VectoInputManager.Core.FuelCellComponentStandardValues" name="VectoInputManager.Core.FuelCellComponentStandardValues">
+<area shape="rect" id="Node000001" title="Calculates standard values for a fuel cell system using rated power and standard efficiency curves to..." alt="" coords="5,96,208,139"/>
+<area shape="rect" id="Node000002" href="$class_vecto_input_manager_1_1_core_1_1_base_standard_values.html" title="Abstract base class for standard values calculators. Each component type has a concrete implementatio..." alt="" coords="7,5,206,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,64,109,96,104,96,104,64"/>
+</map>

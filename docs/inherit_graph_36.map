@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$class_vecto_input_manager_1_1_core_1_1_object_builder.html" title="Base class for interactively constructing complex object graphs using a sequence of PromptAction step..." alt="" coords="5,39,213,81"/>
+<area shape="rect" id="Node000001" href="$class_vecto_input_manager_1_1_core_1_1_standard_values_builder.html" title=" " alt="" coords="261,5,482,48"/>
+<area shape="poly" id="edge41_Node000000_Node000001" title=" " alt="" coords="228,42,260,38,260,43,228,48"/>
+<area shape="rect" id="Node000002" href="$class_vecto_input_manager_1_1_core_1_1_vehicle_builder.html" title="Specializes ObjectBuilder for vehicle declarations. Prompts for vehicle type first,..." alt="" coords="266,72,477,115"/>
+<area shape="poly" id="edge42_Node000000_Node000002" title=" " alt="" coords="228,72,265,77,265,83,228,78"/>
+</map>

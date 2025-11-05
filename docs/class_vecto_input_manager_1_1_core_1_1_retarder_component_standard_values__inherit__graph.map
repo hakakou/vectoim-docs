@@ -1,0 +1,5 @@
+<map id="VectoInputManager.Core.RetarderComponentStandardValues" name="VectoInputManager.Core.RetarderComponentStandardValues">
+<area shape="rect" id="Node000001" title="Calculates standard values for a retarder (hydrodynamic/magnetic) and generates a drag torque loss cu..." alt="" coords="5,96,225,139"/>
+<area shape="rect" id="Node000002" href="$class_vecto_input_manager_1_1_core_1_1_base_standard_values.html" title="Abstract base class for standard values calculators. Each component type has a concrete implementatio..." alt="" coords="15,5,215,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,64,118,96,112,96,112,64"/>
+</map>

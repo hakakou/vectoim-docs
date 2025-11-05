@@ -20,9 +20,7 @@ var searchData=
   ['configureprogramcommands_17',['ConfigureProgramCommands',['../class_vecto_input_manager_1_1_cli_1_1_console_configurator_extensions.html#ab81d8ea39aa1f25c10b7a7debd352623',1,'VectoInputManager::Cli::ConsoleConfiguratorExtensions']]],
   ['configureservices_18',['ConfigureServices',['../class_vecto_input_manager_1_1_cli_1_1_service_collection_extensions.html#a5450d4456274cca52fcaddc682140a0d',1,'VectoInputManager::Cli::ServiceCollectionExtensions']]],
   ['conventional_5fdatatype_5fv2_5f7_19',['Conventional_DataType_v2_7',['../class_vecto_objects_1_1_conventional___data_type__v2__7.html#a797c212916eab4fef7feb5232fd09dfc',1,'VectoObjects::Conventional_DataType_v2_7']]],
-  ['corpusbuilder_20',['CorpusBuilder',['../namespace_vecto_input_manager_1_1_core.html#a59ab6a0536d5afa4f305c102d4bea487',1,'VectoInputManager::Core']]],
-  ['corpusobject_21',['CorpusObject',['../namespace_vecto_input_manager_1_1_core.html#a84a45989806e1c1859e1fd4f727bf2d3',1,'VectoInputManager::Core']]],
-  ['create_22',['Create',['../interface_vecto_input_manager_1_1_core_1_1_i_standard_values_factory.html#adf4ba2fc3afee53e77a2c7f442d44f6d',1,'VectoInputManager::Core::IStandardValuesFactory']]],
-  ['createinput_23',['CreateInput',['../class_vecto_input_manager_1_1_core_1_1_base_standard_values.html#ab5997f8293fd59dcba504c08e90efd2d',1,'VectoInputManager::Core::BaseStandardValues']]],
-  ['createvectoinputdeclaration_24',['CreateVectoInputDeclaration',['../class_vecto_input_manager_1_1_core_1_1_type_utils.html#aa18b8a6eb79e47506da42aed004fd2c3',1,'VectoInputManager::Core::TypeUtils']]]
+  ['create_20',['Create',['../class_vecto_input_manager_1_1_cli_1_1_standard_values_factory.html#aeec3751d1f35d42b7da70323b3868f47',1,'VectoInputManager.Cli.StandardValuesFactory.Create()'],['../interface_vecto_input_manager_1_1_core_1_1_i_standard_values_factory.html#adf4ba2fc3afee53e77a2c7f442d44f6d',1,'VectoInputManager.Core.IStandardValuesFactory.Create()']]],
+  ['createinput_21',['CreateInput',['../class_vecto_input_manager_1_1_core_1_1_base_standard_values.html#ab5997f8293fd59dcba504c08e90efd2d',1,'VectoInputManager::Core::BaseStandardValues']]],
+  ['createvectoinputdeclaration_22',['CreateVectoInputDeclaration',['../class_vecto_input_manager_1_1_core_1_1_type_utils.html#aa18b8a6eb79e47506da42aed004fd2c3',1,'VectoInputManager::Core::TypeUtils']]]
 ];

@@ -1,0 +1,5 @@
+<map id="VectoInputManager.Core.TorqueConverterComponentStandardValues" name="VectoInputManager.Core.TorqueConverterComponentStandardValues">
+<area shape="rect" id="Node000001" title="Calculates standard torque converter characteristics (speed/torque ratio curves) from rated speed and..." alt="" coords="5,96,242,139"/>
+<area shape="rect" id="Node000002" href="$class_vecto_input_manager_1_1_core_1_1_base_standard_values.html" title="Abstract base class for standard values calculators. Each component type has a concrete implementatio..." alt="" coords="24,5,223,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,64,126,96,121,96,121,64"/>
+</map>

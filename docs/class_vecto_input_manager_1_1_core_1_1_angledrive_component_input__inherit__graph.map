@@ -1,0 +1,5 @@
+<map id="VectoInputManager.Core.AngledriveComponentInput" name="VectoInputManager.Core.AngledriveComponentInput">
+<area shape="rect" id="Node000001" title="Input parameters for generating angle drive standard values (ratio, max input torque,..." alt="" coords="5,96,236,139"/>
+<area shape="rect" id="Node000002" href="$class_vecto_input_manager_1_1_core_1_1_base_input.html" title="Base class for component input data. Contains common properties like manufacturer information and cer..." alt="" coords="21,5,220,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,64,123,96,118,96,118,64"/>
+</map>

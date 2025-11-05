@@ -1,0 +1,39 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$interface_vecto_objects_1_1_i_component_declaration.html" title=" " alt="" coords="5,480,246,507"/>
+<area shape="rect" id="Node000001" href="$class_vecto_objects_1_1_a_d_c_component_declaration_type__v2__3.html" title="VectoObjects.ADCComponentDeclarationType_v2_3 Types inheriting from AbstractADCDataDeclarationType_v2..." alt="" coords="325,5,524,48"/>
+<area shape="poly" id="edge378_Node000000_Node000001" title=" " alt="" coords="126,464,138,383,165,274,186,215,214,158,249,104,292,58,323,39,326,43,295,62,253,108,219,160,191,217,170,275,143,384,132,465"/>
+<area shape="rect" id="Node000002" href="$class_vecto_objects_1_1_air_drag_component_declaration_type__v2__0.html" title="VectoObjects.AirDragComponentDeclarationType_v2_0 Types inheriting from AbstractAirdragDataDeclaratio..." alt="" coords="318,72,532,115"/>
+<area shape="poly" id="edge379_Node000000_Node000002" title=" " alt="" coords="129,464,144,395,174,303,195,254,222,207,254,163,292,125,316,109,319,114,295,129,258,166,226,210,200,257,179,305,149,396,134,465"/>
+<area shape="rect" id="Node000003" href="$class_vecto_objects_1_1_angledrive_component_declaration_type__v2__0.html" title="VectoObjects.AngledriveComponentDeclarationType_v2_0 Types inheriting from AbstractAngledriveDataDecl..." alt="" coords="309,139,540,181"/>
+<area shape="poly" id="edge380_Node000000_Node000003" title=" " alt="" coords="132,464,151,406,183,332,205,294,230,256,259,221,292,191,311,180,314,184,295,195,263,225,234,259,209,296,188,335,156,408,137,466"/>
+<area shape="rect" id="Node000004" href="$class_vecto_objects_1_1_axlegear_component_declaration_type__v2__0.html" title="VectoObjects.AxlegearComponentDeclarationType_v2_0 Types inheriting from AbstractAxlegearDataDeclarat..." alt="" coords="314,205,536,248"/>
+<area shape="poly" id="edge381_Node000000_Node000004" title=" " alt="" coords="136,465,159,419,193,363,238,306,264,280,292,258,313,246,315,251,295,262,267,284,242,310,198,366,164,422,141,467"/>
+<area shape="rect" id="Node000005" href="$class_vecto_objects_1_1_battery_component_declaration_type__v2__3.html" title="VectoObjects.BatteryComponentDeclarationType_v2_3 Types inheriting from AbstractBatterySystemDataType..." alt="" coords="319,272,531,315"/>
+<area shape="poly" id="edge382_Node000000_Node000005" title=" " alt="" coords="143,466,204,395,246,357,292,324,317,313,319,318,295,329,249,361,208,399,147,469"/>
+<area shape="rect" id="Node000006" href="$class_vecto_objects_1_1_capacitor_system_component_declaration_type__v2__3.html" title="VectoObjects.CapacitorSystemComponentDeclarationType_v2_3 Types inheriting from AbstractCapacitorSyst..." alt="" coords="316,339,534,381"/>
+<area shape="poly" id="edge383_Node000000_Node000006" title=" " alt="" coords="157,469,218,429,293,391,324,379,326,384,295,396,221,434,160,473"/>
+<area shape="rect" id="Node000007" href="$class_vecto_objects_1_1_electric_machine_system_component_declaration_type__v2__3.html" title="VectoObjects.ElectricMachineSystemComponentDeclarationType_v2_3 Types inheriting from AbstractElectri..." alt="" coords="294,405,556,448"/>
+<area shape="poly" id="edge384_Node000000_Node000007" title=" " alt="" coords="203,473,325,446,326,451,205,479"/>
+<area shape="rect" id="Node000008" href="$class_vecto_objects_1_1_engine_component_declaration_type__v2__0.html" title="VectoObjects.EngineComponentDeclarationType_v2_0 Types inheriting from AbstractCombustionEngineDataDe..." alt="" coords="320,472,530,515"/>
+<area shape="poly" id="edge385_Node000000_Node000008" title=" " alt="" coords="261,491,319,491,319,496,261,496"/>
+<area shape="rect" id="Node000009" href="$class_vecto_objects_1_1_fuel_cell_component_declaration_type__v2__6.html" title="VectoObjects.FuelCellComponentDeclarationType_v2_6 Types inheriting from AbstractFuelCellDataType_v2_..." alt="" coords="316,539,534,581"/>
+<area shape="poly" id="edge386_Node000000_Node000009" title=" " alt="" coords="205,508,326,535,325,541,203,513"/>
+<area shape="rect" id="Node000010" href="$class_vecto_objects_1_1_gearbox_component_declaration_type__v2__0.html" title="VectoObjects.GearboxComponentDeclarationType_v2_0 Types inheriting from AbstractTransmissionDataDecla..." alt="" coords="315,605,534,648"/>
+<area shape="poly" id="edge387_Node000000_Node000010" title=" " alt="" coords="160,514,221,553,295,591,326,602,324,607,293,596,218,557,157,518"/>
+<area shape="rect" id="Node000011" href="$class_vecto_objects_1_1_i_e_p_c_component_declaration_type__v2__3.html" title="VectoObjects.IEPCComponentDeclarationType_v2_3 Types inheriting from AbstractIEPCDataType_v2_3: Vecto..." alt="" coords="324,672,526,715"/>
+<area shape="poly" id="edge388_Node000000_Node000011" title=" " alt="" coords="147,517,208,588,249,626,295,658,324,671,322,676,292,662,246,630,204,592,143,521"/>
+<area shape="rect" id="Node000012" href="$interface_vecto_objects_1_1_i_r_e_e_s_s_component_delaration.html" title=" " alt="" coords="315,739,535,781"/>
+<area shape="poly" id="edge389_Node000000_Node000012" title=" " alt="" coords="141,520,164,565,198,621,242,677,267,702,295,724,315,736,313,740,292,729,264,706,238,681,193,624,159,568,136,522"/>
+<area shape="rect" id="Node000016" href="$class_vecto_objects_1_1_retarder_component_declaration_type__v2__0.html" title="VectoObjects.RetarderComponentDeclarationType_v2_0 Types inheriting from AbstractRetarderDataDeclarat..." alt="" coords="315,805,535,848"/>
+<area shape="poly" id="edge393_Node000000_Node000016" title=" " alt="" coords="137,521,156,579,188,652,209,690,234,727,263,762,295,791,315,804,313,808,292,795,259,765,230,731,205,693,183,654,151,581,132,523"/>
+<area shape="rect" id="Node000017" href="$class_vecto_objects_1_1_torque_converter_component_declaration_type__v2__0.html" title="VectoObjects.TorqueConverterComponentDeclarationType_v2_0 Types inheriting from AbstractTorqueConvert..." alt="" coords="316,872,534,915"/>
+<area shape="poly" id="edge394_Node000000_Node000017" title=" " alt="" coords="134,521,149,590,179,682,200,730,226,777,258,820,295,858,317,872,314,876,292,862,254,824,222,780,195,732,174,684,144,592,129,523"/>
+<area shape="rect" id="Node000018" href="$class_vecto_objects_1_1_tyre_component_declaration_type__v2__0.html" title="VectoObjects.TyreComponentDeclarationType_v2_0 Types inheriting from AbstractTyreDataDeclarationType_..." alt="" coords="327,939,522,981"/>
+<area shape="poly" id="edge395_Node000000_Node000018" title=" " alt="" coords="132,522,143,602,170,711,191,769,219,826,253,879,295,925,328,944,325,949,292,929,249,882,214,829,186,771,165,713,138,603,126,523"/>
+<area shape="rect" id="Node000013" href="$class_vecto_objects_1_1_r_e_e_s_s_battery_type_r_e_e_s_s__v2__4.html" title=" " alt="" coords="616,672,808,715"/>
+<area shape="poly" id="edge390_Node000012_Node000013" title=" " alt="" coords="534,732,617,713,618,718,535,737"/>
+<area shape="rect" id="Node000014" href="$class_vecto_objects_1_1_r_e_e_s_s_capacitor_type__v2__4.html" title=" " alt="" coords="610,739,815,781"/>
+<area shape="poly" id="edge391_Node000012_Node000014" title=" " alt="" coords="550,757,609,757,609,763,550,763"/>
+<area shape="rect" id="Node000015" href="$class_vecto_objects_1_1_r_e_e_s_s_component_declaration_type__v2__3.html" title=" " alt="" coords="604,805,820,848"/>
+<area shape="poly" id="edge392_Node000012_Node000015" title=" " alt="" coords="535,783,618,802,617,807,534,788"/>
+</map>

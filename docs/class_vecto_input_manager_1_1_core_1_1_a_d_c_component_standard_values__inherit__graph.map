@@ -1,0 +1,5 @@
+<map id="VectoInputManager.Core.ADCComponentStandardValues" name="VectoInputManager.Core.ADCComponentStandardValues">
+<area shape="rect" id="Node000001" title="Calculates standard values for an Additional Driveline Component (ADC), producing a ratio and torque ..." alt="" coords="5,96,271,139"/>
+<area shape="rect" id="Node000002" href="$class_vecto_input_manager_1_1_core_1_1_base_standard_values.html" title="Abstract base class for standard values calculators. Each component type has a concrete implementatio..." alt="" coords="38,5,238,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,64,141,96,135,96,135,64"/>
+</map>

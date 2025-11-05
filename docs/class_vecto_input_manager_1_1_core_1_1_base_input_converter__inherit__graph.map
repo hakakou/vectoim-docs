@@ -1,0 +1,5 @@
+<map id="VectoInputManager.Core.BaseInputConverter" name="VectoInputManager.Core.BaseInputConverter">
+<area shape="rect" id="Node000001" title="Custom JSON converter for supporting JSON component input files. These files start with a &quot;Component&quot;..." alt="" coords="5,80,205,123"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="52,5,158,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,48,108,80,102,80,102,48"/>
+</map>

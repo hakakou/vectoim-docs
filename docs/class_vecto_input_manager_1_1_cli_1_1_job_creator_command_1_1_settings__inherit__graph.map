@@ -1,0 +1,7 @@
+<map id="VectoInputManager.Cli.JobCreatorCommand.Settings" name="VectoInputManager.Cli.JobCreatorCommand.Settings">
+<area shape="rect" id="Node000001" title=" " alt="" coords="21,171,200,213"/>
+<area shape="rect" id="Node000002" href="$class_vecto_input_manager_1_1_cli_1_1_common_command_settings.html" title="Base settings for all CLI commands, including a common verbose logging option. When verbose is enable..." alt="" coords="5,80,216,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,138,113,170,108,170,108,138"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="46,5,175,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="113,48,113,80,108,80,108,48"/>
+</map>

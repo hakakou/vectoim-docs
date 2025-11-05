@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,13,139,40"/>
+<area shape="rect" id="Node000001" href="$class_vecto_input_manager_1_1_core_1_1_simple_type_name_binder.html" title="Used in JSON serialization to simplify type names by omitting namespaces and assemblies,..." alt="" coords="187,5,396,48"/>
+<area shape="poly" id="edge12_Node000000_Node000001" title=" " alt="" coords="154,24,186,24,186,29,154,29"/>
+</map>

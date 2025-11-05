@@ -461,8 +461,19 @@ var hierarchy =
     [ "VectoObjects.BusAuxHVACConventionalSequenceGroupHeatPumpTypePassengerCompartment_v2_4", "class_vecto_objects_1_1_bus_aux_h_v_a_c_conventional_sequence_group_heat_pump_type_passenger_compartment__v2__4.html", null ],
     [ "VectoObjects.BusAuxHVACConventionalSequenceGroupHeatPumpTypePassengerCompartment_v2_7", "class_vecto_objects_1_1_bus_aux_h_v_a_c_conventional_sequence_group_heat_pump_type_passenger_compartment__v2__7.html", null ],
     [ "VectoObjects.CanonicalizationMethodType", "class_vecto_objects_1_1_canonicalization_method_type.html", null ],
+    [ "Command", null, [
+      [ "VectoInputManager.Cli.ComponentExtractorCommand", "class_vecto_input_manager_1_1_cli_1_1_component_extractor_command.html", null ],
+      [ "VectoInputManager.Cli.JobCreatorCommand", "class_vecto_input_manager_1_1_cli_1_1_job_creator_command.html", null ],
+      [ "VectoInputManager.Cli.StandardValuesCommand", "class_vecto_input_manager_1_1_cli_1_1_standard_values_command.html", null ],
+      [ "VectoInputManager.Cli.XmlToJsonConverterCommand", "class_vecto_input_manager_1_1_cli_1_1_xml_to_json_converter_command.html", null ]
+    ] ],
     [ "CommandSettings", null, [
-      [ "VectoInputManager.Cli.CommonCommandSettings", "class_vecto_input_manager_1_1_cli_1_1_common_command_settings.html", null ]
+      [ "VectoInputManager.Cli.CommonCommandSettings", "class_vecto_input_manager_1_1_cli_1_1_common_command_settings.html", [
+        [ "VectoInputManager.Cli.ComponentExtractorCommand.Settings", "class_vecto_input_manager_1_1_cli_1_1_component_extractor_command_1_1_settings.html", null ],
+        [ "VectoInputManager.Cli.JobCreatorCommand.Settings", "class_vecto_input_manager_1_1_cli_1_1_job_creator_command_1_1_settings.html", null ],
+        [ "VectoInputManager.Cli.StandardValuesCommand.Settings", "class_vecto_input_manager_1_1_cli_1_1_standard_values_command_1_1_settings.html", null ],
+        [ "VectoInputManager.Cli.XmlToJsonConverterCommand.Settings", "class_vecto_input_manager_1_1_cli_1_1_xml_to_json_converter_command_1_1_settings.html", null ]
+      ] ]
     ] ],
     [ "VectoObjects.Completed_DataType_v2_7", "class_vecto_objects_1_1_completed___data_type__v2__7.html", null ],
     [ "VectoInputManager.Core.Components", "class_vecto_input_manager_1_1_core_1_1_components.html", null ],
@@ -490,6 +501,8 @@ var hierarchy =
     [ "VectoInputManager.Cli.ConsoleConfiguratorExtensions", "class_vecto_input_manager_1_1_cli_1_1_console_configurator_extensions.html", null ],
     [ "VectoInputManager.Core.Consts", "class_vecto_input_manager_1_1_core_1_1_consts.html", null ],
     [ "VectoObjects.Conventional_DataType_v2_7", "class_vecto_objects_1_1_conventional___data_type__v2__7.html", null ],
+    [ "VectoInputManager.Core.CorpusBuilder", "class_vecto_input_manager_1_1_core_1_1_corpus_builder.html", null ],
+    [ "VectoInputManager.Core.CorpusObject", "class_vecto_input_manager_1_1_core_1_1_corpus_object.html", null ],
     [ "VectoInputManager.Core.Data.CurrentLimitItem", "class_vecto_input_manager_1_1_core_1_1_data_1_1_current_limit_item.html", null ],
     [ "VectoInputManager.Core.Data", "class_vecto_input_manager_1_1_core_1_1_data.html", null ],
     [ "VectoInputManager.Core.Data.DCIRItem", "class_vecto_input_manager_1_1_core_1_1_data_1_1_d_c_i_r_item.html", null ],
@@ -658,7 +671,9 @@ var hierarchy =
     [ "ISerializationBinder", null, [
       [ "VectoInputManager.Core.SimpleTypeNameBinder", "class_vecto_input_manager_1_1_core_1_1_simple_type_name_binder.html", null ]
     ] ],
-    [ "VectoInputManager.Core.IStandardValuesFactory", "interface_vecto_input_manager_1_1_core_1_1_i_standard_values_factory.html", null ],
+    [ "VectoInputManager.Core.IStandardValuesFactory", "interface_vecto_input_manager_1_1_core_1_1_i_standard_values_factory.html", [
+      [ "VectoInputManager.Cli.StandardValuesFactory", "class_vecto_input_manager_1_1_cli_1_1_standard_values_factory.html", null ]
+    ] ],
     [ "ITypeRegistrar", null, [
       [ "VectoInputManager.Cli.TypeRegistrar", "class_vecto_input_manager_1_1_cli_1_1_type_registrar.html", null ]
     ] ],
@@ -762,7 +777,7 @@ var hierarchy =
     [ "VectoObjects.MultipleElectricMachineTorqueLimitsTypeElectricMachine_v2_7", "class_vecto_objects_1_1_multiple_electric_machine_torque_limits_type_electric_machine__v2__7.html", null ],
     [ "VectoObjects.MultipleElectricMachineTorqueLimitsTypeElectricMachineVoltageLevel_v2_7", "class_vecto_objects_1_1_multiple_electric_machine_torque_limits_type_electric_machine_voltage_level__v2__7.html", null ],
     [ "VectoObjects.MultiplePTOType_v2_7", "class_vecto_objects_1_1_multiple_p_t_o_type__v2__7.html", null ],
-    [ "ObjectBuilder", null, [
+    [ "VectoInputManager.Core.ObjectBuilder", "class_vecto_input_manager_1_1_core_1_1_object_builder.html", [
       [ "VectoInputManager.Core.StandardValuesBuilder", "class_vecto_input_manager_1_1_core_1_1_standard_values_builder.html", null ],
       [ "VectoInputManager.Core.VehicleBuilder", "class_vecto_input_manager_1_1_core_1_1_vehicle_builder.html", null ]
     ] ],
@@ -773,6 +788,7 @@ var hierarchy =
     [ "VectoObjects.PEV_IEPC_DataType_v2_7", "class_vecto_objects_1_1_p_e_v___i_e_p_c___data_type__v2__7.html", null ],
     [ "VectoObjects.PGPDataType", "class_vecto_objects_1_1_p_g_p_data_type.html", null ],
     [ "VectoInputManager.Core.PromptAction", "class_vecto_input_manager_1_1_core_1_1_prompt_action.html", null ],
+    [ "VectoInputManager.Cli.PromptActionHelper", "class_vecto_input_manager_1_1_cli_1_1_prompt_action_helper.html", null ],
     [ "VectoObjects.PTOType_v1_0", "class_vecto_objects_1_1_p_t_o_type__v1__0.html", null ],
     [ "VectoObjects.PTOType_v2_7", "class_vecto_objects_1_1_p_t_o_type__v2__7.html", null ],
     [ "VectoObjects.REESSBatteryType_v2_4", "class_vecto_objects_1_1_r_e_e_s_s_battery_type__v2__4.html", null ],

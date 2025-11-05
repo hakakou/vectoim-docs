@@ -1,0 +1,99 @@
+<map id="VectoObjects.DeclarationPowertrainComponentType_v2_0" name="VectoObjects.DeclarationPowertrainComponentType_v2_0">
+<area shape="rect" id="Node000001" title=" " alt="" coords="251,1793,464,1836"/>
+<area shape="rect" id="Node000003" href="$class_vecto_objects_1_1_abstract_vehicle_declaration_type__v2__0.html" title=" " alt="" coords="512,1793,706,1836"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="479,1812,511,1812,511,1817,479,1817"/>
+<area shape="rect" id="Node000002" href="$class_vecto_objects_1_1_vecto_simulation_component__v2__0.html" title=" " alt="" coords="5,1793,203,1836"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,1812,250,1812,250,1817,219,1817"/>
+<area shape="rect" id="Node000004" href="$class_vecto_objects_1_1_abstract_completed_bus_vehicle_type__v2__4.html" title=" " alt="" coords="776,5,992,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="608,1778,616,1428,625,1165,638,880,657,600,681,352,696,248,713,162,731,98,752,58,774,40,778,44,756,62,736,100,718,164,701,249,687,353,662,601,644,880,630,1165,621,1428,614,1778"/>
+<area shape="rect" id="Node000015" href="$class_vecto_objects_1_1_exempted_vehicle_declaration_type__v2__1.html" title=" " alt="" coords="782,72,986,115"/>
+<area shape="poly" id="edge4_Node000003_Node000015" title=" " alt="" coords="608,1778,617,1439,640,913,659,644,683,406,698,307,714,225,732,163,752,125,780,104,783,108,756,128,737,165,719,226,703,308,689,407,664,645,646,913,623,1439,614,1778"/>
+<area shape="rect" id="Node000016" href="$class_vecto_objects_1_1_exempted_vehicle_declaration_type__v2__2__1.html" title=" " alt="" coords="782,139,986,181"/>
+<area shape="poly" id="edge5_Node000003_Node000016" title=" " alt="" coords="609,1778,618,1451,642,947,661,689,685,461,700,366,715,287,733,228,752,192,780,171,783,175,756,195,738,230,721,289,705,367,691,462,667,690,648,947,624,1452,614,1778"/>
+<area shape="rect" id="Node000017" href="$class_vecto_objects_1_1_vehicle_base_type__v2__0.html" title=" " alt="" coords="796,205,972,248"/>
+<area shape="poly" id="edge6_Node000003_Node000017" title=" " alt="" coords="609,1777,619,1462,644,979,663,733,687,516,701,425,717,350,734,293,752,258,772,242,795,232,797,236,775,246,756,262,739,295,722,351,707,426,693,516,669,734,650,979,625,1462,614,1778"/>
+<area shape="rect" id="Node000019" href="$class_vecto_objects_1_1_vehicle_declaration_type__v2__1.html" title=" " alt="" coords="778,272,990,315"/>
+<area shape="poly" id="edge7_Node000003_Node000019" title=" " alt="" coords="609,1777,620,1474,646,1012,666,778,689,570,703,484,718,412,734,358,752,325,776,306,780,310,756,328,739,360,723,413,708,485,695,571,671,778,652,1013,626,1474,614,1777"/>
+<area shape="rect" id="Node000020" href="$class_vecto_objects_1_1_vehicle___conventional___heavy_lorry_declaration_type__v2__4.html" title=" " alt="" coords="762,339,1006,397"/>
+<area shape="poly" id="edge8_Node000003_Node000020" title=" " alt="" coords="609,1777,623,1490,650,1055,670,834,693,639,720,490,736,439,752,408,764,396,768,400,756,411,741,441,726,492,698,640,675,835,656,1055,628,1490,615,1778"/>
+<area shape="rect" id="Node000021" href="$class_vecto_objects_1_1_vehicle___conventional___heavy_lorry_declaration_type__v2__7.html" title=" " alt="" coords="762,421,1006,480"/>
+<area shape="poly" id="edge9_Node000003_Node000021" title=" " alt="" coords="609,1778,624,1505,653,1097,672,890,696,707,722,568,737,520,752,490,764,478,768,482,756,494,742,522,727,569,701,708,678,891,658,1097,629,1506,615,1778"/>
+<area shape="rect" id="Node000022" href="$class_vecto_objects_1_1_vehicle___conventional___medium_lorry_declaration_type__v2__4.html" title=" " alt="" coords="758,504,1010,563"/>
+<area shape="poly" id="edge10_Node000003_Node000022" title=" " alt="" coords="610,1778,625,1520,655,1138,675,945,698,775,724,645,737,601,752,573,764,561,768,565,756,576,742,603,729,646,703,776,680,946,661,1139,631,1521,615,1778"/>
+<area shape="rect" id="Node000023" href="$class_vecto_objects_1_1_vehicle___conventional___medium_lorry_declaration_type__v2__7.html" title=" " alt="" coords="758,587,1010,645"/>
+<area shape="poly" id="edge11_Node000003_Node000023" title=" " alt="" coords="607,1778,609,1553,614,1392,624,1217,641,1042,667,881,684,810,704,748,726,696,752,656,764,644,768,648,756,659,731,698,709,750,689,812,673,882,647,1043,629,1217,619,1392,614,1553,613,1778"/>
+<area shape="rect" id="Node000024" href="$class_vecto_objects_1_1_vehicle___conventional___primary_bus_declaration_type__v2__4.html" title=" " alt="" coords="761,669,1007,728"/>
+<area shape="poly" id="edge12_Node000003_Node000024" title=" " alt="" coords="608,1778,611,1567,617,1417,629,1256,647,1095,672,946,688,881,707,823,728,775,752,738,765,726,768,730,756,742,733,778,712,825,693,882,677,947,652,1095,634,1256,623,1418,616,1567,613,1778"/>
+<area shape="rect" id="Node000025" href="$class_vecto_objects_1_1_vehicle___conventional___primary_bus_declaration_type__v2__7.html" title=" " alt="" coords="761,752,1007,811"/>
+<area shape="poly" id="edge13_Node000003_Node000025" title=" " alt="" coords="608,1778,614,1581,621,1443,634,1295,652,1147,677,1011,692,951,710,899,730,855,752,821,765,809,768,813,756,824,734,857,715,901,697,953,682,1012,657,1148,639,1295,627,1444,619,1581,613,1778"/>
+<area shape="rect" id="Node000026" href="$class_vecto_objects_1_1_vehicle___exempted___heavy_lorry_declaration_type__v2__4.html" title=" " alt="" coords="770,835,998,893"/>
+<area shape="poly" id="edge14_Node000003_Node000026" title=" " alt="" coords="609,1778,617,1596,625,1470,639,1334,657,1200,681,1076,713,974,731,934,752,904,768,889,772,893,756,907,736,937,718,976,687,1078,662,1201,644,1335,631,1470,622,1596,614,1778"/>
+<area shape="rect" id="Node000027" href="$class_vecto_objects_1_1_vehicle___exempted___heavy_lorry_declaration_type__v2__7.html" title=" " alt="" coords="770,917,998,976"/>
+<area shape="poly" id="edge15_Node000003_Node000027" title=" " alt="" coords="609,1778,619,1610,643,1374,662,1253,686,1142,716,1050,733,1014,752,986,768,972,772,976,756,990,738,1017,721,1052,691,1143,667,1254,649,1375,625,1611,615,1778"/>
+<area shape="rect" id="Node000028" href="$class_vecto_objects_1_1_vehicle___exempted___medium_lorry_declaration_type__v2__4.html" title=" " alt="" coords="766,1000,1002,1059"/>
+<area shape="poly" id="edge16_Node000003_Node000028" title=" " alt="" coords="610,1778,623,1625,649,1413,667,1305,691,1207,719,1125,735,1093,752,1069,765,1057,768,1061,756,1072,739,1096,724,1127,696,1208,673,1307,654,1414,628,1626,615,1778"/>
+<area shape="rect" id="Node000029" href="$class_vecto_objects_1_1_vehicle___exempted___medium_lorry_declaration_type__v2__7.html" title=" " alt="" coords="766,1083,1002,1141"/>
+<area shape="poly" id="edge17_Node000003_Node000029" title=" " alt="" coords="611,1778,626,1640,654,1453,673,1359,696,1272,722,1201,737,1173,752,1152,766,1140,769,1144,756,1155,741,1176,727,1203,701,1274,678,1360,659,1454,631,1641,616,1778"/>
+<area shape="rect" id="Node000030" href="$class_vecto_objects_1_1_vehicle___exempted___primary_bus_declaration_type__v2__4.html" title=" " alt="" coords="770,1165,998,1224"/>
+<area shape="poly" id="edge18_Node000003_Node000030" title=" " alt="" coords="612,1778,630,1656,659,1494,678,1412,700,1338,725,1277,752,1234,768,1221,771,1225,756,1238,730,1279,705,1339,684,1413,664,1495,635,1657,618,1778"/>
+<area shape="rect" id="Node000031" href="$class_vecto_objects_1_1_vehicle___exempted___primary_bus_declaration_type__v2__7.html" title=" " alt="" coords="770,1248,998,1307"/>
+<area shape="poly" id="edge19_Node000003_Node000031" title=" " alt="" coords="607,1777,613,1686,620,1627,632,1563,651,1497,676,1432,709,1371,752,1317,768,1304,771,1308,756,1321,714,1374,681,1434,656,1498,638,1564,625,1627,618,1686,613,1778"/>
+<area shape="rect" id="Node000032" href="$class_vecto_objects_1_1_vehicle___f_c_h_v___fx___heavy_lorry_declaration_type__v2__7.html" title=" " alt="" coords="770,1331,998,1389"/>
+<area shape="poly" id="edge20_Node000003_Node000032" title=" " alt="" coords="610,1777,620,1700,643,1598,661,1545,685,1492,715,1443,752,1399,768,1387,771,1391,756,1403,720,1446,690,1495,666,1547,648,1600,625,1701,615,1778"/>
+<area shape="rect" id="Node000033" href="$class_vecto_objects_1_1_vehicle___f_c_h_v___fx___medium_lorry_declaration_type__v2__7.html" title=" " alt="" coords="766,1413,1002,1472"/>
+<area shape="poly" id="edge21_Node000003_Node000033" title=" " alt="" coords="614,1778,628,1714,654,1635,672,1594,695,1553,721,1515,753,1482,768,1470,771,1475,756,1486,725,1519,699,1556,677,1596,659,1637,633,1716,619,1779"/>
+<area shape="rect" id="Node000034" href="$class_vecto_objects_1_1_vehicle___f_c_h_v___fx___primary_bus_declaration_type__v2__7.html" title=" " alt="" coords="770,1496,998,1555"/>
+<area shape="poly" id="edge22_Node000003_Node000034" title=" " alt="" coords="620,1777,638,1729,667,1672,705,1614,727,1588,753,1565,770,1553,773,1557,756,1569,731,1592,709,1618,671,1675,643,1732,625,1779"/>
+<area shape="rect" id="Node000035" href="$class_vecto_objects_1_1_vehicle___f_c_h_v___i_e_p_c___heavy_lorry_declaration_type__v2__7.html" title=" " alt="" coords="762,1579,1006,1637"/>
+<area shape="poly" id="edge23_Node000003_Node000035" title=" " alt="" coords="630,1779,681,1712,715,1677,753,1647,774,1635,776,1640,756,1652,718,1681,685,1716,634,1782"/>
+<area shape="rect" id="Node000036" href="$class_vecto_objects_1_1_vehicle___f_c_h_v___i_e_p_c___medium_lorry_declaration_type__v2__7.html" title=" " alt="" coords="758,1661,1010,1720"/>
+<area shape="poly" id="edge24_Node000003_Node000036" title=" " alt="" coords="655,1783,702,1755,753,1730,782,1718,784,1723,755,1734,704,1760,658,1787"/>
+<area shape="rect" id="Node000037" href="$class_vecto_objects_1_1_vehicle___f_c_h_v___i_e_p_c___primary_bus_declaration_type__v2__7.html" title=" " alt="" coords="761,1744,1007,1803"/>
+<area shape="poly" id="edge25_Node000003_Node000037" title=" " alt="" coords="721,1795,760,1789,761,1794,722,1800"/>
+<area shape="rect" id="Node000038" href="$class_vecto_objects_1_1_vehicle___h_e_v___i_e_p_c___s___heavy_lorry_declaration_type__v2__4.html" title=" " alt="" coords="758,1827,1010,1885"/>
+<area shape="poly" id="edge26_Node000003_Node000038" title=" " alt="" coords="722,1829,758,1834,757,1840,721,1834"/>
+<area shape="rect" id="Node000039" href="$class_vecto_objects_1_1_vehicle___h_e_v___i_e_p_c___s___heavy_lorry_declaration_type__v2__7.html" title=" " alt="" coords="758,1909,1010,1968"/>
+<area shape="poly" id="edge27_Node000003_Node000039" title=" " alt="" coords="658,1842,704,1869,755,1895,784,1906,782,1911,753,1900,702,1874,655,1847"/>
+<area shape="rect" id="Node000040" href="$class_vecto_objects_1_1_vehicle___h_e_v___i_e_p_c___s___medium_lorry_declaration_type__v2__4.html" title=" " alt="" coords="754,1992,1014,2051"/>
+<area shape="poly" id="edge28_Node000003_Node000040" title=" " alt="" coords="634,1847,685,1914,718,1948,756,1978,776,1989,774,1994,753,1982,715,1952,681,1917,630,1851"/>
+<area shape="rect" id="Node000041" href="$class_vecto_objects_1_1_vehicle___h_e_v___i_e_p_c___s___medium_lorry_declaration_type__v2__7.html" title=" " alt="" coords="754,2075,1014,2133"/>
+<area shape="poly" id="edge29_Node000003_Node000041" title=" " alt="" coords="625,1850,643,1898,671,1954,709,2012,731,2038,756,2061,773,2072,770,2076,753,2065,727,2041,705,2015,667,1957,638,1900,620,1852"/>
+<area shape="rect" id="Node000042" href="$class_vecto_objects_1_1_vehicle___h_e_v___i_e_p_c___s___primary_bus_declaration_type__v2__4.html" title=" " alt="" coords="758,2157,1010,2216"/>
+<area shape="poly" id="edge30_Node000003_Node000042" title=" " alt="" coords="619,1851,633,1914,659,1992,677,2033,699,2073,725,2111,756,2143,771,2155,768,2159,753,2147,721,2114,695,2076,672,2036,654,1994,628,1915,614,1852"/>
+<area shape="rect" id="Node000043" href="$class_vecto_objects_1_1_vehicle___h_e_v___i_e_p_c___s___primary_bus_declaration_type__v2__7.html" title=" " alt="" coords="758,2240,1010,2299"/>
+<area shape="poly" id="edge31_Node000003_Node000043" title=" " alt="" coords="615,1851,625,1929,648,2029,666,2083,690,2135,720,2183,756,2226,770,2237,767,2242,752,2230,715,2186,685,2137,661,2085,643,2031,620,1930,610,1852"/>
+<area shape="rect" id="Node000044" href="$class_vecto_objects_1_1_vehicle___h_e_v___px___heavy_lorry_declaration_type__v2__4.html" title=" " alt="" coords="774,2323,994,2381"/>
+<area shape="poly" id="edge32_Node000003_Node000044" title=" " alt="" coords="613,1852,618,1943,625,2002,638,2066,656,2131,681,2195,714,2256,756,2309,776,2324,773,2328,752,2313,709,2259,676,2198,651,2133,632,2067,620,2003,613,1944,607,1852"/>
+<area shape="rect" id="Node000045" href="$class_vecto_objects_1_1_vehicle___h_e_v___px___heavy_lorry_declaration_type__v2__7.html" title=" " alt="" coords="774,2405,994,2464"/>
+<area shape="poly" id="edge33_Node000003_Node000045" title=" " alt="" coords="618,1851,635,1972,664,2134,684,2216,705,2290,730,2350,756,2392,776,2407,772,2411,752,2395,725,2353,700,2292,678,2217,659,2136,630,1973,612,1852"/>
+<area shape="rect" id="Node000046" href="$class_vecto_objects_1_1_vehicle___h_e_v___px___medium_lorry_declaration_type__v2__4.html" title=" " alt="" coords="770,2488,998,2547"/>
+<area shape="poly" id="edge34_Node000003_Node000046" title=" " alt="" coords="616,1851,631,1988,659,2175,678,2270,701,2356,727,2426,741,2453,756,2474,772,2488,768,2492,752,2478,737,2456,722,2428,696,2357,673,2271,654,2176,626,1989,611,1852"/>
+<area shape="rect" id="Node000047" href="$class_vecto_objects_1_1_vehicle___h_e_v___px___medium_lorry_declaration_type__v2__7.html" title=" " alt="" coords="770,2571,998,2629"/>
+<area shape="poly" id="edge35_Node000003_Node000047" title=" " alt="" coords="615,1851,628,2004,654,2215,673,2323,696,2421,724,2502,739,2533,756,2557,772,2571,768,2575,752,2560,735,2536,719,2504,691,2423,667,2324,649,2216,623,2004,610,1852"/>
+<area shape="rect" id="Node000048" href="$class_vecto_objects_1_1_vehicle___h_e_v___px___primary_bus_declaration_type__v2__4.html" title=" " alt="" coords="774,2653,994,2712"/>
+<area shape="poly" id="edge36_Node000003_Node000048" title=" " alt="" coords="615,1851,625,2018,649,2255,667,2376,691,2486,721,2578,738,2613,756,2640,775,2656,772,2660,752,2643,733,2615,716,2580,686,2488,662,2377,643,2255,619,2019,609,1852"/>
+<area shape="rect" id="Node000049" href="$class_vecto_objects_1_1_vehicle___h_e_v___px___primary_bus_declaration_type__v2__7.html" title=" " alt="" coords="774,2736,994,2795"/>
+<area shape="poly" id="edge37_Node000003_Node000049" title=" " alt="" coords="614,1851,622,2033,631,2159,644,2294,662,2429,687,2552,718,2653,736,2692,756,2722,775,2738,772,2742,752,2726,731,2695,713,2655,681,2553,657,2430,639,2295,625,2160,617,2034,609,1852"/>
+<area shape="rect" id="Node000050" href="$class_vecto_objects_1_1_vehicle___h_e_v___sx___heavy_lorry_declaration_type__v2__4.html" title=" " alt="" coords="774,2819,994,2877"/>
+<area shape="poly" id="edge38_Node000003_Node000050" title=" " alt="" coords="613,1852,619,2048,627,2186,639,2334,657,2482,682,2617,697,2677,715,2729,734,2772,756,2805,776,2822,772,2826,752,2808,730,2775,710,2731,692,2678,677,2618,652,2482,634,2335,621,2186,614,2049,608,1852"/>
+<area shape="rect" id="Node000051" href="$class_vecto_objects_1_1_vehicle___h_e_v___sx___heavy_lorry_declaration_type__v2__7.html" title=" " alt="" coords="774,2901,994,2960"/>
+<area shape="poly" id="edge39_Node000003_Node000051" title=" " alt="" coords="613,1851,616,2062,623,2212,634,2373,652,2534,677,2682,693,2747,712,2804,733,2852,756,2888,776,2904,772,2908,752,2891,728,2854,707,2806,688,2749,672,2683,647,2535,629,2373,617,2212,611,2063,608,1852"/>
+<area shape="rect" id="Node000052" href="$class_vecto_objects_1_1_vehicle___h_e_v___sx___medium_lorry_declaration_type__v2__4.html" title=" " alt="" coords="770,2984,998,3043"/>
+<area shape="poly" id="edge40_Node000003_Node000052" title=" " alt="" coords="613,1851,614,2077,619,2237,629,2412,647,2587,673,2747,689,2818,709,2880,731,2931,756,2970,771,2984,768,2988,752,2974,726,2934,704,2881,684,2819,667,2748,641,2587,624,2412,614,2238,609,2077,607,1852"/>
+<area shape="rect" id="Node000053" href="$class_vecto_objects_1_1_vehicle___h_e_v___sx___medium_lorry_declaration_type__v2__7.html" title=" " alt="" coords="770,3067,998,3125"/>
+<area shape="poly" id="edge41_Node000003_Node000053" title=" " alt="" coords="615,1851,631,2109,661,2490,680,2683,703,2853,729,2983,742,3027,756,3053,772,3067,768,3071,752,3056,737,3029,724,2984,698,2854,675,2684,655,2491,625,2109,610,1852"/>
+<area shape="rect" id="Node000054" href="$class_vecto_objects_1_1_vehicle___h_e_v___sx___primary_bus_declaration_type__v2__4.html" title=" " alt="" coords="774,3149,994,3208"/>
+<area shape="poly" id="edge42_Node000003_Node000054" title=" " alt="" coords="615,1851,629,2124,658,2532,678,2739,701,2921,727,3060,742,3107,756,3136,775,3152,772,3156,752,3139,737,3109,722,3062,696,2922,672,2739,653,2532,624,2124,609,1852"/>
+<area shape="rect" id="Node000055" href="$class_vecto_objects_1_1_vehicle___h_e_v___sx___primary_bus_declaration_type__v2__7.html" title=" " alt="" coords="774,3232,994,3291"/>
+<area shape="poly" id="edge43_Node000003_Node000055" title=" " alt="" coords="615,1852,628,2139,656,2574,675,2794,698,2989,726,3138,741,3188,756,3218,775,3235,772,3239,752,3222,736,3190,720,3139,693,2990,670,2795,650,2574,623,2139,609,1852"/>
+<area shape="rect" id="Node000056" href="$class_vecto_objects_1_1_vehicle___i_e_p_c___heavy_lorry_declaration_type__v2__4.html" title=" " alt="" coords="784,3315,984,3373"/>
+<area shape="poly" id="edge44_Node000003_Node000056" title=" " alt="" coords="614,1852,627,2154,653,2615,673,2850,696,3057,724,3215,740,3269,756,3301,769,3313,785,3323,782,3328,766,3318,752,3304,735,3271,719,3216,691,3058,667,2850,648,2616,621,2155,609,1852"/>
+<area shape="rect" id="Node000057" href="$class_vecto_objects_1_1_vehicle___i_e_p_c___heavy_lorry_declaration_type__v2__7.html" title=" " alt="" coords="784,3397,984,3456"/>
+<area shape="poly" id="edge45_Node000003_Node000057" title=" " alt="" coords="614,1851,625,2168,651,2656,670,2905,694,3125,708,3217,723,3292,739,3349,756,3384,769,3396,785,3406,782,3410,766,3400,752,3387,734,3351,717,3294,702,3218,688,3125,665,2905,645,2656,620,2169,609,1852"/>
+<area shape="rect" id="Node000058" href="$class_vecto_objects_1_1_vehicle___i_e_p_c___medium_lorry_declaration_type__v2__4.html" title=" " alt="" coords="780,3480,988,3539"/>
+<area shape="poly" id="edge46_Node000003_Node000058" title=" " alt="" coords="614,1852,624,2184,648,2698,667,2960,691,3193,706,3290,721,3370,738,3430,756,3466,781,3487,778,3491,752,3470,733,3432,716,3371,700,3291,686,3193,662,2961,643,2698,619,2184,609,1852"/>
+<area shape="rect" id="Node000059" href="$class_vecto_objects_1_1_vehicle___i_e_p_c___medium_lorry_declaration_type__v2__7.html" title=" " alt="" coords="780,3563,988,3621"/>
+<area shape="poly" id="edge47_Node000003_Node000059" title=" " alt="" coords="614,1851,623,2198,646,2739,665,3015,689,3260,703,3363,720,3447,737,3511,756,3549,781,3570,778,3574,752,3552,732,3512,714,3448,698,3364,684,3261,659,3016,641,2739,617,2198,608,1852"/>
+<area shape="rect" id="Node000060" href="$class_vecto_objects_1_1_vehicle___i_e_p_c___primary_bus_declaration_type__v2__4.html" title=" " alt="" coords="783,3645,985,3704"/>
+<area shape="poly" id="edge48_Node000003_Node000060" title=" " alt="" coords="614,1851,621,2213,630,2484,644,2780,662,3070,687,3328,701,3436,718,3525,736,3591,756,3632,769,3644,785,3654,782,3659,766,3648,752,3635,731,3593,713,3526,696,3436,681,3328,657,3071,638,2780,625,2485,616,2213,608,1851"/>
+</map>
