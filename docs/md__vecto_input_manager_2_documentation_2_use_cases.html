@@ -106,24 +106,24 @@ Use Case 1: Interactive Vehicle Information Entry</h2>
 <p>The user starts the tool with a parameter for interactive input about vehicle information. The system prints a list of available vehicle types. The user selects a vehicle type and the system requests input for all vehicle properties. For each property, the system prints the possible value range or enumerated values. At the end, the system saves the information to a JSON file.</p>
 <p><b>Command example:</b> </p><div class="fragment"><div class="line">vectoim job -t vehicle -o vehicle_info.json</div>
 <div class="line">vectoim job MultiSHEVHeavyLorry_v2_7 -t vehicle -o vehicle_info_shev.json</div>
-</div><!-- fragment --><p> ?? The second command chooses directly a vehicle type. For a list of supported vehicles, use the command <span class="tt">vectoim job -l</span>.</p>
+</div><!-- fragment --><p> The second command chooses directly a vehicle type. For a list of supported vehicles, use the command <span class="tt">vectoim job -l</span>.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md60"></a>
 Use Case 2: Interactive Vehicle Information Entry with Components</h2>
 <p>The user starts the tool with a parameter for interactive input about vehicle information and a list of XML component files. The system validates the XML components and if there is invalid input, it prints appropriate error messages and terminates. The user inputs the vehicle information as in the previous use case. When the user inputs the vehicle type, if the components don't match the vehicle type, the system prints an appropriate error message and requests the vehicle type again. At the end, the system saves the information to a JSON file and also produces a valid VECTO job XML.</p>
 <p><b>Command example:</b> </p><div class="fragment"><div class="line">vectoim job -i *.xml -t vehicle -o newvehicle1/output.xml</div>
 <div class="line">vectoim job -i newvehicle1/output.xml -o newvehicle1/output.json</div>
-</div><!-- fragment --><p>?? The second command effectively converts the vehicle job file (output.xml) from the first command to JSON format (output.json). The opposite is also supported.</p>
+</div><!-- fragment --><p>The second command effectively converts the vehicle job file (output.xml) from the first command to JSON format (output.json). The opposite is also supported.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md61"></a>
 Use Case 3: Components and JSON Vehicle Information</h2>
 <p>The user starts the tool with a list of XML component files and a JSON vehicle information file (created previously by interacting with the tool). The system validates the XML components and information in the JSON vehicle file against the vehicle type and if there is invalid input, it prints appropriate error messages and terminates. If all is OK, the system produces a valid VECTO job XML.</p>
 <p><b>Command example:</b> </p><div class="fragment"><div class="line">vectoim job -i vehicle_info.json -i *.xml -o newvehicle/output.xml</div>
-</div><!-- fragment --><p>?? Note that some components are deeply nested into other placeholder objects, like tyres (for each axle), REESS, or even multiple gearboxes, retarders, etc. for multiple powertrain vehicles. In these cases, the vehicle JSON should be prepared with the placeholder objects and the component files should be named using a specific format. See below for more information.</p>
-<p>?? In all cases of Vehicle Job generation, a *.report.txt file is also created with a detailed report of which components were used in the generation plus any other errors observed.</p>
+</div><!-- fragment --><p>Note that some components are deeply nested into other placeholder objects, like tyres (for each axle), REESS, or even multiple gearboxes, retarders, etc. for multiple powertrain vehicles. In these cases, the vehicle JSON should be prepared with the placeholder objects and the component files should be named using a specific format. See below for more information.</p>
+<p>In all cases of Vehicle Job generation, a *.report.txt file is also created with a detailed report of which components were used in the generation plus any other errors observed.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md62"></a>
 Use Case 4: Replace Components in Existing Vehicle Job</h2>
 <p>The user starts the tool with a list of XML component files and a valid XML job file. The system validates the XML components, the job XML, the matching of vehicle type and components, and if there is invalid input, it prints appropriate error messages and terminates. If all is OK, the system produces a valid VECTO job XML where the input components have replaced the related existing ones.</p>
 <p><b>Command example:</b> </p><div class="fragment"><div class="line">vectoim job -i *.xml -o modifiedvehicle/vehicle.xml</div>
-</div><!-- fragment --><p>?? After the command run, the vehicle.report.txt will display details of the execution. Example output (from a Multiple PEV PrimaryBus vehicle):</p>
+</div><!-- fragment --><p>After the command run, the vehicle.report.txt will display details of the execution. Example output (from a Multiple PEV PrimaryBus vehicle):</p>
 <div class="fragment"><div class="line">=== VEHICLE COMPONENTS ===</div>
 <div class="line">Components.ElectricEnergyStorage.Battery[0].REESS              -&gt; Components.ElectricEnergyStorage.Battery[0].REESS.xml</div>
 <div class="line">Components.ElectricEnergyStorage.Battery[1].REESS              -&gt; Components.ElectricEnergyStorage.Battery[1].REESS.xml</div>
@@ -152,7 +152,7 @@ Use Case 4: Replace Components in Existing Vehicle Job</h2>
 Use Case 5: Extract Vehicle Information to JSON</h2>
 <p>The user starts the tool with a valid XML job file. The system validates the job XML and if there is invalid input, it prints an appropriate error message and terminates. The system saves the vehicle information (no components) to a JSON file.</p>
 <p><b>Command example:</b> </p><div class="fragment"><div class="line">vectoim json -i .\Multiple_PEV_E2_IEPC_PrimaryBus.xml -o ./folder -r</div>
-</div><!-- fragment --><p>?? The <span class="tt">-r</span> parameter will remove all components. The output JSON however has all the "placeholder" components, so it's compatible with <b>Use Case 3</b>. Example output:</p>
+</div><!-- fragment --><p>The <span class="tt">-r</span> parameter will remove all components. The output JSON however has all the "placeholder" components, so it's compatible with <b>Use Case 3</b>. Example output:</p>
 <div class="fragment"><div class="line">...</div>
 <div class="line">&quot;Powertrain&quot;: {</div>
 <div class="line">  &quot;$type&quot;: &quot;[Abstract_xEV_Powertrain_Type_v2_7]&quot;,</div>
@@ -185,7 +185,7 @@ Use Case 5: Extract Vehicle Information to JSON</h2>
 <div class="line">...</div>
 </div><!-- fragment --><p>Running this JSON with the command in <b>Use Case 3</b> and components with file names such as:</p>
 <p><span class="tt">Components.Powertrain[1].IEPC.json</span>, <span class="tt">Components.Powertrain[0].Axlegear.json</span> would correctly recreate the original vehicle.</p>
-<p>?? This command also accepts a wildcard to convert multiple vehicles at once.</p>
+<p>This command also accepts a wildcard to convert multiple vehicles at once.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md64"></a>
 Extra Use Case: Update Component Hashes and Validate Vehicle Job</h2>
 <p>The user can simply input a single vehicle XML job. The command will recreate the entire vehicle based on the latest schema and rehash all components. Validation errors and any previously wrong hashes will be reported in the <span class="tt">*.report.txt</span> file.</p>
@@ -200,7 +200,7 @@ Extra Use Case: Overwrite a Value of a Vehicle Job from the Command Line</h2>
 <p><b>Command example:</b> </p><div class="fragment"><div class="line">vectoim job -i .\Multiple_PEV_E2_IEPC_PrimaryBus.xml -o version.xml -m Model=Variation1 -m Components.ElectricEnergyStorage.Battery[1].DeteriorationPerformanceRatio=10</div>
 <div class="line"> </div>
 <div class="line">vectoim job -i .\Multiple_PEV_E2_IEPC_PrimaryBus.xml -o version.xml -m Components.ElectricEnergyStorage.Battery[1]=No</div>
-</div><!-- fragment --><p>?? The first command modifies a value nested in an array. The second command is an example of removing the entire object of the second item of an array.</p>
+</div><!-- fragment --><p>The first command modifies a value nested in an array. The second command is an example of removing the entire object of the second item of an array.</p>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md67"></a>
 Standard Values Tool (<span class="tt">sv</span> command)</h1>
 <p>See below for various use cases of the Standard Values Tool.</p>
@@ -208,19 +208,19 @@ Standard Values Tool (<span class="tt">sv</span> command)</h1>
 Use Case 1: Create Standard Component from JSON Input</h2>
 <p>The user starts the tool with a JSON file containing component information. The system validates the input for correctness and completion. If there is an error, the system prints the appropriate error message and terminates. Otherwise, if all necessary information is given, the system calculates the standard values and creates an XML component file with standard values where appropriate.</p>
 <p><b>Command example:</b> </p><div class="fragment"><div class="line">vectoim sv -i battery_input.json -o battery_component.xml</div>
-</div><!-- fragment --><p>?? For an example component input JSON, use the command <span class="tt">vectoim sv fuelcell -e</span>.</p>
-<p>?? For a list of supported components, use the command <span class="tt">vectoim sv -l</span>.</p>
+</div><!-- fragment --><p>For an example component input JSON, use the command <span class="tt">vectoim sv fuelcell -e</span>.</p>
+<p>For a list of supported components, use the command <span class="tt">vectoim sv -l</span>.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md69"></a>
 Use Case 2: Interactive Standard Component Creation</h2>
 <p>The user starts the tool with a parameter indicating that they will provide input interactively. The system requests all the information from the user interactively by asking for the component type and the respective information. When all necessary information is given, the system calculates the standard values and creates an XML component file with standard values where appropriate.</p>
 <p><b>Command example:</b> </p><div class="fragment"><div class="line">vectoim sv battery -t -o battery_component.xml</div>
 </div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md70"></a>
 Extra Use Case: Mix Input File and Interactive Mode</h2>
-<p>?? In this case, the interactive mode has as a default value the value found in the JSON. The user may click enter to accept it, or input a different value.</p>
+<p>In this case, the interactive mode has as a default value the value found in the JSON. The user may click enter to accept it, or input a different value.</p>
 <p><b>Command example:</b> </p><div class="fragment"><div class="line">vectoim sv battery -t -i battery.json -o battery_component.xml</div>
 </div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md71"></a>
 Extra Use Case: Mix Input File and Parameter Value Input</h2>
-<p>?? Any property can be overwritten from the command line. Multiple <span class="tt">-m</span> are also supported.</p>
+<p>Any property can be overwritten from the command line. Multiple <span class="tt">-m</span> are also supported.</p>
 <p><b>Command example:</b> </p><div class="fragment"><div class="line">vectoim sv -i fuelcell.json -o fuelcell.xml -m FCSRatedPower=200</div>
 </div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- PageDoc -->
