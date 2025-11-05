@@ -11,7 +11,6 @@ var searchData=
   ['xev_5fiepc_5fpowertrain_5fdatatype_5fv2_5f7_8',['xEV_IEPC_Powertrain_DataType_v2_7',['../class_vecto_objects_1_1x_e_v___i_e_p_c___powertrain___data_type__v2__7.html',1,'VectoObjects']]],
   ['xev_5fiepc_5fpowertrain_5ftype_5fv2_5f7_9',['xEV_IEPC_Powertrain_Type_v2_7',['../class_vecto_objects_1_1x_e_v___i_e_p_c___powertrain___type__v2__7.html',1,'VectoObjects']]],
   ['xml_20format_10',['Extracting to XML Format',['../md__vecto_input_manager_2_documentation_2_quickstart.html#autotoc_md38',1,'']]],
-  ['xml_20to_20json_11',['XML to JSON',['../md__vecto_input_manager_2_r_e_a_d_m_e.html#autotoc_md22',1,'2. Convert XML to JSON'],['../md__vecto_input_manager_2_r_e_a_d_m_e.html#autotoc_md18',1,'&lt;span class=&quot;tt&quot;&gt;xmltojson&lt;/span&gt; - Convert XML to JSON']]],
-  ['xmltojson_20convert_20xml_20to_20json_12',['&lt;span class=&quot;tt&quot;&gt;xmltojson&lt;/span&gt; - Convert XML to JSON',['../md__vecto_input_manager_2_r_e_a_d_m_e.html#autotoc_md18',1,'']]],
-  ['xmlutils_13',['XmlUtils',['../class_vecto_input_manager_1_1_core_1_1_xml_utils.html',1,'VectoInputManager::Core']]]
+  ['xml_20to_20json_11',['XML to JSON',['../md__vecto_input_manager_2_r_e_a_d_m_e.html#autotoc_md22',1,'2. Convert XML to JSON'],['../md__vecto_input_manager_2_r_e_a_d_m_e.html#autotoc_md18',1,'&lt;span class=&quot;tt&quot;&gt;json&lt;/span&gt; - Convert XML to JSON']]],
+  ['xmlutils_12',['XmlUtils',['../class_vecto_input_manager_1_1_core_1_1_xml_utils.html',1,'VectoInputManager::Core']]]
 ];

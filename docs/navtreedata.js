@@ -42,7 +42,7 @@ var NAVTREE =
         [ "<span class=\"tt\">sv</span> - Create Standard Value Components", "md__vecto_input_manager_2_r_e_a_d_m_e.html#autotoc_md12", null ],
         [ "<span class=\"tt\">job</span> - Create Vehicle Jobs", "md__vecto_input_manager_2_r_e_a_d_m_e.html#autotoc_md14", null ],
         [ "<span class=\"tt\">extract</span> - Extract Components from Vehicle", "md__vecto_input_manager_2_r_e_a_d_m_e.html#autotoc_md16", null ],
-        [ "<span class=\"tt\">xmltojson</span> - Convert XML to JSON", "md__vecto_input_manager_2_r_e_a_d_m_e.html#autotoc_md18", null ]
+        [ "<span class=\"tt\">json</span> - Convert XML to JSON", "md__vecto_input_manager_2_r_e_a_d_m_e.html#autotoc_md18", null ]
       ] ],
       [ "Usage Examples", "md__vecto_input_manager_2_r_e_a_d_m_e.html#autotoc_md20", [
         [ "1. Extract Components from a Vehicle", "md__vecto_input_manager_2_r_e_a_d_m_e.html#autotoc_md21", null ],

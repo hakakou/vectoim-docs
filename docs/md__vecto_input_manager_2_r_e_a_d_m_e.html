@@ -240,7 +240,7 @@ Command Reference</h1>
 <div class="line">                                options: xml, json, both. Default is xml</div>
 </div><!-- fragment --><hr  />
 <h2 class="doxsection"><a class="anchor" id="autotoc_md18"></a>
-<span class="tt">xmltojson</span> - Convert XML to JSON</h2>
+<span class="tt">json</span> - Convert XML to JSON</h2>
 <div class="fragment"><div class="line">DESCRIPTION:</div>
 <div class="line">Convert XML vehicle and component files to JSON format</div>
 <div class="line"> </div>
@@ -267,9 +267,9 @@ Usage Examples</h1>
 </div><!-- fragment --><p>Extract to both XML and JSON formats: </p><div class="fragment"><div class="line">vectoim extract -i vehicle.xml -o ./output -f both</div>
 </div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md22"></a>
 2. Convert XML to JSON</h2>
-<p>Convert a vehicle XML file to JSON: </p><div class="fragment"><div class="line">vectoim xmltojson -i vehicle.xml -o ./json</div>
-</div><!-- fragment --><p>Convert multiple files with wildcards: </p><div class="fragment"><div class="line">vectoim xmltojson -i *.xml -o ./json_output</div>
-</div><!-- fragment --><p>Remove components before converting: </p><div class="fragment"><div class="line">vectoim xmltojson -i vehicle*.xml -o ./json --remove-components</div>
+<p>Convert a vehicle XML file to JSON: </p><div class="fragment"><div class="line">vectoim json -i vehicle.xml -o ./json</div>
+</div><!-- fragment --><p>Convert multiple files with wildcards: </p><div class="fragment"><div class="line">vectoim json -i *.xml -o ./json_output</div>
+</div><!-- fragment --><p>Remove components before converting: </p><div class="fragment"><div class="line">vectoim json -i vehicle*.xml -o ./json --remove-components</div>
 </div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md23"></a>
 3. Create Standard Value Components</h2>
 <p>List all available standard value component types: </p><div class="fragment"><div class="line">vectoim sv --list</div>
