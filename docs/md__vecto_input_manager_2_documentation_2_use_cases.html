@@ -151,7 +151,7 @@ Use Case 4: Replace Components in Existing Vehicle Job</h2>
 </div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md63"></a>
 Use Case 5: Extract Vehicle Information to JSON</h2>
 <p>The user starts the tool with a valid XML job file. The system validates the job XML and if there is invalid input, it prints an appropriate error message and terminates. The system saves the vehicle information (no components) to a JSON file.</p>
-<p><b>Command example:</b> </p><div class="fragment"><div class="line">vectoim xmltojson -i .\Multiple_PEV_E2_IEPC_PrimaryBus.xml -o ./folder -r</div>
+<p><b>Command example:</b> </p><div class="fragment"><div class="line">vectoim json -i .\Multiple_PEV_E2_IEPC_PrimaryBus.xml -o ./folder -r</div>
 </div><!-- fragment --><p>💡 The <span class="tt">-r</span> parameter will remove all components. The output JSON however has all the "placeholder" components, so it's compatible with <b>Use Case 3</b>. Example output:</p>
 <div class="fragment"><div class="line">...</div>
 <div class="line">&quot;Powertrain&quot;: {</div>

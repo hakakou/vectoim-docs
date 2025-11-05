@@ -139,13 +139,13 @@ Main Commands</h1>
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Command  </th><th class="markdownTableHeadNone">Description  </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><span class="tt">extract</span>  </td><td class="markdownTableBodyNone">Extract components from vehicle XML files  </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><span class="tt">xmltojson</span>  </td><td class="markdownTableBodyNone">Convert XML files to JSON format  </td></tr>
-<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><span class="tt">sv</span>  </td><td class="markdownTableBodyNone">Create standard value components  </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><span class="tt">job</span>  </td><td class="markdownTableBodyNone">Build vehicle jobs from components  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">extract</span>  </td><td class="markdownTableBodyNone">Extract components from vehicle XML files  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">json</span>  </td><td class="markdownTableBodyNone">Convert XML files to JSON format  </td></tr>
 </table>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md10"></a>
 Help and Documentation</h2>
@@ -193,7 +193,7 @@ Command Reference</h1>
 <div class="line">    vectoim job [vehicle] [OPTIONS]</div>
 <div class="line"> </div>
 <div class="line">EXAMPLES:</div>
-<div class="line">    vectoim job</div>
+<div class="line">    vectoim job -i vehicle.xml -i component_*.xml -o new_vehicle.xml</div>
 <div class="line"> </div>
 <div class="line">ARGUMENTS:</div>
 <div class="line">    [vehicle]    The vehicle type to create</div>
@@ -245,10 +245,10 @@ Command Reference</h1>
 <div class="line">Convert XML vehicle and component files to JSON format</div>
 <div class="line"> </div>
 <div class="line">USAGE:</div>
-<div class="line">    vectoim xmltojson [OPTIONS]</div>
+<div class="line">    vectoim json [OPTIONS]</div>
 <div class="line"> </div>
 <div class="line">EXAMPLES:</div>
-<div class="line">    vectoim xml-to-json -i vehicle*.xml -o ./json --remove-components</div>
+<div class="line">    vectoim json -i vehicle*.xml -o ./json --remove-components</div>
 <div class="line"> </div>
 <div class="line">OPTIONS:</div>
 <div class="line">    -h, --help                 Prints help information                          </div>
