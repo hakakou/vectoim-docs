@@ -1,0 +1,4 @@
+var class_vecto_objects_1_1_axlegear_data_declaration_type_torque_loss_map__v1__0 =
+[
+    [ "AxlegearDataDeclarationTypeTorqueLossMap_v1_0", "class_vecto_objects_1_1_axlegear_data_declaration_type_torque_loss_map__v1__0.html#aa69e92be8555509b09d3cab9c16f2431", null ]
+];

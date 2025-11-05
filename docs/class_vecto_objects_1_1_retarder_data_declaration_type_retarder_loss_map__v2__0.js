@@ -1,0 +1,4 @@
+var class_vecto_objects_1_1_retarder_data_declaration_type_retarder_loss_map__v2__0 =
+[
+    [ "RetarderDataDeclarationTypeRetarderLossMap_v2_0", "class_vecto_objects_1_1_retarder_data_declaration_type_retarder_loss_map__v2__0.html#a3664cff57f7c3a3ff05bf573940ae91d", null ]
+];

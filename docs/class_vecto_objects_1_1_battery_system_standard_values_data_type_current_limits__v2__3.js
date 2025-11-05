@@ -1,0 +1,4 @@
+var class_vecto_objects_1_1_battery_system_standard_values_data_type_current_limits__v2__3 =
+[
+    [ "BatterySystemStandardValuesDataTypeCurrentLimits_v2_3", "class_vecto_objects_1_1_battery_system_standard_values_data_type_current_limits__v2__3.html#ab6fab7bb35ae2ed063644263af15e6c0", null ]
+];

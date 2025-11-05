@@ -1,0 +1,5 @@
+var class_vecto_objects_1_1_electric_machine_torque_limits_type_electric_machine_voltage_level__v2__4 =
+[
+    [ "ElectricMachineTorqueLimitsTypeElectricMachineVoltageLevel_v2_4", "class_vecto_objects_1_1_electric_machine_torque_limits_type_electric_machine_voltage_level__v2__4.html#a2c30c216ee949a06fbef3ae23f64ddb2", null ],
+    [ "Voltage", "class_vecto_objects_1_1_electric_machine_torque_limits_type_electric_machine_voltage_level__v2__4.html#a9f7e6a60dd3772d0efdb66b8acb8eb3d", null ]
+];

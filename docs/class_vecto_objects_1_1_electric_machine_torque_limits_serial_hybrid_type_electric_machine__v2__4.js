@@ -1,0 +1,4 @@
+var class_vecto_objects_1_1_electric_machine_torque_limits_serial_hybrid_type_electric_machine__v2__4 =
+[
+    [ "ElectricMachineTorqueLimitsSerialHybridTypeElectricMachine_v2_4", "class_vecto_objects_1_1_electric_machine_torque_limits_serial_hybrid_type_electric_machine__v2__4.html#abf0fd12e398ff667814c66c3d661c5b2", null ]
+];

@@ -1,0 +1,4 @@
+var class_vecto_objects_1_1_i_e_p_c_standard_values_data_declaration_type_drag_curve__v2__3 =
+[
+    [ "IEPCStandardValuesDataDeclarationTypeDragCurve_v2_3", "class_vecto_objects_1_1_i_e_p_c_standard_values_data_declaration_type_drag_curve__v2__3.html#a47724e48cdb79fb10abef3ab03e84273", null ]
+];

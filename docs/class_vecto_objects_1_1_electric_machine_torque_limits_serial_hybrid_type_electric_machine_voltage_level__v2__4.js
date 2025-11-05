@@ -1,0 +1,5 @@
+var class_vecto_objects_1_1_electric_machine_torque_limits_serial_hybrid_type_electric_machine_voltage_level__v2__4 =
+[
+    [ "ElectricMachineTorqueLimitsSerialHybridTypeElectricMachineVoltageLevel_v2_4", "class_vecto_objects_1_1_electric_machine_torque_limits_serial_hybrid_type_electric_machine_voltage_level__v2__4.html#ab07b6237132542822057549e504c1e90", null ],
+    [ "Voltage", "class_vecto_objects_1_1_electric_machine_torque_limits_serial_hybrid_type_electric_machine_voltage_level__v2__4.html#a229ef9ccfe7af8cb0d153c520d54a694", null ]
+];

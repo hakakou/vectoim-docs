@@ -1,0 +1,4 @@
+var class_vecto_objects_1_1_electric_machine_system_limits_max_torque_curve_type__v2__7 =
+[
+    [ "ElectricMachineSystemLimitsMaxTorqueCurveType_v2_7", "class_vecto_objects_1_1_electric_machine_system_limits_max_torque_curve_type__v2__7.html#a1a2f837860bdb43a634763b4c26287f1", null ]
+];

@@ -1,0 +1,4 @@
+var class_vecto_objects_1_1_electric_machine_system_measured_data_declaration_type_drag_curve__v2__3 =
+[
+    [ "ElectricMachineSystemMeasuredDataDeclarationTypeDragCurve_v2_3", "class_vecto_objects_1_1_electric_machine_system_measured_data_declaration_type_drag_curve__v2__3.html#a63f0b32f2031a28aa808dbd373ff7350", null ]
+];

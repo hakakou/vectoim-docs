@@ -1,0 +1,5 @@
+var class_vecto_objects_1_1_bus_aux_h_v_a_c_conventional_sequence_group_heat_pump_type_passenger_compartment__v2__7 =
+[
+    [ "Cooling", "class_vecto_objects_1_1_bus_aux_h_v_a_c_conventional_sequence_group_heat_pump_type_passenger_compartment__v2__7.html#ada935684800520b9377ea3402036f169", null ],
+    [ "Heating", "class_vecto_objects_1_1_bus_aux_h_v_a_c_conventional_sequence_group_heat_pump_type_passenger_compartment__v2__7.html#a979b0de0e05be9f96e3d62bf096c8428", null ]
+];

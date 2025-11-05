@@ -1,0 +1,4 @@
+var class_vecto_objects_1_1_components___multiple___p_e_v___lorry_declaration_type__v2__7 =
+[
+    [ "Components_Multiple_PEV_LorryDeclarationType_v2_7", "class_vecto_objects_1_1_components___multiple___p_e_v___lorry_declaration_type__v2__7.html#a38db9abe0a95b9af982510b2101ccb0e", null ]
+];

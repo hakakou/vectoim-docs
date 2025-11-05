@@ -1,0 +1,4 @@
+var class_vecto_objects_1_1_electric_machine_system_i_h_p_c_voltage_level_measured_type_max_torque_curve__v2__3 =
+[
+    [ "ElectricMachineSystemIHPCVoltageLevelMeasuredTypeMaxTorqueCurve_v2_3", "class_vecto_objects_1_1_electric_machine_system_i_h_p_c_voltage_level_measured_type_max_torque_curve__v2__3.html#af4a265746d26a9f26ce12738add3b5da", null ]
+];

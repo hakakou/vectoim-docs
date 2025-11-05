@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['gearboxdatadeclarationtype_5fv1_5f0_0',['GearboxDataDeclarationType_v1_0',['../class_vecto_objects_1_1_gearbox_data_declaration_type__v1__0.html#a634a20548d05be00bd714c77793070d1',1,'VectoObjects::GearboxDataDeclarationType_v1_0']]],
+  ['gearboxdatadeclarationtypegears_5fv1_5f0_1',['GearboxDataDeclarationTypeGears_v1_0',['../class_vecto_objects_1_1_gearbox_data_declaration_type_gears__v1__0.html#a2a566fd742421b6c83417a6f94fd1c68',1,'VectoObjects::GearboxDataDeclarationTypeGears_v1_0']]],
+  ['geardeclarationtypetorquelossmap_5fv1_5f0_2',['GearDeclarationTypeTorqueLossMap_v1_0',['../class_vecto_objects_1_1_gear_declaration_type_torque_loss_map__v1__0.html#a297b7c52f10276db6955d04f4476d7b8',1,'VectoObjects::GearDeclarationTypeTorqueLossMap_v1_0']]],
+  ['geardeclarationtypetorquelossmap_5fv2_5f0_3',['GearDeclarationTypeTorqueLossMap_v2_0',['../class_vecto_objects_1_1_gear_declaration_type_torque_loss_map__v2__0.html#a3f092c319116cd53d7d2b536c82da0ed',1,'VectoObjects::GearDeclarationTypeTorqueLossMap_v2_0']]],
+  ['gearsdeclarationtype_5fv2_5f0_4',['GearsDeclarationType_v2_0',['../class_vecto_objects_1_1_gears_declaration_type__v2__0.html#a09429d294c3d466133a5ce7d182ba971',1,'VectoObjects::GearsDeclarationType_v2_0']]],
+  ['getallcomponentdeclarationtypes_5',['GetAllComponentDeclarationTypes',['../class_vecto_input_manager_1_1_core_1_1_type_utils.html#a08e8538645245ce515217dff88ed5afe',1,'VectoInputManager::Core::TypeUtils']]],
+  ['getallvehicletypes_6',['GetAllVehicleTypes',['../class_vecto_input_manager_1_1_core_1_1_type_utils.html#a313f786d95c65190e424a90386d928cf',1,'VectoInputManager::Core::TypeUtils']]],
+  ['getbatteryresistance_7',['GetBatteryResistance',['../class_vecto_input_manager_1_1_core_1_1_data.html#a5aa7b48de7678b6a3441468613c42b17',1,'VectoInputManager::Core::Data']]],
+  ['getcurrentlimits_8',['GetCurrentLimits',['../class_vecto_input_manager_1_1_core_1_1_data.html#a40a365c5a06f006ae8eee9412bfdde26',1,'VectoInputManager::Core::Data']]],
+  ['getemstandard_9',['GetEMStandard',['../class_vecto_input_manager_1_1_core_1_1_data.html#aa00fc36b69edb15a49884e1c2c78f2c8',1,'VectoInputManager::Core::Data']]],
+  ['getfuelcellefficiency_10',['GetFuelCellEfficiency',['../class_vecto_input_manager_1_1_core_1_1_data.html#aa43626754b2c9d4a5444db8af138bba4',1,'VectoInputManager::Core::Data']]],
+  ['getocv_11',['GetOCV',['../class_vecto_input_manager_1_1_core_1_1_data.html#ad6d1539f837eec7b57f605c1fb57e124',1,'VectoInputManager::Core::Data']]],
+  ['getselfanddescendanttypes_12',['GetSelfAndDescendantTypes',['../class_vecto_input_manager_1_1_core_1_1_type_utils.html#a9a6517f950726d8bb93564fb38019ca6',1,'VectoInputManager::Core::TypeUtils']]],
+  ['gettypebyname_13',['GetTypeByName',['../class_vecto_input_manager_1_1_core_1_1_type_utils.html#a2bc1981de97d33b38dbbbb4c445d4cd5',1,'VectoInputManager::Core::TypeUtils']]],
+  ['gettypebynameornull_14',['GetTypeByNameOrNull',['../class_vecto_input_manager_1_1_core_1_1_type_utils.html#ab39175e64ec0b0c2dd8cfb7e1ac9d417',1,'VectoInputManager::Core::TypeUtils']]],
+  ['gettypebynamestandardvalues_15',['GetTypeByNameStandardValues',['../class_vecto_input_manager_1_1_core_1_1_type_utils.html#a419397778eb3081f1e60bc551e6666ab',1,'VectoInputManager::Core::TypeUtils']]],
+  ['getvehicletypes_16',['GetVehicleTypes',['../class_vecto_input_manager_1_1_core_1_1_data.html#ab64fb0f3f586b6df8622e82fe8435924',1,'VectoInputManager::Core::Data']]]
+];

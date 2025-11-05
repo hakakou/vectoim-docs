@@ -1,0 +1,25 @@
+var class_vecto_objects_1_1_vehicle___i_e_p_c___medium_lorry_declaration_type__v2__7 =
+[
+    [ "AngledriveType", "class_vecto_objects_1_1_vehicle___i_e_p_c___medium_lorry_declaration_type__v2__7.html#a9d60505e86e217fb35c9a1c2c74567ae", null ],
+    [ "ArchitectureID", "class_vecto_objects_1_1_vehicle___i_e_p_c___medium_lorry_declaration_type__v2__7.html#a0439bc354fbcaac3bec3e992d6f6edb7", null ],
+    [ "AxleConfiguration", "class_vecto_objects_1_1_vehicle___i_e_p_c___medium_lorry_declaration_type__v2__7.html#ad8ddc2a189a0f76c06e63014a01b9b2f", null ],
+    [ "BatteryOnlyMode", "class_vecto_objects_1_1_vehicle___i_e_p_c___medium_lorry_declaration_type__v2__7.html#ae0464d9c3db87a762513bcf8ed63dde7", null ],
+    [ "CargoVolume", "class_vecto_objects_1_1_vehicle___i_e_p_c___medium_lorry_declaration_type__v2__7.html#afbc2f1d4952a8a25c65efee4947fd64d", null ],
+    [ "CargoVolumeValue", "class_vecto_objects_1_1_vehicle___i_e_p_c___medium_lorry_declaration_type__v2__7.html#af3d793aeb4c5c61b7933586e54b8584d", null ],
+    [ "ChassisConfiguration", "class_vecto_objects_1_1_vehicle___i_e_p_c___medium_lorry_declaration_type__v2__7.html#ad4af93f38f4fc33e0d8a140337be103a", null ],
+    [ "CorrectedActualMass", "class_vecto_objects_1_1_vehicle___i_e_p_c___medium_lorry_declaration_type__v2__7.html#acfb56f37520c25c1d5c209c5f437e845", null ],
+    [ "Date", "class_vecto_objects_1_1_vehicle___i_e_p_c___medium_lorry_declaration_type__v2__7.html#af30cbfe78de61369cf0eadf16707423f", null ],
+    [ "LegislativeCategory", "class_vecto_objects_1_1_vehicle___i_e_p_c___medium_lorry_declaration_type__v2__7.html#a31af562b8ffd8f4cf00f6276563b00e3", null ],
+    [ "Manufacturer", "class_vecto_objects_1_1_vehicle___i_e_p_c___medium_lorry_declaration_type__v2__7.html#a5913699dc3fca48098b5d27a47707bbd", null ],
+    [ "ManufacturerAddress", "class_vecto_objects_1_1_vehicle___i_e_p_c___medium_lorry_declaration_type__v2__7.html#a912dc0d8a817363854ebf22586e07680", null ],
+    [ "Model", "class_vecto_objects_1_1_vehicle___i_e_p_c___medium_lorry_declaration_type__v2__7.html#a085411e2d53b6eb2d64ab542e8c5a924", null ],
+    [ "OVC", "class_vecto_objects_1_1_vehicle___i_e_p_c___medium_lorry_declaration_type__v2__7.html#a2f0588385fa97922b94d162588c988b7", null ],
+    [ "RetarderRatio", "class_vecto_objects_1_1_vehicle___i_e_p_c___medium_lorry_declaration_type__v2__7.html#a1fd6a469a1e67e85368528300a140bb6", null ],
+    [ "RetarderRatioValue", "class_vecto_objects_1_1_vehicle___i_e_p_c___medium_lorry_declaration_type__v2__7.html#a42f4ed624764a03459f8e2b6d65c6370", null ],
+    [ "RetarderType", "class_vecto_objects_1_1_vehicle___i_e_p_c___medium_lorry_declaration_type__v2__7.html#a31f97aac468b5944c05fbd726dc829b2", null ],
+    [ "SimulationToolLicenseNumber", "class_vecto_objects_1_1_vehicle___i_e_p_c___medium_lorry_declaration_type__v2__7.html#a94de50ec54150693bde727ad06ac8981", null ],
+    [ "TechnicalPermissibleMaximumLadenMass", "class_vecto_objects_1_1_vehicle___i_e_p_c___medium_lorry_declaration_type__v2__7.html#ad9d1be2180fd5a67527d9275234bb6b2", null ],
+    [ "VehicleTypeApprovalNumber", "class_vecto_objects_1_1_vehicle___i_e_p_c___medium_lorry_declaration_type__v2__7.html#a854b6dd389cf278e1178a3ff05db13e3", null ],
+    [ "VIN", "class_vecto_objects_1_1_vehicle___i_e_p_c___medium_lorry_declaration_type__v2__7.html#a264456743b0a41d59adcf42231744bcf", null ],
+    [ "ZeroEmissionVehicle", "class_vecto_objects_1_1_vehicle___i_e_p_c___medium_lorry_declaration_type__v2__7.html#a5a83fca801008c070ae86d036000f38f", null ]
+];

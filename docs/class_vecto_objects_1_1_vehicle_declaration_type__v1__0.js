@@ -1,0 +1,26 @@
+var class_vecto_objects_1_1_vehicle_declaration_type__v1__0 =
+[
+    [ "VehicleDeclarationType_v1_0", "class_vecto_objects_1_1_vehicle_declaration_type__v1__0.html#a7ad79f3b38619ed29df7d48b3c0ae81f", null ],
+    [ "AngledriveType", "class_vecto_objects_1_1_vehicle_declaration_type__v1__0.html#a52c4644972ac333c8bd223194be8c4dd", null ],
+    [ "AngledriveTypeValue", "class_vecto_objects_1_1_vehicle_declaration_type__v1__0.html#a92f06808b9579badf9cff37256cf7d47", null ],
+    [ "DualFuelVehicle", "class_vecto_objects_1_1_vehicle_declaration_type__v1__0.html#a02d3b14cb623eabc87ab53acdcf5360c", null ],
+    [ "DualFuelVehicleValue", "class_vecto_objects_1_1_vehicle_declaration_type__v1__0.html#a18b8c2d85baff538b2b30fa44ebecdd6", null ],
+    [ "HybridElectricHDV", "class_vecto_objects_1_1_vehicle_declaration_type__v1__0.html#a9380df796254880ba38281c8a0ec94e6", null ],
+    [ "HybridElectricHDVValue", "class_vecto_objects_1_1_vehicle_declaration_type__v1__0.html#a1f8e88dadaa65a2c96cecb80b483ba1b", null ],
+    [ "IdlingSpeed", "class_vecto_objects_1_1_vehicle_declaration_type__v1__0.html#ab4be83d026ee76f4ba790d99fd019def", null ],
+    [ "IdlingSpeedValue", "class_vecto_objects_1_1_vehicle_declaration_type__v1__0.html#a86c233d0f8fdd101e8d450aee86d2cc1", null ],
+    [ "MaxNetPower1", "class_vecto_objects_1_1_vehicle_declaration_type__v1__0.html#ae04a5da592c559c6e9f4b833135d0fec", null ],
+    [ "MaxNetPower1Value", "class_vecto_objects_1_1_vehicle_declaration_type__v1__0.html#a877bdb8b9e251e3e5518db3134afed98", null ],
+    [ "MaxNetPower2", "class_vecto_objects_1_1_vehicle_declaration_type__v1__0.html#a1d8ce3a5c59682b6bb711e40d06153e0", null ],
+    [ "MaxNetPower2Value", "class_vecto_objects_1_1_vehicle_declaration_type__v1__0.html#a381eaa0cd8ef459ea8bc6e0112164643", null ],
+    [ "NgTankSystem", "class_vecto_objects_1_1_vehicle_declaration_type__v1__0.html#adcab999fa663db38be6e9d6c62b874dd", null ],
+    [ "NgTankSystemValue", "class_vecto_objects_1_1_vehicle_declaration_type__v1__0.html#a34d8bb951352b6d3d10868bac7cec67c", null ],
+    [ "RetarderRatio", "class_vecto_objects_1_1_vehicle_declaration_type__v1__0.html#a16e3ac77ed131800728f973472f28dcd", null ],
+    [ "RetarderRatioValue", "class_vecto_objects_1_1_vehicle_declaration_type__v1__0.html#a01dc3bcfe4430e889d4a36e29d45851d", null ],
+    [ "RetarderType", "class_vecto_objects_1_1_vehicle_declaration_type__v1__0.html#a4734f9dcf322d4f3caf3f93224925832", null ],
+    [ "RetarderTypeValue", "class_vecto_objects_1_1_vehicle_declaration_type__v1__0.html#a8d0c35df59d242bcc2e5d74896a9e332", null ],
+    [ "SleeperCab", "class_vecto_objects_1_1_vehicle_declaration_type__v1__0.html#ab6894ef205c09996b0f7ddf68d787de9", null ],
+    [ "VocationalVehicle", "class_vecto_objects_1_1_vehicle_declaration_type__v1__0.html#a863def01d633b67a9fe84a3e58ed3443", null ],
+    [ "VocationalVehicleValue", "class_vecto_objects_1_1_vehicle_declaration_type__v1__0.html#a00cee22a1556831dd3bc3f7272ba9401", null ],
+    [ "ZeroEmissionVehicle", "class_vecto_objects_1_1_vehicle_declaration_type__v1__0.html#a895794824b7223722c19ff58cf871041", null ]
+];

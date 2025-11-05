@@ -1,0 +1,28 @@
+var class_vecto_objects_1_1_vehicle___h_e_v___px___medium_lorry_declaration_type__v2__4 =
+[
+    [ "AngledriveType", "class_vecto_objects_1_1_vehicle___h_e_v___px___medium_lorry_declaration_type__v2__4.html#a9e2282a16dc50e2cedfe7f47608cbb7e", null ],
+    [ "ArchitectureID", "class_vecto_objects_1_1_vehicle___h_e_v___px___medium_lorry_declaration_type__v2__4.html#a13c196b3df5fce147269d49834430414", null ],
+    [ "AxleConfiguration", "class_vecto_objects_1_1_vehicle___h_e_v___px___medium_lorry_declaration_type__v2__4.html#ae6961dbeadebb1e843b2f178c9364c4f", null ],
+    [ "CargoVolume", "class_vecto_objects_1_1_vehicle___h_e_v___px___medium_lorry_declaration_type__v2__4.html#a287021e3e53585a0a6cd95be6edbf3a3", null ],
+    [ "CargoVolumeValue", "class_vecto_objects_1_1_vehicle___h_e_v___px___medium_lorry_declaration_type__v2__4.html#a32f6b1c1623cdb4e14d36be44087a938", null ],
+    [ "ChassisConfiguration", "class_vecto_objects_1_1_vehicle___h_e_v___px___medium_lorry_declaration_type__v2__4.html#a58fb519a421e13347303102b73059787", null ],
+    [ "CorrectedActualMass", "class_vecto_objects_1_1_vehicle___h_e_v___px___medium_lorry_declaration_type__v2__4.html#a7a464017c972cb5cae322c9fd1cdefca", null ],
+    [ "Date", "class_vecto_objects_1_1_vehicle___h_e_v___px___medium_lorry_declaration_type__v2__4.html#ab7babed30f17276637695e57845bb629", null ],
+    [ "IdlingSpeed", "class_vecto_objects_1_1_vehicle___h_e_v___px___medium_lorry_declaration_type__v2__4.html#ab9d305b9c8ab0e52212b93d9558aa834", null ],
+    [ "LegislativeCategory", "class_vecto_objects_1_1_vehicle___h_e_v___px___medium_lorry_declaration_type__v2__4.html#a6392e225504179f666fd0eae39274bc0", null ],
+    [ "Manufacturer", "class_vecto_objects_1_1_vehicle___h_e_v___px___medium_lorry_declaration_type__v2__4.html#a4f776f3bed5cfe0aee2434c69617c2f6", null ],
+    [ "ManufacturerAddress", "class_vecto_objects_1_1_vehicle___h_e_v___px___medium_lorry_declaration_type__v2__4.html#a5c12dd52e6227e467ca3767f141c2aa3", null ],
+    [ "MaxChargingPower", "class_vecto_objects_1_1_vehicle___h_e_v___px___medium_lorry_declaration_type__v2__4.html#aedd1bc87f57ea64eb0bb39935d69117b", null ],
+    [ "MaxChargingPowerValue", "class_vecto_objects_1_1_vehicle___h_e_v___px___medium_lorry_declaration_type__v2__4.html#abd6f52c1ab7b0bd9dd740656f2c840ee", null ],
+    [ "Model", "class_vecto_objects_1_1_vehicle___h_e_v___px___medium_lorry_declaration_type__v2__4.html#a4396d8494c0c18a365318904077c09a7", null ],
+    [ "NgTankSystem", "class_vecto_objects_1_1_vehicle___h_e_v___px___medium_lorry_declaration_type__v2__4.html#a50c98179dea89668fce5316d8d067574", null ],
+    [ "NgTankSystemValue", "class_vecto_objects_1_1_vehicle___h_e_v___px___medium_lorry_declaration_type__v2__4.html#ae376fd7ed9b4e35dc20ff7cbdba76c44", null ],
+    [ "OvcHev", "class_vecto_objects_1_1_vehicle___h_e_v___px___medium_lorry_declaration_type__v2__4.html#a792b6d930f3655a20839d1cac2e77bee", null ],
+    [ "RetarderRatio", "class_vecto_objects_1_1_vehicle___h_e_v___px___medium_lorry_declaration_type__v2__4.html#ad2b5826529f902aaa3fe0f1676267be9", null ],
+    [ "RetarderRatioValue", "class_vecto_objects_1_1_vehicle___h_e_v___px___medium_lorry_declaration_type__v2__4.html#ab6dd33c946eca0fe9888b6c580cec61f", null ],
+    [ "RetarderType", "class_vecto_objects_1_1_vehicle___h_e_v___px___medium_lorry_declaration_type__v2__4.html#af8af11e571133c0cb330da30cce9d46a", null ],
+    [ "TechnicalPermissibleMaximumLadenMass", "class_vecto_objects_1_1_vehicle___h_e_v___px___medium_lorry_declaration_type__v2__4.html#a8ecaf29e0b88217f99d7787921218e0e", null ],
+    [ "VehicleTypeApprovalNumber", "class_vecto_objects_1_1_vehicle___h_e_v___px___medium_lorry_declaration_type__v2__4.html#a125e67ed0fc971b56db0a0d6d6877cdf", null ],
+    [ "VIN", "class_vecto_objects_1_1_vehicle___h_e_v___px___medium_lorry_declaration_type__v2__4.html#a8202fe3d696c6b62cbbb0ca776b96a13", null ],
+    [ "ZeroEmissionVehicle", "class_vecto_objects_1_1_vehicle___h_e_v___px___medium_lorry_declaration_type__v2__4.html#aab27d79a89d85c97cf9388d4345c7a45", null ]
+];

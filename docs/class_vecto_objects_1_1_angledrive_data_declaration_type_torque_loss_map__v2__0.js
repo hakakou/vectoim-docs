@@ -1,0 +1,4 @@
+var class_vecto_objects_1_1_angledrive_data_declaration_type_torque_loss_map__v2__0 =
+[
+    [ "AngledriveDataDeclarationTypeTorqueLossMap_v2_0", "class_vecto_objects_1_1_angledrive_data_declaration_type_torque_loss_map__v2__0.html#a360bde6ee5131be127df05ad6ff3b6ca", null ]
+];

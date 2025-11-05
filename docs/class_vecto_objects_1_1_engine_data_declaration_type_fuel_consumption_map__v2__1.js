@@ -1,0 +1,4 @@
+var class_vecto_objects_1_1_engine_data_declaration_type_fuel_consumption_map__v2__1 =
+[
+    [ "EngineDataDeclarationTypeFuelConsumptionMap_v2_1", "class_vecto_objects_1_1_engine_data_declaration_type_fuel_consumption_map__v2__1.html#aa3108ddd7c86358b24cd206674788b1f", null ]
+];

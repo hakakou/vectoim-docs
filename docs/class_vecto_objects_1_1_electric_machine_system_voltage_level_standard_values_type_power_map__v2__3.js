@@ -1,0 +1,4 @@
+var class_vecto_objects_1_1_electric_machine_system_voltage_level_standard_values_type_power_map__v2__3 =
+[
+    [ "ElectricMachineSystemVoltageLevelStandardValuesTypePowerMap_v2_3", "class_vecto_objects_1_1_electric_machine_system_voltage_level_standard_values_type_power_map__v2__3.html#a6ea0c6a10845c5da8ff641fd8ed7570f", null ]
+];

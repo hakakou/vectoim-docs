@@ -1,0 +1,4 @@
+var class_vecto_objects_1_1_torque_converter_data_declaration_type_characteristics__v2__0 =
+[
+    [ "TorqueConverterDataDeclarationTypeCharacteristics_v2_0", "class_vecto_objects_1_1_torque_converter_data_declaration_type_characteristics__v2__0.html#ae3d6076a987d01e73ad37968fe4d3f17", null ]
+];

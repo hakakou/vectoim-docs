@@ -1,0 +1,28 @@
+var class_vecto_objects_1_1_vehicle___conventional___heavy_lorry_declaration_type__v2__7 =
+[
+    [ "Vehicle_Conventional_HeavyLorryDeclarationType_v2_7", "class_vecto_objects_1_1_vehicle___conventional___heavy_lorry_declaration_type__v2__7.html#acf76fb5a6af317ff90c56e967ab43755", null ],
+    [ "AngledriveType", "class_vecto_objects_1_1_vehicle___conventional___heavy_lorry_declaration_type__v2__7.html#ad02c0fbd6333e6add6a8f0ef927cfb65", null ],
+    [ "AxleConfiguration", "class_vecto_objects_1_1_vehicle___conventional___heavy_lorry_declaration_type__v2__7.html#aaad6448d01afadd23b5888ae24f23388", null ],
+    [ "ChassisConfiguration", "class_vecto_objects_1_1_vehicle___conventional___heavy_lorry_declaration_type__v2__7.html#ab76ac72830f1c7a9cb3d357075262458", null ],
+    [ "CorrectedActualMass", "class_vecto_objects_1_1_vehicle___conventional___heavy_lorry_declaration_type__v2__7.html#a715a316e68233f80e3b0e39b86d2192f", null ],
+    [ "Date", "class_vecto_objects_1_1_vehicle___conventional___heavy_lorry_declaration_type__v2__7.html#a88a9fa1d95cafeb06a022ab773298f76", null ],
+    [ "H2StorageUsableCapacity", "class_vecto_objects_1_1_vehicle___conventional___heavy_lorry_declaration_type__v2__7.html#a609451b44f54cef4735b9658a581b604", null ],
+    [ "H2StorageUsableCapacityValue", "class_vecto_objects_1_1_vehicle___conventional___heavy_lorry_declaration_type__v2__7.html#ae002ad1f1c872eda78d2498b55719d5d", null ],
+    [ "IdlingSpeed", "class_vecto_objects_1_1_vehicle___conventional___heavy_lorry_declaration_type__v2__7.html#a68710ee15ef0d5a36c8e4e94cb335333", null ],
+    [ "LegislativeCategory", "class_vecto_objects_1_1_vehicle___conventional___heavy_lorry_declaration_type__v2__7.html#a515e2f1e264d38f3680c6244c916a5eb", null ],
+    [ "Manufacturer", "class_vecto_objects_1_1_vehicle___conventional___heavy_lorry_declaration_type__v2__7.html#a10a3a2329be797a8a1d7b2f4958058d2", null ],
+    [ "ManufacturerAddress", "class_vecto_objects_1_1_vehicle___conventional___heavy_lorry_declaration_type__v2__7.html#a62a4fa027f7652e1b9f9eb4d5585d06c", null ],
+    [ "Model", "class_vecto_objects_1_1_vehicle___conventional___heavy_lorry_declaration_type__v2__7.html#a3f922d046d8dfd99d8511944e8396db0", null ],
+    [ "NgTankSystem", "class_vecto_objects_1_1_vehicle___conventional___heavy_lorry_declaration_type__v2__7.html#a7ce0f1bf83d56148d7cef8f34d8359bf", null ],
+    [ "NgTankSystemValue", "class_vecto_objects_1_1_vehicle___conventional___heavy_lorry_declaration_type__v2__7.html#a11b29fea8bca6c01f2e27aabf3f40ab7", null ],
+    [ "RetarderRatio", "class_vecto_objects_1_1_vehicle___conventional___heavy_lorry_declaration_type__v2__7.html#a86fa2f68d374d7f73ad72967f131e81c", null ],
+    [ "RetarderRatioValue", "class_vecto_objects_1_1_vehicle___conventional___heavy_lorry_declaration_type__v2__7.html#a69d6fbcea86c7b223d89ab27999a9779", null ],
+    [ "RetarderType", "class_vecto_objects_1_1_vehicle___conventional___heavy_lorry_declaration_type__v2__7.html#acebf6073459dd7839df4f9b24e58b233", null ],
+    [ "SimulationToolLicenseNumber", "class_vecto_objects_1_1_vehicle___conventional___heavy_lorry_declaration_type__v2__7.html#a4ba665e72882faa74d7056c771d0f2cf", null ],
+    [ "SleeperCab", "class_vecto_objects_1_1_vehicle___conventional___heavy_lorry_declaration_type__v2__7.html#a13108f2802161f45c5d2dfe6afa70544", null ],
+    [ "TechnicalPermissibleMaximumLadenMass", "class_vecto_objects_1_1_vehicle___conventional___heavy_lorry_declaration_type__v2__7.html#aac078123a7c13e9f66ee0423e5816555", null ],
+    [ "VehicleTypeApprovalNumber", "class_vecto_objects_1_1_vehicle___conventional___heavy_lorry_declaration_type__v2__7.html#a7346973fe196c2b0b00cf03412a42954", null ],
+    [ "VIN", "class_vecto_objects_1_1_vehicle___conventional___heavy_lorry_declaration_type__v2__7.html#a094a9bfc9c0debf190ba7c2473e97114", null ],
+    [ "VocationalVehicle", "class_vecto_objects_1_1_vehicle___conventional___heavy_lorry_declaration_type__v2__7.html#a4f21a40957f9729f4ec3e746a104e11b", null ],
+    [ "ZeroEmissionVehicle", "class_vecto_objects_1_1_vehicle___conventional___heavy_lorry_declaration_type__v2__7.html#abd54778a95609d0d8367e3f9e5ddeb19", null ]
+];

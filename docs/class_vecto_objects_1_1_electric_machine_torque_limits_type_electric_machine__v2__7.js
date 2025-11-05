@@ -1,0 +1,4 @@
+var class_vecto_objects_1_1_electric_machine_torque_limits_type_electric_machine__v2__7 =
+[
+    [ "ElectricMachineTorqueLimitsTypeElectricMachine_v2_7", "class_vecto_objects_1_1_electric_machine_torque_limits_type_electric_machine__v2__7.html#af0458b75cfefd4fed5d2d8c76975c801", null ]
+];

@@ -1,0 +1,4 @@
+var class_vecto_objects_1_1_i_e_p_c_system_voltage_level_standard_values_type_max_torque_curve__v2__6 =
+[
+    [ "IEPCSystemVoltageLevelStandardValuesTypeMaxTorqueCurve_v2_6", "class_vecto_objects_1_1_i_e_p_c_system_voltage_level_standard_values_type_max_torque_curve__v2__6.html#aaec45099213aee6b820d95aabc8ea57d", null ]
+];

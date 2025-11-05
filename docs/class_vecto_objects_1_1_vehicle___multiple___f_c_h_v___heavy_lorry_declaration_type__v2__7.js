@@ -1,0 +1,27 @@
+var class_vecto_objects_1_1_vehicle___multiple___f_c_h_v___heavy_lorry_declaration_type__v2__7 =
+[
+    [ "Vehicle_Multiple_FCHV_HeavyLorryDeclarationType_v2_7", "class_vecto_objects_1_1_vehicle___multiple___f_c_h_v___heavy_lorry_declaration_type__v2__7.html#ac464c4aeeff0cda68488526bd8ed7907", null ],
+    [ "AngledriveType", "class_vecto_objects_1_1_vehicle___multiple___f_c_h_v___heavy_lorry_declaration_type__v2__7.html#a3e39bf67291ca8012e6a0fb890e85f92", null ],
+    [ "ArchitectureID", "class_vecto_objects_1_1_vehicle___multiple___f_c_h_v___heavy_lorry_declaration_type__v2__7.html#a2237e299e7b33a002d6d2e64a9e12da0", null ],
+    [ "ArchitectureIDPwt2", "class_vecto_objects_1_1_vehicle___multiple___f_c_h_v___heavy_lorry_declaration_type__v2__7.html#af2f191d4dbad579229a9851e0d199860", null ],
+    [ "AxleConfiguration", "class_vecto_objects_1_1_vehicle___multiple___f_c_h_v___heavy_lorry_declaration_type__v2__7.html#afd6341e13d5f4e26faac1b3fdb6e8380", null ],
+    [ "BatteryOnlyMode", "class_vecto_objects_1_1_vehicle___multiple___f_c_h_v___heavy_lorry_declaration_type__v2__7.html#a820041ec9e80d464a67b5244503f8d4d", null ],
+    [ "ChassisConfiguration", "class_vecto_objects_1_1_vehicle___multiple___f_c_h_v___heavy_lorry_declaration_type__v2__7.html#acbeb905412b3639534d604f6ac35859d", null ],
+    [ "CorrectedActualMass", "class_vecto_objects_1_1_vehicle___multiple___f_c_h_v___heavy_lorry_declaration_type__v2__7.html#ab819a51d3d7a4dfdcb40b7168629c6c6", null ],
+    [ "Date", "class_vecto_objects_1_1_vehicle___multiple___f_c_h_v___heavy_lorry_declaration_type__v2__7.html#aa9322bbb2607abe5582faec61250bff7", null ],
+    [ "H2StorageUsableCapacity", "class_vecto_objects_1_1_vehicle___multiple___f_c_h_v___heavy_lorry_declaration_type__v2__7.html#a1208357bcaec8ed224f565a7c4eed8db", null ],
+    [ "LegislativeCategory", "class_vecto_objects_1_1_vehicle___multiple___f_c_h_v___heavy_lorry_declaration_type__v2__7.html#aeffcc5382e28e9234a06cf840402a8ce", null ],
+    [ "Manufacturer", "class_vecto_objects_1_1_vehicle___multiple___f_c_h_v___heavy_lorry_declaration_type__v2__7.html#af0e918a0af72cb966bbcef24d32527e3", null ],
+    [ "ManufacturerAddress", "class_vecto_objects_1_1_vehicle___multiple___f_c_h_v___heavy_lorry_declaration_type__v2__7.html#a3d7806c21b9eb32f046ab72fc02bbd32", null ],
+    [ "Model", "class_vecto_objects_1_1_vehicle___multiple___f_c_h_v___heavy_lorry_declaration_type__v2__7.html#a6b2f8e5cd9189a339b75f725e5f8c9ff", null ],
+    [ "OVC", "class_vecto_objects_1_1_vehicle___multiple___f_c_h_v___heavy_lorry_declaration_type__v2__7.html#a6b374386548bdbc6f4487dfaee9ef2ab", null ],
+    [ "RetarderRatio", "class_vecto_objects_1_1_vehicle___multiple___f_c_h_v___heavy_lorry_declaration_type__v2__7.html#ac500462b809f60f856142a76be3e526f", null ],
+    [ "RetarderType", "class_vecto_objects_1_1_vehicle___multiple___f_c_h_v___heavy_lorry_declaration_type__v2__7.html#a5e8e4b320f82bf7837a155a1bb606081", null ],
+    [ "SimulationToolLicenseNumber", "class_vecto_objects_1_1_vehicle___multiple___f_c_h_v___heavy_lorry_declaration_type__v2__7.html#a63e9671e872f1543af858993fd1faa7b", null ],
+    [ "SleeperCab", "class_vecto_objects_1_1_vehicle___multiple___f_c_h_v___heavy_lorry_declaration_type__v2__7.html#a57a0737eba9fb54be9416445fee5200b", null ],
+    [ "TechnicalPermissibleMaximumLadenMass", "class_vecto_objects_1_1_vehicle___multiple___f_c_h_v___heavy_lorry_declaration_type__v2__7.html#a189316a2cefc11d3142395a6643618ac", null ],
+    [ "VehicleTypeApprovalNumber", "class_vecto_objects_1_1_vehicle___multiple___f_c_h_v___heavy_lorry_declaration_type__v2__7.html#abdc8e3427db206d311f41dca254eeb84", null ],
+    [ "VIN", "class_vecto_objects_1_1_vehicle___multiple___f_c_h_v___heavy_lorry_declaration_type__v2__7.html#aaa219be805ed7377b68c65956faf1cc2", null ],
+    [ "VocationalVehicle", "class_vecto_objects_1_1_vehicle___multiple___f_c_h_v___heavy_lorry_declaration_type__v2__7.html#aff2270cb033af736a58a097ecf310999", null ],
+    [ "ZeroEmissionVehicle", "class_vecto_objects_1_1_vehicle___multiple___f_c_h_v___heavy_lorry_declaration_type__v2__7.html#aa68f8848494e0f5445fd9742b1f6e103", null ]
+];

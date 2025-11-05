@@ -1,0 +1,28 @@
+var class_vecto_objects_1_1_vehicle___conventional___medium_lorry_declaration_type__v2__7 =
+[
+    [ "Vehicle_Conventional_MediumLorryDeclarationType_v2_7", "class_vecto_objects_1_1_vehicle___conventional___medium_lorry_declaration_type__v2__7.html#a1d94a85d521f3f5fe4ed71f4f97dfcb1", null ],
+    [ "AngledriveType", "class_vecto_objects_1_1_vehicle___conventional___medium_lorry_declaration_type__v2__7.html#a25b61cced9ca6d3d4ad188e769ae0b2d", null ],
+    [ "AxleConfiguration", "class_vecto_objects_1_1_vehicle___conventional___medium_lorry_declaration_type__v2__7.html#a72fdb55c2c49b0bee4fab48b2836a0a9", null ],
+    [ "CargoVolume", "class_vecto_objects_1_1_vehicle___conventional___medium_lorry_declaration_type__v2__7.html#a17000c7d211dd270b3e0b3c97ebe84cc", null ],
+    [ "CargoVolumeValue", "class_vecto_objects_1_1_vehicle___conventional___medium_lorry_declaration_type__v2__7.html#ac472aa12ff5271251f6ae436498fed75", null ],
+    [ "ChassisConfiguration", "class_vecto_objects_1_1_vehicle___conventional___medium_lorry_declaration_type__v2__7.html#ac5e5494ab79e6c5547f7949762f41a9a", null ],
+    [ "CorrectedActualMass", "class_vecto_objects_1_1_vehicle___conventional___medium_lorry_declaration_type__v2__7.html#a0202d4bce3f66212e024948f72453dbf", null ],
+    [ "Date", "class_vecto_objects_1_1_vehicle___conventional___medium_lorry_declaration_type__v2__7.html#a1b3c706cca43f93b6669b6ba2cb79aab", null ],
+    [ "H2StorageUsableCapacity", "class_vecto_objects_1_1_vehicle___conventional___medium_lorry_declaration_type__v2__7.html#aab765268f51cdb350eac69d5de7acb0a", null ],
+    [ "H2StorageUsableCapacityValue", "class_vecto_objects_1_1_vehicle___conventional___medium_lorry_declaration_type__v2__7.html#a21d1f9e41f2d0193b7555213b330546a", null ],
+    [ "IdlingSpeed", "class_vecto_objects_1_1_vehicle___conventional___medium_lorry_declaration_type__v2__7.html#a07ff1332a5aef52510a9e30268f16a34", null ],
+    [ "LegislativeCategory", "class_vecto_objects_1_1_vehicle___conventional___medium_lorry_declaration_type__v2__7.html#a6044380bf505bc856db62bab6f83dddc", null ],
+    [ "Manufacturer", "class_vecto_objects_1_1_vehicle___conventional___medium_lorry_declaration_type__v2__7.html#a5d518778fe80b8158321fb3d342b2004", null ],
+    [ "ManufacturerAddress", "class_vecto_objects_1_1_vehicle___conventional___medium_lorry_declaration_type__v2__7.html#af91ef184c60dea30730d5c23db43fce0", null ],
+    [ "Model", "class_vecto_objects_1_1_vehicle___conventional___medium_lorry_declaration_type__v2__7.html#a84e6dd38f9a47cbb7361d5f1914d873b", null ],
+    [ "NgTankSystem", "class_vecto_objects_1_1_vehicle___conventional___medium_lorry_declaration_type__v2__7.html#a0390ef227b9f91d3869d672d59e6bd66", null ],
+    [ "NgTankSystemValue", "class_vecto_objects_1_1_vehicle___conventional___medium_lorry_declaration_type__v2__7.html#a59aa13c5a0a6dd3d41edfe7599285680", null ],
+    [ "RetarderRatio", "class_vecto_objects_1_1_vehicle___conventional___medium_lorry_declaration_type__v2__7.html#a1af66613ec2f9b747170c8c3a1e00198", null ],
+    [ "RetarderRatioValue", "class_vecto_objects_1_1_vehicle___conventional___medium_lorry_declaration_type__v2__7.html#a1946adaf20bcd4c458f15c4c29ec0437", null ],
+    [ "RetarderType", "class_vecto_objects_1_1_vehicle___conventional___medium_lorry_declaration_type__v2__7.html#a3235fe788e5862bec2a66a2863ec97bc", null ],
+    [ "SimulationToolLicenseNumber", "class_vecto_objects_1_1_vehicle___conventional___medium_lorry_declaration_type__v2__7.html#a96eef4b5ebdc8df2cca52023ae8b382f", null ],
+    [ "TechnicalPermissibleMaximumLadenMass", "class_vecto_objects_1_1_vehicle___conventional___medium_lorry_declaration_type__v2__7.html#a5559a6d52a4e0035365c7a2bada7a2cd", null ],
+    [ "VehicleTypeApprovalNumber", "class_vecto_objects_1_1_vehicle___conventional___medium_lorry_declaration_type__v2__7.html#ad7e6965e2dfb6a46c79b7fb5aff3595d", null ],
+    [ "VIN", "class_vecto_objects_1_1_vehicle___conventional___medium_lorry_declaration_type__v2__7.html#a6ce25550c6b199e43c303cde45c8d925", null ],
+    [ "ZeroEmissionVehicle", "class_vecto_objects_1_1_vehicle___conventional___medium_lorry_declaration_type__v2__7.html#a7defd40b4078dd6a08fa53f26c31d049", null ]
+];

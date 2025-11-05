@@ -1,0 +1,4 @@
+var class_vecto_objects_1_1_battery_system_standard_values_data_type_internal_resistance__v2__3 =
+[
+    [ "BatterySystemStandardValuesDataTypeInternalResistance_v2_3", "class_vecto_objects_1_1_battery_system_standard_values_data_type_internal_resistance__v2__3.html#aeef8dcd931aa18c5385f7e78b4a34b6a", null ]
+];
