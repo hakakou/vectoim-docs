@@ -17,9 +17,6 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -32,18 +29,6 @@
    <div id="projectname">Vecto Input Manager
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -56,6 +41,15 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -103,7 +97,7 @@ $(function(){initNavTree('md__vecto_input_manager_2_r_e_a_d_m_e.html','',''); })
 Features</h1>
 <ul>
 <li><b>Component Extraction</b>: Decompose vehicle XML files into individual component files</li>
-<li><b>XML ? JSON Conversion</b>: Convert between XML and JSON formats with schema validation</li>
+<li><b>XML &lt;-&gt; JSON Conversion</b>: Convert between XML and JSON formats with schema validation</li>
 <li><b>Standard Values Generation</b>: Create certified components with standardized values</li>
 <li><b>Vehicle Job Creation</b>: Build new vehicle jobs by combining and replacing components</li>
 <li><b>Multi-format Support</b>: Work with both XML and JSON component files</li>

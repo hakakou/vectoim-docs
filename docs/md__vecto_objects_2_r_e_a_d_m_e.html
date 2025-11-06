@@ -17,9 +17,6 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -32,18 +29,6 @@
    <div id="projectname">Vecto Input Manager
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -56,6 +41,15 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -482,7 +476,7 @@ Provided Serializer Use</h2>
 <div class="line"><span class="comment">// DON&#39;T: Use standard XML serialization directly</span></div>
 <div class="line">var serializer = <span class="keyword">new</span> XmlSerializer(typeof(<a class="code hl_class" href="class_vecto_objects_1_1_vecto_declaration_job_type__v2__7.html">VectoDeclarationJobType_v2_7</a>));</div>
 <div class="line">serializer.Serialize(stream, vehicle); <span class="comment">// May produce invalid decimal and date formats</span></div>
-</div><!-- fragment --><p>?? Note: The current version of <a class="el" href="namespace_vecto_objects.html">VectoObjects</a> does not include XML schema validation during serialization, or rehashing modified components.</p>
+</div><!-- fragment --><p>⚠️ Note: The current version of <a class="el" href="namespace_vecto_objects.html">VectoObjects</a> does not include XML schema validation during serialization, or rehashing modified components.</p>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md90"></a>
 Supported Vehicles</h1>
 <table class="markdownTable">
