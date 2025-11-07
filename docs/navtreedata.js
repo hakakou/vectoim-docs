@@ -114,7 +114,7 @@ var NAVTREE =
     [ "Architecture Overview", "md__vecto_input_manager_2_documentation_2_architecture.html", [
       [ "Project Layout", "md__vecto_input_manager_2_documentation_2_architecture.html#autotoc_md76", null ],
       [ "Project Dependencies", "md__vecto_input_manager_2_documentation_2_architecture.html#autotoc_md77", null ],
-      [ "Key Flows", "md__vecto_input_manager_2_documentation_2_architecture.html#autotoc_md78", null ]
+      [ "CLI Command Flows", "md__vecto_input_manager_2_documentation_2_architecture.html#autotoc_md78", null ]
     ] ],
     [ "Vehicle Types", "_vehicle_types.html", null ],
     [ "VectoObjects", "md__vecto_objects_2_r_e_a_d_m_e.html", [

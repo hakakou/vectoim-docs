@@ -15,7 +15,7 @@ var searchData=
   ['findcomponentdelarations_12',['FindComponentDelarations',['../class_vecto_input_manager_1_1_core_1_1_type_utils.html#a65220b542454fc6a5ba545dd223e397c',1,'VectoInputManager::Core::TypeUtils']]],
   ['findjobject_13',['FindJObject',['../class_vecto_input_manager_1_1_core_1_1_path_utils.html#a1e26f08d7e36d88137f5eca0fcac5b05',1,'VectoInputManager::Core::PathUtils']]],
   ['findtype_14',['FindType',['../class_vecto_input_manager_1_1_core_1_1_data_1_1_vehicle_type.html#abc4978cd38b532a3549f0029d52277cc',1,'VectoInputManager::Core::Data::VehicleType']]],
-  ['flows_15',['Key Flows',['../md__vecto_input_manager_2_documentation_2_architecture.html#autotoc_md78',1,'']]],
+  ['flows_15',['CLI Command Flows',['../md__vecto_input_manager_2_documentation_2_architecture.html#autotoc_md78',1,'']]],
   ['format_16',['Format',['../md__vecto_input_manager_2_documentation_2_quickstart.html#autotoc_md42',1,'Converting Vehicle Jobs to JSON Format'],['../md__vecto_input_manager_2_documentation_2_use_cases.html#autotoc_md65',1,'Extra Use Case: Extract All Components to JSON Format'],['../md__vecto_input_manager_2_documentation_2_quickstart.html#autotoc_md37',1,'Extracting to JSON Format'],['../md__vecto_input_manager_2_documentation_2_quickstart.html#autotoc_md38',1,'Extracting to XML Format']]],
   ['formats_17',['Extracting to Both Formats',['../md__vecto_input_manager_2_documentation_2_quickstart.html#autotoc_md39',1,'']]],
   ['found_18',['found',['../class_vecto_input_manager_1_1_core_1_1_path_utils.html#ab5022ad3d7cfe41be45197d1c18ca28d',1,'VectoInputManager::Core::PathUtils']]],

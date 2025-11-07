@@ -103,19 +103,19 @@ Project Layout</h1>
 <div class="line">- InputSchemas/               JSON schemas for standard value inputs</div>
 <div class="line">- ComponentSchemas/           JSON schemas for vehicle components</div>
 <div class="line">- VehicleSchemas/             JSON schemas for vehicle types</div>
-</div><!-- fragment --><p>The design is layered to keep user interaction, domain logic, and data models cleanly separated and reusable. The CLI layer (<a class="el" href="namespace_vecto_input_manager_1_1_cli.html">VectoInputManager.Cli</a>) invokes the Core layer (<a class="el" href="namespace_vecto_input_manager_1_1_core.html">VectoInputManager.Core</a>), which in turn uses the Models layer (<a class="el" href="namespace_vecto_objects.html">VectoObjects</a>). Models are data-only types, Core is UI-agnostic and contains all business logic, while CLI focuses on user experience and orchestration.</p>
+</div><!-- fragment --><p>The design is layered to keep user interaction, domain logic, and data models separated. The CLI layer (<a class="el" href="namespace_vecto_input_manager_1_1_cli.html">VectoInputManager.Cli</a>) invokes the Core layer (<a class="el" href="namespace_vecto_input_manager_1_1_core.html">VectoInputManager.Core</a>), which in turn uses the Models layer (<a class="el" href="namespace_vecto_objects.html">VectoObjects</a>). Models are data-only types, Core is UI-agnostic and contains all business logic, while CLI focuses on user experience and orchestration.</p>
 <p>What each project is responsible for:</p><ul>
 <li>VectoInputManager/ (CLI): Hosts the <span class="tt">vectoim</span> executable. Parses arguments, wires DI, and invokes domain operations.</li>
 <li>VectoInputManagerCore/ (Core): Implements all business rules and transformations (extract, standard values generation, job composition, conversions). UI-agnostic.</li>
 <li>VectoObjects/ (Models): Schema-based C# types for VECTO vehicles/components with XML/JSON serialization helpers. Independent and reusable by other tools.</li>
-<li>Tests/ (Both): Validates behaviors end-to-end and at the unit level; includes rich sample inputs/outputs.</li>
+<li>Tests/ (Both): Validates behaviors end-to-end and at the unit level; includes sample inputs/outputs.</li>
 </ul>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md77"></a>
 Project Dependencies</h1>
 <div class="dotgraph">
 <iframe scrolling="no" loading="lazy" frameborder="0" src="dot_inline_dotgraph_1.svg" width="351" height="443"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md78"></a>
-Key Flows</h1>
+CLI Command Flows</h1>
 <ul>
 <li>Extract components (extract)<ul>
 <li>Input: vehicle job (XML/JSON)</li>
@@ -129,7 +129,7 @@ Key Flows</h1>
 <li>Input: JSON file or interactive prompts; resolve component type (auto or explicit)</li>
 <li>Merge inputs from parameters/prompts/template -&gt; compute standard values</li>
 <li>Hash and serialize to XML or JSON (by output extension)</li>
-<li>Validate XML output against schemas; emit warnings if calculations incomplete</li>
+<li>Validate XML output against schema</li>
 <li>Write final output path</li>
 </ul>
 </li>
@@ -137,7 +137,7 @@ Key Flows</h1>
 <li>Input: base vehicle + component files (XML/JSON) and/or standard-value inputs</li>
 <li>Scan inputs -&gt; detect vehicle -&gt; gather values (params/raw JSON/interactive)</li>
 <li>Merge components and build vehicle -&gt; hash and serialize job (XML/JSON)</li>
-<li>Generate <span class="tt">.report.txt</span> with validation and details; clean up temp files if any</li>
+<li>Generate <span class="tt">.report.txt</span> with validation and details</li>
 <li>Write final output and report paths</li>
 </ul>
 </li>
