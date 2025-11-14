@@ -11,11 +11,11 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="class_vecto_objects_1_1_i_e_p_c_system_voltage_level_standard_values_type_max_torque_curve__v2__6.html" target="_top" xlink:title=" ">
+<g id="a_Node000000"><a xlink:href="class_vecto_objects_1_1_i_e_p_c_system_voltage_level_standard_values_type_max_torque_curve__v2__3.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="176.5,-44 0,-44 0,0 176.5,0 176.5,-44"/>
 <text xml:space="preserve" text-anchor="start" x="8" y="-30.5" font-family="Helvetica,sans-Serif" font-size="10.00">VectoObjects.IEPCSystemVoltage</text>
 <text xml:space="preserve" text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">LevelStandardValuesTypeMaxTorque</text>
-<text xml:space="preserve" text-anchor="middle" x="88.25" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">Curve_v2_6</text>
+<text xml:space="preserve" text-anchor="middle" x="88.25" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">Curve_v2_3</text>
 </a>
 </g>
 </g>

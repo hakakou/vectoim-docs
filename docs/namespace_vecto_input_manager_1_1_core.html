@@ -219,11 +219,53 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="memdesc:af76e030c90c2c8ffdf67cc5c47e8f5ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the types of vehicle components supported for Standard Values. <br /></td></tr>
+<tr class="memitem:af16e0875b933cb1ca77159901959343a" id="r_af16e0875b933cb1ca77159901959343a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af16e0875b933cb1ca77159901959343a">ValidationResult</a> { <br />
+&#160;&#160;<a class="el" href="#af16e0875b933cb1ca77159901959343aa3ac705f2acd51a4613f9188c05c91d0d">Valid</a>
+, <a class="el" href="#af16e0875b933cb1ca77159901959343aaadfed55e2dc09b44db32a17657715a29">HashInvalid</a>
+, <a class="el" href="#af16e0875b933cb1ca77159901959343aa34487a96b10399352a8aa1db96ba9a92">SignatureEmpty</a>
+, <a class="el" href="#af16e0875b933cb1ca77159901959343aa2d8093226d0e2cba365fe00dfc8c1889">SignatureCorrupted</a>
+, <br />
+&#160;&#160;<a class="el" href="#af16e0875b933cb1ca77159901959343aabfaef30f1c8011c5cefa38ae470fb7aa">UnknownError</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:af16e0875b933cb1ca77159901959343a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents the result of component signature validation.  <a href="#af16e0875b933cb1ca77159901959343a">More...</a><br /></td></tr>
+<tr class="memitem:a5aa551e9d93954acb610a79704cf8cc0" id="r_a5aa551e9d93954acb610a79704cf8cc0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5aa551e9d93954acb610a79704cf8cc0">BrokenSignatureAction</a> { <a class="el" href="#a5aa551e9d93954acb610a79704cf8cc0ae1e4c8c9ccd9fc39c391da4bcd093fb2">Block</a>
+, <a class="el" href="#a5aa551e9d93954acb610a79704cf8cc0a02bce93bff905887ad2233110bf9c49e">Keep</a>
+, <a class="el" href="#a5aa551e9d93954acb610a79704cf8cc0a37d90cd3910397332d6e0faf393b6776">Resign</a>
+, <a class="el" href="#a5aa551e9d93954acb610a79704cf8cc0a1063e38cb53d94d386f21227fcd84717">Remove</a>
+ }</td></tr>
+<tr class="memdesc:a5aa551e9d93954acb610a79704cf8cc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines actions to take when a component signature verification fails during processing.  <a href="#a5aa551e9d93954acb610a79704cf8cc0">More...</a><br /></td></tr>
 <tr class="memitem:a16e214637d46a94abedafedbaf988bb3" id="r_a16e214637d46a94abedafedbaf988bb3"><td class="memItemLeft" align="right" valign="top"><a id="a16e214637d46a94abedafedbaf988bb3" name="a16e214637d46a94abedafedbaf988bb3"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>RetarderType</b> { <b>Hydrodynamic</b>
 , <b>Magnetic</b>
  }</td></tr>
 </table>
 <a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
+<a id="a5aa551e9d93954acb610a79704cf8cc0" name="a5aa551e9d93954acb610a79704cf8cc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5aa551e9d93954acb610a79704cf8cc0">&#9670;&#160;</a></span>BrokenSignatureAction</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a5aa551e9d93954acb610a79704cf8cc0">VectoInputManager.Core.BrokenSignatureAction</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Defines actions to take when a component signature verification fails during processing. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5aa551e9d93954acb610a79704cf8cc0ae1e4c8c9ccd9fc39c391da4bcd093fb2" name="a5aa551e9d93954acb610a79704cf8cc0ae1e4c8c9ccd9fc39c391da4bcd093fb2"></a>Block&#160;</td><td class="fielddoc"><p>Treat invalid signature as an error and block output generation (default behavior). </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5aa551e9d93954acb610a79704cf8cc0a02bce93bff905887ad2233110bf9c49e" name="a5aa551e9d93954acb610a79704cf8cc0a02bce93bff905887ad2233110bf9c49e"></a>Keep&#160;</td><td class="fielddoc"><p>Treat invalid signature as a warning and keep the old (invalid) signature. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5aa551e9d93954acb610a79704cf8cc0a37d90cd3910397332d6e0faf393b6776" name="a5aa551e9d93954acb610a79704cf8cc0a37d90cd3910397332d6e0faf393b6776"></a>Resign&#160;</td><td class="fielddoc"><p>Treat invalid signature as a warning and recompute/re-sign the component. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5aa551e9d93954acb610a79704cf8cc0a1063e38cb53d94d386f21227fcd84717" name="a5aa551e9d93954acb610a79704cf8cc0a1063e38cb53d94d386f21227fcd84717"></a>Remove&#160;</td><td class="fielddoc"><p>Treat invalid signature as a warning and remove the broken signature completely. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <a id="a15c6380c68522c2722bb6a58be0086a6" name="a15c6380c68522c2722bb6a58be0086a6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a15c6380c68522c2722bb6a58be0086a6">&#9670;&#160;</a></span>PromptActionType</h2>
 
@@ -253,6 +295,34 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="a15c6380c68522c2722bb6a58be0086a6a27226c864bac7454a8504f8edb15d95b" name="a15c6380c68522c2722bb6a58be0086a6a27226c864bac7454a8504f8edb15d95b"></a>Boolean&#160;</td><td class="fielddoc"><p>True/false input. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a15c6380c68522c2722bb6a58be0086a6ad15b505cce09406de9f918cb1f8c641c" name="a15c6380c68522c2722bb6a58be0086a6ad15b505cce09406de9f918cb1f8c641c"></a>Collection&#160;</td><td class="fielddoc"><p>Collection/List of items (can add multiple). </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="af16e0875b933cb1ca77159901959343a" name="af16e0875b933cb1ca77159901959343a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af16e0875b933cb1ca77159901959343a">&#9670;&#160;</a></span>ValidationResult</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#af16e0875b933cb1ca77159901959343a">VectoInputManager.Core.ValidationResult</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Represents the result of component signature validation. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af16e0875b933cb1ca77159901959343aa3ac705f2acd51a4613f9188c05c91d0d" name="af16e0875b933cb1ca77159901959343aa3ac705f2acd51a4613f9188c05c91d0d"></a>Valid&#160;</td><td class="fielddoc"><p>Component signature is valid. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="af16e0875b933cb1ca77159901959343aaadfed55e2dc09b44db32a17657715a29" name="af16e0875b933cb1ca77159901959343aaadfed55e2dc09b44db32a17657715a29"></a>HashInvalid&#160;</td><td class="fielddoc"><p>Hash was invalid (signature does not match computed hash). </p>
+</td></tr>
+<tr><td class="fieldname"><a id="af16e0875b933cb1ca77159901959343aa34487a96b10399352a8aa1db96ba9a92" name="af16e0875b933cb1ca77159901959343aa34487a96b10399352a8aa1db96ba9a92"></a>SignatureEmpty&#160;</td><td class="fielddoc"><p>Signature was empty or missing. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="af16e0875b933cb1ca77159901959343aa2d8093226d0e2cba365fe00dfc8c1889" name="af16e0875b933cb1ca77159901959343aa2d8093226d0e2cba365fe00dfc8c1889"></a>SignatureCorrupted&#160;</td><td class="fielddoc"><p>Signature was corrupted (e.g., missing or mismatched id). </p>
+</td></tr>
+<tr><td class="fieldname"><a id="af16e0875b933cb1ca77159901959343aabfaef30f1c8011c5cefa38ae470fb7aa" name="af16e0875b933cb1ca77159901959343aabfaef30f1c8011c5cefa38ae470fb7aa"></a>UnknownError&#160;</td><td class="fielddoc"><p>Unknown error occurred during validation. </p>
 </td></tr>
 </table>
 

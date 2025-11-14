@@ -198,7 +198,12 @@ Command Reference</h1>
 <div class="line">    -v, --verbose                      Enable verbose logging                   </div>
 <div class="line">    -i, --input                        Input files for the job. Multiple files  </div>
 <div class="line">                                       or glob patterns can be specified        </div>
-<div class="line">    -t, --interactive       none       Interactive Mode                         </div>
+<div class="line">    -t, --interactive       none       Interactive mode for prompting user      </div>
+<div class="line">                                       input. Options: none (default - no       </div>
+<div class="line">                                       prompting), all (prompt for all values), </div>
+<div class="line">                                       vehicle (prompt for vehicle-level only), </div>
+<div class="line">                                       auto (prompt only when no value          </div>
+<div class="line">                                       available)                       </div>
 <div class="line">    -o, --output                       Output file for the generated XML or JSON</div>
 <div class="line">    -k, --key-value-file               Generate a values file (.values.txt)     </div>
 <div class="line">                                       containing all keys and values assigned  </div>
@@ -210,6 +215,12 @@ Command Reference</h1>
 <div class="line">    -e, --example                      Generate an example JSON for the         </div>
 <div class="line">                                       component                                </div>
 <div class="line">    -l, --list                         List of available vehicles</div>
+<div class="line">    -b, --broken-sig        Block      Action to take when signature            </div>
+<div class="line">                                       verification fails. Options: Block       </div>
+<div class="line">                                       (default - error, stops output), Keep    </div>
+<div class="line">                                       (warning, keeps broken signature), Resign</div>
+<div class="line">                                       (warning, re-signs component), Remove    </div>
+<div class="line">                                       (warning, removes signature)</div>
 </div><!-- fragment --><hr  />
 <h2 class="doxsection"><a class="anchor" id="autotoc_md16"></a>
 <span class="tt">extract</span> - Extract Components from Vehicle</h2>

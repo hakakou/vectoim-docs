@@ -99,10 +99,14 @@ $(function(){initNavTree('class_vecto_input_manager_1_1_core_1_1_xml_utils.html'
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ad37d41d7d613630e7b4ad99669ecde33" id="r_ad37d41d7d613630e7b4ad99669ecde33"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad37d41d7d613630e7b4ad99669ecde33">HashAndSerializeJob</a> (Stream output, <a class="el" href="interface_vecto_objects_1_1_i_vehicle_job_declaration.html">IVehicleJobDeclaration</a> vectoInputDeclaration)</td></tr>
 <tr class="memdesc:ad37d41d7d613630e7b4ad99669ecde33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hashes and serializes a complete vehicle job declaration to XML format. Computes cryptographic signatures for each component before serialization.  <br /></td></tr>
+<tr class="memitem:a9a68c9e0b579623f60f06c47656ea560" id="r_a9a68c9e0b579623f60f06c47656ea560"><td class="memItemLeft" align="right" valign="top"><a id="a9a68c9e0b579623f60f06c47656ea560" name="a9a68c9e0b579623f60f06c47656ea560"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>HashAndSerializeJobEx</b> (Stream output, <a class="el" href="interface_vecto_objects_1_1_i_vehicle_job_declaration.html">IVehicleJobDeclaration</a> vectoInputDeclaration, ILogger? logger, <a class="el" href="namespace_vecto_input_manager_1_1_core.html#a5aa551e9d93954acb610a79704cf8cc0">BrokenSignatureAction</a> brokenSignatureAction)</td></tr>
 <tr class="memitem:a2ca55e33f69da5c7453ebdc0e2abc27c" id="r_a2ca55e33f69da5c7453ebdc0e2abc27c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ca55e33f69da5c7453ebdc0e2abc27c">HashAndSerialize</a> (Stream output, <a class="el" href="class_vecto_objects_1_1_vecto_input_declaration__v2__2.html">VectoInputDeclaration_v2_2</a> vectoInputDeclaration, <a class="el" href="class_vecto_input_manager_1_1_core_1_1_base_input.html">BaseInput</a> input)</td></tr>
 <tr class="memdesc:a2ca55e33f69da5c7453ebdc0e2abc27c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hashes and serializes a single component declaration to XML format. Optionally embeds input data as an XML comment.  <br /></td></tr>
-<tr class="memitem:a200c380bbdaf6745b298df51db19793b" id="r_a200c380bbdaf6745b298df51db19793b"><td class="memItemLeft" align="right" valign="top">static IList&lt;(string path, string error)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a200c380bbdaf6745b298df51db19793b">ValidateVehicleJobHashes</a> (<a class="el" href="interface_vecto_objects_1_1_i_vehicle_job_declaration.html">IVehicleJobDeclaration</a> job)</td></tr>
-<tr class="memdesc:a200c380bbdaf6745b298df51db19793b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validates the cryptographic hashes of all components in a vehicle job declaration.  <br /></td></tr>
+<tr class="memitem:a0e5c046e1de8ace2abda84cca46d2e2c" id="r_a0e5c046e1de8ace2abda84cca46d2e2c"><td class="memItemLeft" align="right" valign="top">static IList&lt;(string path, <a class="el" href="namespace_vecto_input_manager_1_1_core.html#af16e0875b933cb1ca77159901959343a">ValidationResult</a> result)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e5c046e1de8ace2abda84cca46d2e2c">ValidateVehicleJobHashes</a> (<a class="el" href="interface_vecto_objects_1_1_i_vehicle_job_declaration.html">IVehicleJobDeclaration</a> job)</td></tr>
+<tr class="memdesc:a0e5c046e1de8ace2abda84cca46d2e2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validates the cryptographic hashes of all components in a vehicle job declaration.  <br /></td></tr>
+<tr class="memitem:ac868dc73846f821a1e9544879ba5fa67" id="r_ac868dc73846f821a1e9544879ba5fa67"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespace_vecto_input_manager_1_1_core.html#af16e0875b933cb1ca77159901959343a">ValidationResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac868dc73846f821a1e9544879ba5fa67">ValidateComponentHashes</a> (<a class="el" href="interface_vecto_objects_1_1_i_component_declaration.html">IComponentDeclaration</a> component)</td></tr>
+<tr class="memdesc:ac868dc73846f821a1e9544879ba5fa67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validates the cryptographic hash of the component.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides utilities for XML serialization, hashing, and validation of VECTO vehicle declarations and components. Handles signature generation using VECTO hashing algorithms. </p>
@@ -189,8 +193,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a200c380bbdaf6745b298df51db19793b" name="a200c380bbdaf6745b298df51db19793b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a200c380bbdaf6745b298df51db19793b">&#9670;&#160;</a></span>ValidateVehicleJobHashes()</h2>
+<a id="ac868dc73846f821a1e9544879ba5fa67" name="ac868dc73846f821a1e9544879ba5fa67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac868dc73846f821a1e9544879ba5fa67">&#9670;&#160;</a></span>ValidateComponentHashes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -199,7 +203,41 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">IList&lt;(string path, string error)&gt; VectoInputManager.Core.XmlUtils.ValidateVehicleJobHashes </td>
+          <td class="memname"><a class="el" href="namespace_vecto_input_manager_1_1_core.html#af16e0875b933cb1ca77159901959343a">ValidationResult</a> VectoInputManager.Core.XmlUtils.ValidateComponentHashes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interface_vecto_objects_1_1_i_component_declaration.html">IComponentDeclaration</a></td>          <td class="paramname"><span class="paramname"><em>component</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Validates the cryptographic hash of the component. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">component</td><td>The component to validate.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A <a class="el" href="namespace_vecto_input_manager_1_1_core.html#af16e0875b933cb1ca77159901959343a" title="Represents the result of component signature validation.">ValidationResult</a> indicating whether the hash is valid or the type of error encountered. </dd></dl>
+
+</div>
+</div>
+<a id="a0e5c046e1de8ace2abda84cca46d2e2c" name="a0e5c046e1de8ace2abda84cca46d2e2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e5c046e1de8ace2abda84cca46d2e2c">&#9670;&#160;</a></span>ValidateVehicleJobHashes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IList&lt;(string path, <a class="el" href="namespace_vecto_input_manager_1_1_core.html#af16e0875b933cb1ca77159901959343a">ValidationResult</a> result)&gt; VectoInputManager.Core.XmlUtils.ValidateVehicleJobHashes </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="interface_vecto_objects_1_1_i_vehicle_job_declaration.html">IVehicleJobDeclaration</a></td>          <td class="paramname"><span class="paramname"><em>job</em></span></td><td>)</td>
           <td></td>
@@ -219,7 +257,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A list of component paths that have invalid or missing hashes.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A list of component paths with their validation results.</dd></dl>
 
 </div>
 </div>

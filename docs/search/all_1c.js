@@ -13,5 +13,6 @@ var searchData=
   ['xml_20format_10',['Extracting to XML Format',['../md__vecto_input_manager_2_documentation_2_quickstart.html#autotoc_md38',1,'']]],
   ['xml_20to_20json_11',['XML to JSON',['../md__vecto_input_manager_2_r_e_a_d_m_e.html#autotoc_md22',1,'2. Convert XML to JSON'],['../md__vecto_input_manager_2_r_e_a_d_m_e.html#autotoc_md18',1,'&lt;span class=&quot;tt&quot;&gt;json&lt;/span&gt; - Convert XML to JSON']]],
   ['xmltojsonconvertercommand_12',['XmlToJsonConverterCommand',['../class_vecto_input_manager_1_1_cli_1_1_xml_to_json_converter_command.html',1,'VectoInputManager::Cli']]],
-  ['xmlutils_13',['XmlUtils',['../class_vecto_input_manager_1_1_core_1_1_xml_utils.html',1,'VectoInputManager::Core']]]
+  ['xmlutils_13',['XmlUtils',['../class_vecto_input_manager_1_1_core_1_1_xml_utils.html',1,'VectoInputManager::Core']]],
+  ['xsd_20schema_20updates_14',['XSD Schema Updates',['../md__vecto_input_manager_tests_2_r_e_a_d_m_e.html#autotoc_md108',1,'']]]
 ];

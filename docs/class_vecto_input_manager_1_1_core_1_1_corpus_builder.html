@@ -105,11 +105,15 @@ bool? object value&#160;</td><td class="memItemRight" valign="bottom"><b>FindRaw
 bool? object value&#160;</td><td class="memItemRight" valign="bottom"><b>FindComponentByPath</b> (string path)</td></tr>
 <tr class="memitem:a90a718eb6c85050494fba85340b451fe" id="r_a90a718eb6c85050494fba85340b451fe"><td class="memItemLeft" align="right" valign="top"><a id="a90a718eb6c85050494fba85340b451fe" name="a90a718eb6c85050494fba85340b451fe"></a>
 ErrorOr&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>AddCorpusFile</b> (string filePath)</td></tr>
+<tr class="memitem:a55540e297fd4c2ddfa4614ebaa8d6a37" id="r_a55540e297fd4c2ddfa4614ebaa8d6a37"><td class="memItemLeft" align="right" valign="top"><a id="a55540e297fd4c2ddfa4614ebaa8d6a37" name="a55540e297fd4c2ddfa4614ebaa8d6a37"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>EnforceSignatureAction</b> (<a class="el" href="interface_vecto_objects_1_1_i_vehicle_declaration.html">IVehicleDeclaration</a> veh, <a class="el" href="namespace_vecto_input_manager_1_1_core.html#a5aa551e9d93954acb610a79704cf8cc0">BrokenSignatureAction</a> brokenSignatureAction)</td></tr>
 <tr class="memitem:a1b4e43815ab6479ce3147025d3748e66" id="r_a1b4e43815ab6479ce3147025d3748e66"><td class="memItemLeft" align="right" valign="top"><a id="a1b4e43815ab6479ce3147025d3748e66" name="a1b4e43815ab6479ce3147025d3748e66"></a>
 IEnumerable&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>WriteReport</b> (<a class="el" href="interface_vecto_objects_1_1_i_vehicle_declaration.html">IVehicleDeclaration</a> finalVehicle, string xmlPath)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:a6b8f5eb828356fd0c096042f543a02b1" id="r_a6b8f5eb828356fd0c096042f543a02b1"><td class="memItemLeft" align="right" valign="top"><a id="a6b8f5eb828356fd0c096042f543a02b1" name="a6b8f5eb828356fd0c096042f543a02b1"></a>
+List&lt;(string path, <a class="el" href="namespace_vecto_input_manager_1_1_core.html#af16e0875b933cb1ca77159901959343a">ValidationResult</a> result)&gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_hashErrors</b> = new()</td></tr>
 <tr class="memitem:a2c78669339769b8bb2a379fc2d2affb7" id="r_a2c78669339769b8bb2a379fc2d2affb7"><td class="memItemLeft" align="right" valign="top"><a id="a2c78669339769b8bb2a379fc2d2affb7" name="a2c78669339769b8bb2a379fc2d2affb7"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>found</b></td></tr>
 </table><table class="memberdecls">
@@ -123,8 +127,6 @@ IReadOnlyList&lt; object &gt;&#160;</td><td class="memItemRight" valign="bottom"
 <a class="el" href="interface_vecto_objects_1_1_i_vehicle_declaration.html">IVehicleDeclaration</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Vehicle</b><code> [get, set]</code></td></tr>
 <tr class="memitem:a285e41bbedc87984d33ed1b80e09f62d" id="r_a285e41bbedc87984d33ed1b80e09f62d"><td class="memItemLeft" align="right" valign="top"><a id="a285e41bbedc87984d33ed1b80e09f62d" name="a285e41bbedc87984d33ed1b80e09f62d"></a>
 string&#160;</td><td class="memItemRight" valign="bottom"><b>VehiclePath</b><code> [get, set]</code></td></tr>
-<tr class="memitem:aef828f290d15d154964a2f6a08a9b3d7" id="r_aef828f290d15d154964a2f6a08a9b3d7"><td class="memItemLeft" align="right" valign="top"><a id="aef828f290d15d154964a2f6a08a9b3d7" name="aef828f290d15d154964a2f6a08a9b3d7"></a>
-IReadOnlyList&lt;(string path, string error)&gt;&#160;</td><td class="memItemRight" valign="bottom"><b>HashErrors</b><code> [get]</code></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Builds a corpus from mixed input files (vehicle XML/JSON, component XML/JSON, and arbitrary JSON fragments). Maps components to well-known property paths, exposes helper lookups used by interactive prompts, and produces summary/report outputs including hash error fixes. </p>

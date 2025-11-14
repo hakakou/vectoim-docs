@@ -181,38 +181,121 @@ Use Case 5: Extract Vehicle Information to JSON</h2>
 <p><span class="tt">Components.Powertrain[1].IEPC.json</span>, <span class="tt">Components.Powertrain[0].Axlegear.json</span> would correctly recreate the original vehicle.</p>
 <p>This command also accepts a wildcard to convert multiple vehicles at once.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md64"></a>
-Extra Use Case: Update Component Hashes and Validate Vehicle Job</h2>
+Use Case: Update Component Hashes and Validate Vehicle Job</h2>
 <p>The user can simply input a single vehicle XML job. The command will recreate the entire vehicle based on the latest schema and rehash all components. Validation errors and any previously wrong hashes will be reported in the <span class="tt">*.report.txt</span> file.</p>
 <p><b>Command example:</b> </p><div class="fragment"><div class="line">vectoim job -i .\Multiple_PEV_E2_IEPC_PrimaryBus.xml -o fixed.xml</div>
 </div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md65"></a>
-Extra Use Case: Extract All Components to JSON Format</h2>
+Use Case: Extract All Components to JSON Format</h2>
 <p>The user starts the tool with a valid XML job file and specifies JSON output format. The system validates the job XML and extracts each component found in the vehicle, saving them as separate JSON files with descriptive filenames that indicate component type, path, and array indices.</p>
 <p><b>Command example:</b> </p><div class="fragment"><div class="line">vectoim extract -i vehicle.xml -o ./components -f json</div>
 </div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md66"></a>
-Extra Use Case: Overwrite a Value of a Vehicle Job from the Command Line</h2>
+Use Case: Overwrite a Value of a Vehicle Job from the Command Line</h2>
 <p>Using one or more <span class="tt">-m</span> key value pairs will override any values when running with our without component inputs.</p>
 <p><b>Command example:</b> </p><div class="fragment"><div class="line">vectoim job -i .\Multiple_PEV_E2_IEPC_PrimaryBus.xml -o version.xml -m Model=Variation1 -m Components.ElectricEnergyStorage.Battery[1].DeteriorationPerformanceRatio=10</div>
 <div class="line"> </div>
 <div class="line">vectoim job -i .\Multiple_PEV_E2_IEPC_PrimaryBus.xml -o version.xml -m Components.ElectricEnergyStorage.Battery[1]=No</div>
 </div><!-- fragment --><p>The first command modifies a value nested in an array. The second command is an example of removing the entire object of the second item of an array.</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md67"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md67"></a>
+Use Case: Modify Vehicle Properties Using Partial JSON Update Files</h2>
+<p>The user can modify specific properties of a vehicle by providing partial JSON files that contain only the properties to be updated. Multiple JSON files can be combined. This approach allows modifying individual properties, nested objects, or array elements without recreating the entire vehicle structure.</p>
+<p><b>Command example:</b> </p><div class="fragment"><div class="line">vectoim job -i vehicle.json -i modify.json -o output.json</div>
+<div class="line">vectoim job -i ./config/*.json -o vehicle.xml</div>
+</div><!-- fragment --><p>The system processes input files in order, merging them into a single vehicle definition. Each subsequent file can override properties from previous files.</p>
+<p><b>Example base vehicle file (vehicle.json):</b> </p><div class="fragment"><div class="line">{</div>
+<div class="line">  &quot;$type&quot;: &quot;Vehicle_IEPC_HeavyLorryDeclarationType_v2_7&quot;,</div>
+<div class="line">  &quot;Manufacturer&quot;: &quot;ZZZ&quot;,</div>
+<div class="line">  &quot;Model&quot;: &quot;BaseModel&quot;,</div>
+<div class="line">  &quot;OVC&quot;: true,</div>
+<div class="line">  &quot;Components&quot;: {</div>
+<div class="line">    &quot;Axlegear&quot;: {</div>
+<div class="line">      &quot;Data&quot;: {</div>
+<div class="line">        &quot;Ratio&quot;: 3.0,</div>
+<div class="line">        &quot;TorqueLossMap&quot;: { &quot;$values&quot;: [...] }</div>
+<div class="line">      }</div>
+<div class="line">    },</div>
+<div class="line">    &quot;AirDrag&quot;: {</div>
+<div class="line">      &quot;Data&quot;: {</div>
+<div class="line">        &quot;CdxA_0&quot;: 5.0</div>
+<div class="line">      }</div>
+<div class="line">    }</div>
+<div class="line">  }</div>
+<div class="line">}</div>
+</div><!-- fragment --><p><b>Example modification file (modify.json):</b> </p><div class="fragment"><div class="line">{</div>
+<div class="line">  &quot;Manufacturer&quot;: &quot;XXX&quot;,</div>
+<div class="line">  &quot;OVC&quot;: false,</div>
+<div class="line">  &quot;Components&quot;: {</div>
+<div class="line">    &quot;Axlegear&quot;: {</div>
+<div class="line">      &quot;Data&quot;: {</div>
+<div class="line">        &quot;Ratio&quot;: 3.64,</div>
+<div class="line">        &quot;TorqueLossMap&quot;: {</div>
+<div class="line">          &quot;$values&quot;: [</div>
+<div class="line">            { &quot;torqueLoss&quot;: 15.0 },</div>
+<div class="line">            { &quot;torqueLoss&quot;: 62.0 },</div>
+<div class="line">            { &quot;torqueLoss&quot;: 61.0 }</div>
+<div class="line">          ]</div>
+<div class="line">        }</div>
+<div class="line">      }</div>
+<div class="line">    },</div>
+<div class="line">    &quot;Retarder&quot;: {</div>
+<div class="line">      &quot;Data&quot;: {</div>
+<div class="line">        &quot;CertificationMethod&quot;: &quot;Measured&quot;,</div>
+<div class="line">        &quot;RetarderLossMap&quot;: {</div>
+<div class="line">          &quot;$values&quot;: [</div>
+<div class="line">            { &quot;retarderSpeed&quot;: 42.0, &quot;torqueLoss&quot;: 42.0 }</div>
+<div class="line">          ]</div>
+<div class="line">        }</div>
+<div class="line">      }</div>
+<div class="line">    },</div>
+<div class="line">    &quot;AirDrag&quot;: {</div>
+<div class="line">      &quot;Data&quot;: {</div>
+<div class="line">        &quot;CdxA_0&quot;: 1.0</div>
+<div class="line">      }</div>
+<div class="line">    }</div>
+<div class="line">  }</div>
+<div class="line">}</div>
+</div><!-- fragment --><p><b>Result:</b> The output vehicle will have:</p>
+<ul>
+<li><span class="tt">Manufacturer</span> changed from "ZZZ" to "XXX"</li>
+<li><span class="tt">OVC</span> changed from <span class="tt">true</span> to <span class="tt">false</span></li>
+<li><span class="tt">Components.Axlegear.Data.Ratio</span> changed from 3.0 to 3.64</li>
+<li><span class="tt">Components.Axlegear.Data.TorqueLossMap</span> replaced with new values</li>
+<li><span class="tt">Components.Retarder.Data</span> updated with new certification method and loss map</li>
+<li><span class="tt">Components.AirDrag.Data.CdxA_0</span> changed from 5.0 to 1.0</li>
+</ul>
+<p><b>Advanced array manipulation:</b> To remove all items from an array after a certain index, use <span class="tt">"$crop": true</span>:</p>
+<div class="fragment"><div class="line">{</div>
+<div class="line">  &quot;Components&quot;: {</div>
+<div class="line">    &quot;Retarder&quot;: {</div>
+<div class="line">      &quot;Data&quot;: {</div>
+<div class="line">        &quot;RetarderLossMap&quot;: {</div>
+<div class="line">          &quot;$values&quot;: [</div>
+<div class="line">            { &quot;retarderSpeed&quot;: 42.0 },</div>
+<div class="line">            { &quot;$crop&quot;: true }</div>
+<div class="line">          ]</div>
+<div class="line">        }</div>
+<div class="line">      }</div>
+<div class="line">    }</div>
+<div class="line">  }</div>
+<div class="line">}</div>
+</div><!-- fragment --><p>This will keep only the first item in the <span class="tt">RetarderLossMap</span> array and remove all subsequent items.</p>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md68"></a>
 Standard Values Tool (<span class="tt">sv</span> command)</h1>
 <p>See below for various use cases of the Standard Values Tool.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md68"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md69"></a>
 Use Case 1: Create Standard Component from JSON Input</h2>
 <p>The user starts the tool with a JSON file containing component information. The system validates the input for correctness and completion. If there is an error, the system prints the appropriate error message and terminates. Otherwise, if all necessary information is given, the system calculates the standard values and creates an XML component file with standard values where appropriate.</p>
 <p><b>Command example:</b> </p><div class="fragment"><div class="line">vectoim sv -i battery_input.json -o battery_component.xml</div>
 </div><!-- fragment --><p>For an example component input JSON, use the command <span class="tt">vectoim sv fuelcell -e</span>.</p>
 <p>For a list of supported components, use the command <span class="tt">vectoim sv -l</span>.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md69"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md70"></a>
 Use Case 2: Interactive Standard Component Creation</h2>
 <p>The user starts the tool with a parameter indicating that they will provide input interactively. The system requests all the information from the user interactively by asking for the component type and the respective information. When all necessary information is given, the system calculates the standard values and creates an XML component file with standard values where appropriate.</p>
 <p><b>Command example:</b> </p><div class="fragment"><div class="line">vectoim sv battery -t -o battery_component.xml</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md70"></a>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md71"></a>
 Extra Use Case: Mix Input File and Interactive Mode</h2>
 <p>In this case, the interactive mode has as a default value the value found in the JSON. The user may click enter to accept it, or input a different value.</p>
 <p><b>Command example:</b> </p><div class="fragment"><div class="line">vectoim sv battery -t -i battery.json -o battery_component.xml</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md71"></a>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md72"></a>
 Extra Use Case: Mix Input File and Parameter Value Input</h2>
 <p>Any property can be overwritten from the command line. Multiple <span class="tt">-m</span> are also supported.</p>
 <p><b>Command example:</b> </p><div class="fragment"><div class="line">vectoim sv -i fuelcell.json -o fuelcell.xml -m FCSRatedPower=200</div>

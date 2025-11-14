@@ -11,11 +11,11 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="class_vecto_objects_1_1_electric_machine_system_i_h_p_c_measured_data_declaration_type_drag_curve__v2__3.html" target="_top" xlink:title=" ">
+<g id="a_Node000000"><a xlink:href="class_vecto_objects_1_1_electric_machine_system_i_h_p_c_measured_data_declaration_type_conditioning__v2__3.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="187.75,-44 0,-44 0,0 187.75,0 187.75,-44"/>
 <text xml:space="preserve" text-anchor="start" x="8" y="-30.5" font-family="Helvetica,sans-Serif" font-size="10.00">VectoObjects.ElectricMachine</text>
 <text xml:space="preserve" text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">SystemIHPCMeasuredDataDeclaration</text>
-<text xml:space="preserve" text-anchor="middle" x="93.88" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">TypeDragCurve_v2_3</text>
+<text xml:space="preserve" text-anchor="middle" x="93.88" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">TypeConditioning_v2_3</text>
 </a>
 </g>
 </g>

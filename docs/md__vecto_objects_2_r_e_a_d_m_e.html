@@ -91,10 +91,10 @@ $(function(){initNavTree('md__vecto_objects_2_r_e_a_d_m_e.html','',''); });
   <div class="headertitle"><div class="title">VectoObjects </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md79"></a></p>
+<div class="textblock"><p><a class="anchor" id="autotoc_md80"></a></p>
 <p><img src="https://img.shields.io/badge/.NETStandard-2.0-blue.svg" alt=".NET" style="pointer-events: none;" class="inline"/></p>
 <p><b><a class="el" href="namespace_vecto_objects.html">VectoObjects</a></b> is a .NET library that provides strongly-typed C# classes for creating, manipulating, and serializing VECTO (Vehicle Energy Consumption calculation Tool) vehicle job files programmatically. This library enables developers to build vehicle simulation input files for VECTO calculations without dealing with raw XML structures.</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md80"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md81"></a>
 Purpose</h1>
 <p>VECTO is the official EU tool for determining CO2 emissions and fuel consumption of heavy-duty vehicles. Creating or modifying vehicle job files manually by editing the XML files can be complex and error-prone. <a class="el" href="namespace_vecto_objects.html">VectoObjects</a> simplifies this process by providing:</p>
 <ul>
@@ -102,16 +102,16 @@ Purpose</h1>
 <li><b>XML serialization &amp; deserialization</b> with outputs compatible with VECTO XSD schema validation</li>
 <li><b>Support for all VECTO schema versions</b> (v1.0, v2.0, v2.7, etc.)</li>
 </ul>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md81"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md82"></a>
 Installation</h1>
 <p>Install via NuGet Package Manager:</p>
-<div class="fragment"><div class="line">dotnet nuget add source https://code.europa.eu/api/v4/projects/1129/packages/nuget/index.json</div>
+<div class="fragment"><div class="line"># Add the CodeEU NuGet source</div>
+<div class="line">dotnet nuget add source https://code.europa.eu/api/v4/projects/1129/packages/nuget/index.json</div>
+<div class="line"># Install the package</div>
 <div class="line">dotnet add package VectoObjects</div>
-</div><!-- fragment --><p>Or via Package Manager Console:</p>
-<div class="fragment"><div class="line">Install-Package VectoObjects</div>
-</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md82"></a>
+</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md83"></a>
 Quick Start</h1>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md83"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md84"></a>
 Basic Vehicle Job Creation</h2>
 <div class="fragment"><div class="line"><span class="keyword">using </span><a class="code hl_namespace" href="namespace_vecto_objects.html">VectoObjects</a>;</div>
 <div class="line"><span class="keyword">using </span><a class="code hl_namespace" href="namespace_vecto_objects_1_1_helpers.html">VectoObjects.Helpers</a>;</div>
@@ -183,9 +183,9 @@ Basic Vehicle Job Creation</h2>
 <div class="ttc" id="anamespace_vecto_objects_html"><div class="ttname"><a href="namespace_vecto_objects.html">VectoObjects</a></div><div class="ttdef"><b>Definition</b> VectoObjects.cs:12</div></div>
 <div class="ttc" id="anamespace_vecto_objects_html_a14101fd554e99097b2b1d0b2cb47d2c0"><div class="ttname"><a href="namespace_vecto_objects.html#a14101fd554e99097b2b1d0b2cb47d2c0">VectoObjects.LegislativeCategoryHeavyLorryDeclarationType_v2_4</a></div><div class="ttdeci">LegislativeCategoryHeavyLorryDeclarationType_v2_4</div><div class="ttdef"><b>Definition</b> VectoObjects.cs:22939</div></div>
 <div class="ttc" id="anamespace_vecto_objects_html_a32ebb3204f3432e8f9cbfc48c683f06f"><div class="ttname"><a href="namespace_vecto_objects.html#a32ebb3204f3432e8f9cbfc48c683f06f">VectoObjects.GearboxTransmissionTypeType_v1_0</a></div><div class="ttdeci">GearboxTransmissionTypeType_v1_0</div><div class="ttdef"><b>Definition</b> VectoObjects.cs:3895</div></div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md84"></a>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md85"></a>
 Loading and Modifying Existing Vehicle Jobs</h2>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md85"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md86"></a>
 Example 1: Conventional Heavy Lorry</h3>
 <div class="fragment"><div class="line"><span class="keyword">using </span><a class="code hl_namespace" href="namespace_vecto_objects.html">VectoObjects</a>;</div>
 <div class="line"><span class="keyword">using </span><a class="code hl_namespace" href="namespace_vecto_objects_1_1_helpers.html">VectoObjects.Helpers</a>;</div>
@@ -362,7 +362,7 @@ Example 1: Conventional Heavy Lorry</h3>
 <div class="ttc" id="ainterface_vecto_objects_1_1_i_vehicle_job_declaration_html"><div class="ttname"><a href="interface_vecto_objects_1_1_i_vehicle_job_declaration.html">VectoObjects.IVehicleJobDeclaration</a></div><div class="ttdef"><b>Definition</b> VectoObjects-Vehicles.cs:6</div></div>
 <div class="ttc" id="anamespace_vecto_objects_html_a5b64d11ebac4f1c588c4d7a83d879c87"><div class="ttname"><a href="namespace_vecto_objects.html#a5b64d11ebac4f1c588c4d7a83d879c87">VectoObjects.AxleConfigurationHeavyLorryDeclarationType_v2_4</a></div><div class="ttdeci">AxleConfigurationHeavyLorryDeclarationType_v2_4</div><div class="ttdef"><b>Definition</b> VectoObjects.cs:22970</div></div>
 <div class="ttc" id="anamespace_vecto_objects_html_ad45e0c0733d39b4454a22401841660fd"><div class="ttname"><a href="namespace_vecto_objects.html#ad45e0c0733d39b4454a22401841660fd">VectoObjects.ChassisConfigurationHeavyLorryDeclarationType_v2_4</a></div><div class="ttdeci">ChassisConfigurationHeavyLorryDeclarationType_v2_4</div><div class="ttdef"><b>Definition</b> VectoObjects.cs:22954</div></div>
-</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md86"></a>
+</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md87"></a>
 Example 2: Electric Bus Battery System</h3>
 <div class="fragment"><div class="line"><span class="keyword">using </span><a class="code hl_namespace" href="namespace_vecto_objects.html">VectoObjects</a>;</div>
 <div class="line"><span class="keyword">using </span><a class="code hl_namespace" href="namespace_vecto_objects_1_1_helpers.html">VectoObjects.Helpers</a>;</div>
@@ -448,7 +448,7 @@ Example 2: Electric Bus Battery System</h3>
 <div class="ttc" id="aclass_vecto_objects_1_1x_e_v___e_m2___powertrain___type__v2__7_html"><div class="ttname"><a href="class_vecto_objects_1_1x_e_v___e_m2___powertrain___type__v2__7.html">VectoObjects.xEV_EM2_Powertrain_Type_v2_7</a></div><div class="ttdef"><b>Definition</b> VectoObjects.cs:56330</div></div>
 <div class="ttc" id="aclass_vecto_objects_1_1x_e_v___i_e_p_c___powertrain___type__v2__7_html"><div class="ttname"><a href="class_vecto_objects_1_1x_e_v___i_e_p_c___powertrain___type__v2__7.html">VectoObjects.xEV_IEPC_Powertrain_Type_v2_7</a></div><div class="ttdef"><b>Definition</b> VectoObjects.cs:56393</div></div>
 <div class="ttc" id="anamespace_vecto_objects_html_a3c046fa2ae8e082a12e0406657b67a43"><div class="ttname"><a href="namespace_vecto_objects.html#a3c046fa2ae8e082a12e0406657b67a43">VectoObjects.LegislativeCategoryPrimaryBusDeclarationType_v2_4</a></div><div class="ttdeci">LegislativeCategoryPrimaryBusDeclarationType_v2_4</div><div class="ttdef"><b>Definition</b> VectoObjects.cs:22577</div></div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md87"></a>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md88"></a>
 Type Detection and Validation</h2>
 <div class="fragment"><div class="line"><span class="comment">// Detect vehicle job type from XML file</span></div>
 <div class="line"><span class="keyword">using </span>var fileStream = File.OpenRead(<span class="stringliteral">&quot;unknown_vehicle.xml&quot;</span>);</div>
@@ -467,9 +467,9 @@ Type Detection and Validation</h2>
 <div class="line">{</div>
 <div class="line">    Console.WriteLine($<span class="stringliteral">&quot;Invalid or unsupported file: {error}&quot;</span>);</div>
 <div class="line">}</div>
-</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md88"></a>
+</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md89"></a>
 Best Practices</h1>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md89"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md90"></a>
 Provided Serializer Use</h2>
 <p>Do use VectoXml.SerializeJob() for proper formatting.</p>
 <div class="fragment"><div class="line"><a class="code hl_class" href="class_vecto_objects_1_1_helpers_1_1_vecto_xml.html">VectoXml</a>.<a class="code hl_function" href="class_vecto_objects_1_1_helpers_1_1_vecto_xml.html#a5648de6617c303db07c195b5a770af66">SerializeJob</a>(outputPath, vehicle); <span class="comment">// Handles decimal rounding and UTC conversion</span></div>
@@ -478,7 +478,7 @@ Provided Serializer Use</h2>
 <div class="line">var serializer = <span class="keyword">new</span> XmlSerializer(typeof(<a class="code hl_class" href="class_vecto_objects_1_1_vecto_declaration_job_type__v2__7.html">VectoDeclarationJobType_v2_7</a>));</div>
 <div class="line">serializer.Serialize(stream, vehicle); <span class="comment">// May produce invalid decimal and date formats</span></div>
 </div><!-- fragment --><p>⚠️ Note: The current version of <a class="el" href="namespace_vecto_objects.html">VectoObjects</a> does not include XML schema validation during serialization, or rehashing modified components.</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md90"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md91"></a>
 Supported Vehicles</h1>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -622,16 +622,16 @@ Supported Vehicles</h1>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">Vehicle  </td><td class="markdownTableBodyNone">v2.1  </td><td class="markdownTableBodyNone">VehicleDeclarationType_v2_1  </td></tr>
 </table>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md91"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md92"></a>
 Contributing</h1>
 <p>This library is part of the VECTO simulation ecosystem. For issues, feature requests, or contributions related to vehicle job file creation, please refer to the main VECTO project repository.</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md92"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md93"></a>
 Related Documentation</h1>
 <ul>
 <li><a href="https://climate.ec.europa.eu/eu-action/transport-decarbonisation/road-transport/vehicle-energy-consumption-calculation-tool-vecto_en">VECTO Documentation</a></li>
 <li><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019R1242">EU HDV CO2 Regulation</a></li>
 </ul>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md93"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md94"></a>
 License</h1>
 <p>This library follows the licensing terms of the main VECTO project. See the LICENSE.txt file for details. </p>
 </div></div><!-- contents -->

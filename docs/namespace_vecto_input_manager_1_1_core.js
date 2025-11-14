@@ -51,6 +51,12 @@ var namespace_vecto_input_manager_1_1_core =
     [ "TorqueConverterComponentStandardValues", "class_vecto_input_manager_1_1_core_1_1_torque_converter_component_standard_values.html", null ],
     [ "TypeUtils", "class_vecto_input_manager_1_1_core_1_1_type_utils.html", "class_vecto_input_manager_1_1_core_1_1_type_utils" ],
     [ "XmlUtils", "class_vecto_input_manager_1_1_core_1_1_xml_utils.html", "class_vecto_input_manager_1_1_core_1_1_xml_utils" ],
+    [ "BrokenSignatureAction", "namespace_vecto_input_manager_1_1_core.html#a5aa551e9d93954acb610a79704cf8cc0", [
+      [ "Block", "namespace_vecto_input_manager_1_1_core.html#a5aa551e9d93954acb610a79704cf8cc0ae1e4c8c9ccd9fc39c391da4bcd093fb2", null ],
+      [ "Keep", "namespace_vecto_input_manager_1_1_core.html#a5aa551e9d93954acb610a79704cf8cc0a02bce93bff905887ad2233110bf9c49e", null ],
+      [ "Resign", "namespace_vecto_input_manager_1_1_core.html#a5aa551e9d93954acb610a79704cf8cc0a37d90cd3910397332d6e0faf393b6776", null ],
+      [ "Remove", "namespace_vecto_input_manager_1_1_core.html#a5aa551e9d93954acb610a79704cf8cc0a1063e38cb53d94d386f21227fcd84717", null ]
+    ] ],
     [ "ComponentType", "namespace_vecto_input_manager_1_1_core.html#af76e030c90c2c8ffdf67cc5c47e8f5ed", null ],
     [ "PromptActionType", "namespace_vecto_input_manager_1_1_core.html#a15c6380c68522c2722bb6a58be0086a6", [
       [ "String", "namespace_vecto_input_manager_1_1_core.html#a15c6380c68522c2722bb6a58be0086a6a27118326006d3829667a400ad23d5d98", null ],
@@ -61,5 +67,12 @@ var namespace_vecto_input_manager_1_1_core =
       [ "Decimal", "namespace_vecto_input_manager_1_1_core.html#a15c6380c68522c2722bb6a58be0086a6a937504f318f04eaf0f1d701df4c4d7f3", null ],
       [ "Boolean", "namespace_vecto_input_manager_1_1_core.html#a15c6380c68522c2722bb6a58be0086a6a27226c864bac7454a8504f8edb15d95b", null ],
       [ "Collection", "namespace_vecto_input_manager_1_1_core.html#a15c6380c68522c2722bb6a58be0086a6ad15b505cce09406de9f918cb1f8c641c", null ]
+    ] ],
+    [ "ValidationResult", "namespace_vecto_input_manager_1_1_core.html#af16e0875b933cb1ca77159901959343a", [
+      [ "Valid", "namespace_vecto_input_manager_1_1_core.html#af16e0875b933cb1ca77159901959343aa3ac705f2acd51a4613f9188c05c91d0d", null ],
+      [ "HashInvalid", "namespace_vecto_input_manager_1_1_core.html#af16e0875b933cb1ca77159901959343aaadfed55e2dc09b44db32a17657715a29", null ],
+      [ "SignatureEmpty", "namespace_vecto_input_manager_1_1_core.html#af16e0875b933cb1ca77159901959343aa34487a96b10399352a8aa1db96ba9a92", null ],
+      [ "SignatureCorrupted", "namespace_vecto_input_manager_1_1_core.html#af16e0875b933cb1ca77159901959343aa2d8093226d0e2cba365fe00dfc8c1889", null ],
+      [ "UnknownError", "namespace_vecto_input_manager_1_1_core.html#af16e0875b933cb1ca77159901959343aabfaef30f1c8011c5cefa38ae470fb7aa", null ]
     ] ]
 ];

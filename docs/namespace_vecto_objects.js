@@ -729,6 +729,8 @@ var namespace_vecto_objects =
     [ "VectoInputDeclaration_v2_2", "class_vecto_objects_1_1_vecto_input_declaration__v2__2.html", "class_vecto_objects_1_1_vecto_input_declaration__v2__2" ],
     [ "IComponentDeclaration", "interface_vecto_objects_1_1_i_component_declaration.html", null ],
     [ "IComponentDataDeclaration", "interface_vecto_objects_1_1_i_component_data_declaration.html", null ],
+    [ "ISignatureType", "interface_vecto_objects_1_1_i_signature_type.html", null ],
+    [ "ComponentDeclarationExtensions", "class_vecto_objects_1_1_component_declaration_extensions.html", null ],
     [ "IREESSComponentDelaration", "interface_vecto_objects_1_1_i_r_e_e_s_s_component_delaration.html", null ],
     [ "IVehicleJobDeclaration", "interface_vecto_objects_1_1_i_vehicle_job_declaration.html", null ],
     [ "IVehicleDeclaration", "interface_vecto_objects_1_1_i_vehicle_declaration.html", null ],

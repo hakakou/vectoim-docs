@@ -11,26 +11,26 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="class_vecto_objects_1_1_gear_base_type__v2__0.html" target="_top" xlink:title=" ">
+<g id="a_Node000000"><a xlink:href="class_vecto_objects_1_1_gear_base_type__v1__0.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="168.25,-26 0,-26 0,-6 168.25,-6 168.25,-26"/>
-<text xml:space="preserve" text-anchor="middle" x="84.12" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">VectoObjects.GearBaseType_v2_0</text>
+<text xml:space="preserve" text-anchor="middle" x="84.12" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">VectoObjects.GearBaseType_v1_0</text>
 </a>
 </g>
 </g>
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:href="class_vecto_objects_1_1_gear_declaration_type__v2__0.html" target="_top" xlink:title=" ">
+<g id="a_Node000001"><a xlink:href="class_vecto_objects_1_1_gear_declaration_type__v1__0.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="352.25,-32 204.25,-32 204.25,0 352.25,0 352.25,-32"/>
 <text xml:space="preserve" text-anchor="start" x="212.25" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">VectoObjects.GearDeclaration</text>
-<text xml:space="preserve" text-anchor="middle" x="278.25" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">Type_v2_0</text>
+<text xml:space="preserve" text-anchor="middle" x="278.25" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">Type_v1_0</text>
 </a>
 </g>
 </g>
 <!-- Node0&#45;&gt;Node1 -->
-<g id="edge157_Node000000_Node000001" class="edge">
+<g id="edge156_Node000000_Node000001" class="edge">
 <title>Node0&#45;&gt;Node1</title>
-<g id="a_edge157_Node000000_Node000001"><a xlink:title=" ">
+<g id="a_edge156_Node000000_Node000001"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M179.9,-16C187.94,-16 196,-16 203.85,-16"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="180.07,-12.5 170.07,-16 180.07,-19.5 180.07,-12.5"/>
 </a>

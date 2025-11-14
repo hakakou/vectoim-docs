@@ -476,6 +476,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "VectoObjects.Completed_DataType_v2_7", "class_vecto_objects_1_1_completed___data_type__v2__7.html", null ],
+    [ "VectoObjects.ComponentDeclarationExtensions", "class_vecto_objects_1_1_component_declaration_extensions.html", null ],
     [ "VectoInputManager.Core.Components", "class_vecto_input_manager_1_1_core_1_1_components.html", null ],
     [ "VectoObjects.Components_Conventional_CompletedBusType_v2_7", "class_vecto_objects_1_1_components___conventional___completed_bus_type__v2__7.html", null ],
     [ "VectoObjects.Components_Conventional_LorryType_v2_7", "class_vecto_objects_1_1_components___conventional___lorry_type__v2__7.html", null ],
@@ -671,6 +672,10 @@ var hierarchy =
     [ "ISerializationBinder", null, [
       [ "VectoInputManager.Core.SimpleTypeNameBinder", "class_vecto_input_manager_1_1_core_1_1_simple_type_name_binder.html", null ]
     ] ],
+    [ "VectoObjects.ISignatureType", "interface_vecto_objects_1_1_i_signature_type.html", [
+      [ "VectoObjects.SignatureType_v1_0", "class_vecto_objects_1_1_signature_type__v1__0.html", null ],
+      [ "VectoObjects.SignatureType_v2_0", "class_vecto_objects_1_1_signature_type__v2__0.html", null ]
+    ] ],
     [ "VectoInputManager.Core.IStandardValuesFactory", "interface_vecto_input_manager_1_1_core_1_1_i_standard_values_factory.html", [
       [ "VectoInputManager.Cli.StandardValuesFactory", "class_vecto_input_manager_1_1_cli_1_1_standard_values_factory.html", null ]
     ] ],
@@ -808,8 +813,6 @@ var hierarchy =
     [ "VectoObjects.SignaturePropertiesType", "class_vecto_objects_1_1_signature_properties_type.html", null ],
     [ "VectoObjects.SignaturePropertyType", "class_vecto_objects_1_1_signature_property_type.html", null ],
     [ "VectoObjects.SignatureType", "class_vecto_objects_1_1_signature_type.html", null ],
-    [ "VectoObjects.SignatureType_v1_0", "class_vecto_objects_1_1_signature_type__v1__0.html", null ],
-    [ "VectoObjects.SignatureType_v2_0", "class_vecto_objects_1_1_signature_type__v2__0.html", null ],
     [ "VectoObjects.SignatureValueType", "class_vecto_objects_1_1_signature_value_type.html", null ],
     [ "VectoObjects.SignedInfoType", "class_vecto_objects_1_1_signed_info_type.html", null ],
     [ "VectoObjects.SPKIDataType", "class_vecto_objects_1_1_s_p_k_i_data_type.html", null ],

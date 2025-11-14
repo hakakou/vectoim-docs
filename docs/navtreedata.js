@@ -96,45 +96,69 @@ var NAVTREE =
         [ "Use Case 3: Components and JSON Vehicle Information", "md__vecto_input_manager_2_documentation_2_use_cases.html#autotoc_md61", null ],
         [ "Use Case 4: Replace Components in Existing Vehicle Job", "md__vecto_input_manager_2_documentation_2_use_cases.html#autotoc_md62", null ],
         [ "Use Case 5: Extract Vehicle Information to JSON", "md__vecto_input_manager_2_documentation_2_use_cases.html#autotoc_md63", null ],
-        [ "Extra Use Case: Update Component Hashes and Validate Vehicle Job", "md__vecto_input_manager_2_documentation_2_use_cases.html#autotoc_md64", null ],
-        [ "Extra Use Case: Extract All Components to JSON Format", "md__vecto_input_manager_2_documentation_2_use_cases.html#autotoc_md65", null ],
-        [ "Extra Use Case: Overwrite a Value of a Vehicle Job from the Command Line", "md__vecto_input_manager_2_documentation_2_use_cases.html#autotoc_md66", null ]
+        [ "Use Case: Update Component Hashes and Validate Vehicle Job", "md__vecto_input_manager_2_documentation_2_use_cases.html#autotoc_md64", null ],
+        [ "Use Case: Extract All Components to JSON Format", "md__vecto_input_manager_2_documentation_2_use_cases.html#autotoc_md65", null ],
+        [ "Use Case: Overwrite a Value of a Vehicle Job from the Command Line", "md__vecto_input_manager_2_documentation_2_use_cases.html#autotoc_md66", null ],
+        [ "Use Case: Modify Vehicle Properties Using Partial JSON Update Files", "md__vecto_input_manager_2_documentation_2_use_cases.html#autotoc_md67", null ]
       ] ],
-      [ "Standard Values Tool (<span class=\"tt\">sv</span> command)", "md__vecto_input_manager_2_documentation_2_use_cases.html#autotoc_md67", [
-        [ "Use Case 1: Create Standard Component from JSON Input", "md__vecto_input_manager_2_documentation_2_use_cases.html#autotoc_md68", null ],
-        [ "Use Case 2: Interactive Standard Component Creation", "md__vecto_input_manager_2_documentation_2_use_cases.html#autotoc_md69", null ],
-        [ "Extra Use Case: Mix Input File and Interactive Mode", "md__vecto_input_manager_2_documentation_2_use_cases.html#autotoc_md70", null ],
-        [ "Extra Use Case: Mix Input File and Parameter Value Input", "md__vecto_input_manager_2_documentation_2_use_cases.html#autotoc_md71", null ]
+      [ "Standard Values Tool (<span class=\"tt\">sv</span> command)", "md__vecto_input_manager_2_documentation_2_use_cases.html#autotoc_md68", [
+        [ "Use Case 1: Create Standard Component from JSON Input", "md__vecto_input_manager_2_documentation_2_use_cases.html#autotoc_md69", null ],
+        [ "Use Case 2: Interactive Standard Component Creation", "md__vecto_input_manager_2_documentation_2_use_cases.html#autotoc_md70", null ],
+        [ "Extra Use Case: Mix Input File and Interactive Mode", "md__vecto_input_manager_2_documentation_2_use_cases.html#autotoc_md71", null ],
+        [ "Extra Use Case: Mix Input File and Parameter Value Input", "md__vecto_input_manager_2_documentation_2_use_cases.html#autotoc_md72", null ]
       ] ]
     ] ],
     [ "Third-Party Libraries and Licenses", "md__vecto_input_manager_2_documentation_2_dependencies.html", [
-      [ "Development and Documentation Tools", "md__vecto_input_manager_2_documentation_2_dependencies.html#autotoc_md73", null ],
-      [ "License Notices", "md__vecto_input_manager_2_documentation_2_dependencies.html#autotoc_md74", null ]
+      [ "Development and Documentation Tools", "md__vecto_input_manager_2_documentation_2_dependencies.html#autotoc_md74", null ],
+      [ "License Notices", "md__vecto_input_manager_2_documentation_2_dependencies.html#autotoc_md75", null ]
     ] ],
     [ "Architecture Overview", "md__vecto_input_manager_2_documentation_2_architecture.html", [
-      [ "Project Layout", "md__vecto_input_manager_2_documentation_2_architecture.html#autotoc_md76", null ],
-      [ "Project Dependencies", "md__vecto_input_manager_2_documentation_2_architecture.html#autotoc_md77", null ],
-      [ "CLI Command Flows", "md__vecto_input_manager_2_documentation_2_architecture.html#autotoc_md78", null ]
+      [ "Project Layout", "md__vecto_input_manager_2_documentation_2_architecture.html#autotoc_md77", null ],
+      [ "Project Dependencies", "md__vecto_input_manager_2_documentation_2_architecture.html#autotoc_md78", null ],
+      [ "CLI Command Flows", "md__vecto_input_manager_2_documentation_2_architecture.html#autotoc_md79", null ]
     ] ],
     [ "Vehicle Types", "_vehicle_types.html", null ],
     [ "VectoObjects", "md__vecto_objects_2_r_e_a_d_m_e.html", [
-      [ "Purpose", "md__vecto_objects_2_r_e_a_d_m_e.html#autotoc_md80", null ],
-      [ "Installation", "md__vecto_objects_2_r_e_a_d_m_e.html#autotoc_md81", null ],
-      [ "Quick Start", "md__vecto_objects_2_r_e_a_d_m_e.html#autotoc_md82", [
-        [ "Basic Vehicle Job Creation", "md__vecto_objects_2_r_e_a_d_m_e.html#autotoc_md83", null ],
-        [ "Loading and Modifying Existing Vehicle Jobs", "md__vecto_objects_2_r_e_a_d_m_e.html#autotoc_md84", [
-          [ "Example 1: Conventional Heavy Lorry", "md__vecto_objects_2_r_e_a_d_m_e.html#autotoc_md85", null ],
-          [ "Example 2: Electric Bus Battery System", "md__vecto_objects_2_r_e_a_d_m_e.html#autotoc_md86", null ]
+      [ "Purpose", "md__vecto_objects_2_r_e_a_d_m_e.html#autotoc_md81", null ],
+      [ "Installation", "md__vecto_objects_2_r_e_a_d_m_e.html#autotoc_md82", null ],
+      [ "Quick Start", "md__vecto_objects_2_r_e_a_d_m_e.html#autotoc_md83", [
+        [ "Basic Vehicle Job Creation", "md__vecto_objects_2_r_e_a_d_m_e.html#autotoc_md84", null ],
+        [ "Loading and Modifying Existing Vehicle Jobs", "md__vecto_objects_2_r_e_a_d_m_e.html#autotoc_md85", [
+          [ "Example 1: Conventional Heavy Lorry", "md__vecto_objects_2_r_e_a_d_m_e.html#autotoc_md86", null ],
+          [ "Example 2: Electric Bus Battery System", "md__vecto_objects_2_r_e_a_d_m_e.html#autotoc_md87", null ]
         ] ],
-        [ "Type Detection and Validation", "md__vecto_objects_2_r_e_a_d_m_e.html#autotoc_md87", null ]
+        [ "Type Detection and Validation", "md__vecto_objects_2_r_e_a_d_m_e.html#autotoc_md88", null ]
       ] ],
-      [ "Best Practices", "md__vecto_objects_2_r_e_a_d_m_e.html#autotoc_md88", [
-        [ "Provided Serializer Use", "md__vecto_objects_2_r_e_a_d_m_e.html#autotoc_md89", null ]
+      [ "Best Practices", "md__vecto_objects_2_r_e_a_d_m_e.html#autotoc_md89", [
+        [ "Provided Serializer Use", "md__vecto_objects_2_r_e_a_d_m_e.html#autotoc_md90", null ]
       ] ],
-      [ "Supported Vehicles", "md__vecto_objects_2_r_e_a_d_m_e.html#autotoc_md90", null ],
-      [ "Contributing", "md__vecto_objects_2_r_e_a_d_m_e.html#autotoc_md91", null ],
-      [ "Related Documentation", "md__vecto_objects_2_r_e_a_d_m_e.html#autotoc_md92", null ],
-      [ "License", "md__vecto_objects_2_r_e_a_d_m_e.html#autotoc_md93", null ]
+      [ "Supported Vehicles", "md__vecto_objects_2_r_e_a_d_m_e.html#autotoc_md91", null ],
+      [ "Contributing", "md__vecto_objects_2_r_e_a_d_m_e.html#autotoc_md92", null ],
+      [ "Related Documentation", "md__vecto_objects_2_r_e_a_d_m_e.html#autotoc_md93", null ],
+      [ "License", "md__vecto_objects_2_r_e_a_d_m_e.html#autotoc_md94", null ]
+    ] ],
+    [ "Vecto Input Manager Tests", "md__vecto_input_manager_tests_2_r_e_a_d_m_e.html", [
+      [ "Overview", "md__vecto_input_manager_tests_2_r_e_a_d_m_e.html#autotoc_md96", [
+        [ "Test Namespaces", "md__vecto_input_manager_tests_2_r_e_a_d_m_e.html#autotoc_md97", null ],
+        [ "Utilities", "md__vecto_input_manager_tests_2_r_e_a_d_m_e.html#autotoc_md98", null ]
+      ] ],
+      [ "Standard Value Components Calculation Tests", "md__vecto_input_manager_tests_2_r_e_a_d_m_e.html#autotoc_md99", [
+        [ "Test Structure", "md__vecto_input_manager_tests_2_r_e_a_d_m_e.html#autotoc_md100", [
+          [ "Input Files Location", "md__vecto_input_manager_tests_2_r_e_a_d_m_e.html#autotoc_md101", null ],
+          [ "Supported Component Types", "md__vecto_input_manager_tests_2_r_e_a_d_m_e.html#autotoc_md102", null ]
+        ] ],
+        [ "Test Workflow", "md__vecto_input_manager_tests_2_r_e_a_d_m_e.html#autotoc_md103", null ],
+        [ "File Pairing", "md__vecto_input_manager_tests_2_r_e_a_d_m_e.html#autotoc_md104", [
+          [ "Example Files", "md__vecto_input_manager_tests_2_r_e_a_d_m_e.html#autotoc_md105", null ]
+        ] ],
+        [ "Output", "md__vecto_input_manager_tests_2_r_e_a_d_m_e.html#autotoc_md106", null ]
+      ] ],
+      [ "Code Generation", "md__vecto_input_manager_tests_2_r_e_a_d_m_e.html#autotoc_md107", [
+        [ "XSD Schema Updates", "md__vecto_input_manager_tests_2_r_e_a_d_m_e.html#autotoc_md108", [
+          [ "Extra steps if vehicles are added", "md__vecto_input_manager_tests_2_r_e_a_d_m_e.html#autotoc_md109", null ]
+        ] ]
+      ] ],
+      [ "Vehicle Samples", "md__vecto_input_manager_tests_2_r_e_a_d_m_e.html#autotoc_md110", null ]
     ] ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
@@ -160,37 +184,37 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_vehicle_types.html",
-"class_vecto_input_manager_1_1_core_1_1_json_input_utils.html#acf129fc989fc3f752eeee1c40d3297f2",
-"class_vecto_objects_1_1_a_u_x___conventional___completed_bus_type_h_v_a_c__v2__4.html#ac77907073a3effd0d62261ee3a85bd61",
-"class_vecto_objects_1_1_a_u_x___h_e_v___p___lorry_data_type_pneumatic_system__v2__4.html",
-"class_vecto_objects_1_1_a_u_x___i_e_p_c___primary_bus_type_h_v_a_c__v2__4.html#a2111b2ff09c7e49d2ea5844a45638384",
-"class_vecto_objects_1_1_a_u_x__x_e_v___completed_bus_type_h_v_a_c__v2__4.html#ab6f11f705feb440e78452a75c50b80e0",
-"class_vecto_objects_1_1_air_drag_data_declaration_type__v2__0.html#abb81f3e86959eb65455e1fa99aff30c4",
-"class_vecto_objects_1_1_axlegear_data_declaration_type__v1__0.html#ab9873733e6895c3486905ebdfeecab41",
-"class_vecto_objects_1_1_bus_aux_electric_system_lights_group_l_e_d_lights__v2__7.html#a8ae938b73a856165f64554f0274f4564",
-"class_vecto_objects_1_1_components___multiple___p_e_v___lorry_declaration_type__v2__7.html",
-"class_vecto_objects_1_1_electric_machine_system_standard_values_data_declaration_type__v2__3.html#abe23b5232d0b3965d372c326ed14aac6",
-"class_vecto_objects_1_1_engine_data_declaration_type__v2__3.html#a3d2b2b8c12553288e51c5d3a9e801bde",
-"class_vecto_objects_1_1_fuel_cell_data_declaration_type__v2__6.html",
-"class_vecto_objects_1_1_h_e_v___px___i_h_p_c___data_type__v2__7.html",
-"class_vecto_objects_1_1_i_e_p_c_system_max_torque_entry_type__v2__3.html",
-"class_vecto_objects_1_1_r_e_e_s_s_battery_type_r_e_e_s_s__v2__4.html",
-"class_vecto_objects_1_1_tyre_data_declaration_type__v2__0.html",
-"class_vecto_objects_1_1_vehicle___conventional___completed_bus_declaration_type__v2__7.html#a99421bafeafe7103356fd1a3097a1a6a",
-"class_vecto_objects_1_1_vehicle___conventional___primary_bus_declaration_type__v2__4.html#a8bd739ae77e5be2032d1a9f6a2b0b4fe",
-"class_vecto_objects_1_1_vehicle___exempted___medium_lorry_declaration_type__v2__4.html#aa0ab9d2c57d67103622e02893e7df526",
-"class_vecto_objects_1_1_vehicle___f_c_h_v___fx___medium_lorry_declaration_type__v2__7.html#aae5404c675b72763c25176d10a9d97cb",
-"class_vecto_objects_1_1_vehicle___h_e_v___completed_bus_declaration_type__v2__4.html#a8f39a4bb71587030a279edcf1ec112af",
-"class_vecto_objects_1_1_vehicle___h_e_v___i_e_p_c___s___medium_lorry_declaration_type__v2__4.html#a2f33c8865b7d3f934a74a19fba76ae8b",
-"class_vecto_objects_1_1_vehicle___h_e_v___px___heavy_lorry_declaration_type__v2__7.html#a399f9650b38645589697ec78042f394b",
-"class_vecto_objects_1_1_vehicle___h_e_v___sx___heavy_lorry_declaration_type__v2__4.html#a2d2ed46c1dab69c6f83dbb3c666c5ef7",
-"class_vecto_objects_1_1_vehicle___h_e_v___sx___primary_bus_declaration_type__v2__4.html#ae6690e4eb8273124982f68b9c4dff9d2",
-"class_vecto_objects_1_1_vehicle___i_e_p_c___medium_lorry_declaration_type__v2__4.html#ac5d3ae5adfa2c50df907440bc624298c",
-"class_vecto_objects_1_1_vehicle___multiple___p_e_v___heavy_lorry_declaration_type__v2__7.html#aac11533bc4e67978f501125043b506aa",
-"class_vecto_objects_1_1_vehicle___p_e_v___completed_bus_declaration_type__v2__7.html",
-"class_vecto_objects_1_1_vehicle___p_e_v___medium_lorry_declaration_type__v2__7.html#aebfac556681bda0ce0649089307b4980",
-"class_vecto_objects_1_1_w_h_r_type_type__v2__3.html#a9cb97d1ead15c7eb85915e1fa56796c1",
-"namespace_vecto_objects.html#a3c046fa2ae8e082a12e0406657b67a43"
+"class_vecto_input_manager_1_1_core_1_1_json_input_utils.html#a68ef660cc47f0d13a86bafe0f9c94f15",
+"class_vecto_objects_1_1_a_u_x___conventional___completed_bus_type_h_v_a_c__v2__4.html#a710ff6adc2d91101c92a9d4a4a916110",
+"class_vecto_objects_1_1_a_u_x___h_e_v___p___lorry_data_type_h_v_a_c__v2__7.html",
+"class_vecto_objects_1_1_a_u_x___i_e_p_c___primary_bus_type__v2__4.html#a4b1083a8a97a5cced9e180bf4eaaad93",
+"class_vecto_objects_1_1_a_u_x__x_e_v___completed_bus_type_h_v_a_c__v2__4.html#a945515a8212351925d5ceca59f591b3a",
+"class_vecto_objects_1_1_air_drag_data_declaration_type__v2__0.html#a9d27d83eabb46b41702c65bd9b301fdd",
+"class_vecto_objects_1_1_axlegear_data_declaration_type__v1__0.html#a5d9156c3c2299b6508a6e4528b0e7463",
+"class_vecto_objects_1_1_bus_aux_electric_system_lights_group_l_e_d_lights__v2__7.html#a5a582523d0f039c1e26b642cf3ebafcc",
+"class_vecto_objects_1_1_components___multiple___f_c_h_v___lorry_declaration_type__v2__7.html#abee1de530cde3f9b8c760dc20b713566",
+"class_vecto_objects_1_1_electric_machine_system_standard_values_data_declaration_type__v2__3.html#aa0af930fbf6176f9b66bc37c6bc601b6",
+"class_vecto_objects_1_1_engine_data_declaration_type__v2__3.html#a0e2185af3eac206b7b13c346e49da6e6",
+"class_vecto_objects_1_1_f_c_h_v___i_e_p_c___data_type__v2__7.html#a2d0b210d44986ded81f1bafbfbc8485a",
+"class_vecto_objects_1_1_h_e_v___i_e_p_c___s___data_type__v2__7.html",
+"class_vecto_objects_1_1_i_e_p_c_system_drag_torque_entry_type__v2__6.html",
+"class_vecto_objects_1_1_r_e_e_s_s_battery_type__v2__7.html#abac904db42be240c1c86e789e7bd5148",
+"class_vecto_objects_1_1_tyre_data_declaration_type__v1__0.html#ad894c53d9e3f1bf95eac48cedf430ba5",
+"class_vecto_objects_1_1_vehicle___conventional___completed_bus_declaration_type__v2__7.html#a89428790817122c1083b6839b8c0303f",
+"class_vecto_objects_1_1_vehicle___conventional___primary_bus_declaration_type__v2__4.html#a5f9920054d20d3a1ebce45df3a68e768",
+"class_vecto_objects_1_1_vehicle___exempted___medium_lorry_declaration_type__v2__4.html#a663aae8ad00d54b3227944857acce110",
+"class_vecto_objects_1_1_vehicle___f_c_h_v___fx___medium_lorry_declaration_type__v2__7.html#a9de4fb02ef2f2dc8ed134ceeb14aa2ff",
+"class_vecto_objects_1_1_vehicle___h_e_v___completed_bus_declaration_type__v2__4.html#a76f72602ab7a9ff41ca79951c602273e",
+"class_vecto_objects_1_1_vehicle___h_e_v___i_e_p_c___s___medium_lorry_declaration_type__v2__4.html#a145fdf1852bae359677ca7ab226671f0",
+"class_vecto_objects_1_1_vehicle___h_e_v___px___heavy_lorry_declaration_type__v2__7.html#a1aebcafd32786ac0d1a9e1a70cb5a3ba",
+"class_vecto_objects_1_1_vehicle___h_e_v___sx___heavy_lorry_declaration_type__v2__4.html",
+"class_vecto_objects_1_1_vehicle___h_e_v___sx___primary_bus_declaration_type__v2__4.html#ad36d7ba28e9513a4d82ef70e47af07f0",
+"class_vecto_objects_1_1_vehicle___i_e_p_c___medium_lorry_declaration_type__v2__4.html#aaa38016006807794ccbc4117e2cedabb",
+"class_vecto_objects_1_1_vehicle___multiple___p_e_v___heavy_lorry_declaration_type__v2__7.html#a66c4d0e0047a738777cd9473ac7082fc",
+"class_vecto_objects_1_1_vehicle___p_e_v___completed_bus_declaration_type__v2__4.html#aee9b064bc6ebf0bd8c4be2aa22acbeb4",
+"class_vecto_objects_1_1_vehicle___p_e_v___medium_lorry_declaration_type__v2__7.html#ab3d4be538837adee0b6c7bc30307fcda",
+"class_vecto_objects_1_1_w_h_r_mechanical_correction_factors_type__v2__3.html#aa04f7db30057c909a5afa228cc49dc6d",
+"namespace_vecto_input_manager_1_1_core.html#a15c6380c68522c2722bb6a58be0086a6a8cf10d2341ed01492506085688270c1e"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
